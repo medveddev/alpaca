@@ -1371,6 +1371,7 @@
 
             // model for use in rendering the wizard
             var model = {};
+            model.onStepChange = this.wizardConfigs.onStepChange;
             model.wizardTitle = wizardTitle;
             model.wizardDescription = wizardDescription;
             model.showSteps = showSteps;
@@ -1516,7 +1517,9 @@
                         // hide all steps
                         $(wizardSteps).find("[data-alpaca-wizard-role='step']").hide();
                         $($(wizardSteps).find("[data-alpaca-wizard-role='step']")[currentIndex]).show();
-
+                        if (model.onStepChange) {
+                          model.onStepChange(currentIndex);
+                        }
                     };
 
                     var assertValidation = function(buttonId, callback)
