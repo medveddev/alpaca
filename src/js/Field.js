@@ -101,8 +101,26 @@
                 delete this.options.helper;
             }
 
+            // options.helpersPosition defaults to above
+            if (!this.options.helpersPosition) {
+                this.options.helpersPosition = this.options.helperPosition
+            }
+            if (!this.options.helpersPosition) {
+                this.options.helpersPosition = Alpaca.defaultHelpersPosition;
+            }
+
             if (Alpaca.isEmpty(this.options.readonly) && !Alpaca.isEmpty(this.schema.readonly)) {
                 this.options.readonly = this.schema.readonly;
+            }
+
+            // in case they put "default" on options
+            if (typeof(this.schema.default) === "undefined")
+            {
+                if (typeof(this.options.default) !== "undefined")
+                {
+                    this.schema.default = this.options.default;
+                    delete this.options.default;
+                }
             }
 
             // if data is empty, then we check whether we can fall back to a default value
@@ -340,6 +358,14 @@
             if (Alpaca.isUndefined(this.options.showMessages)) {
                 this.options.showMessages = true;
             }
+
+            // support for "hidden" field on schema
+            if (typeof(this.options.hidden) === "undefined")
+            {
+                if (typeof(this.schema.hidden) !== "undefined") {
+                    this.options.hidden = this.schema.hidden;
+                }
+            }
         },
 
         setupField: function(callback)
@@ -565,16 +591,24 @@
                 // has path?
                 if (this.parent && this.parent.name && this.path)
                 {
-                    var lastSegment = this.path.substring(this.path.lastIndexOf('/') + 1);
-                    if (lastSegment.indexOf("[") !== -1 && lastSegment.indexOf("]") !== -1)
+                    if (this.propertyId)
                     {
-                        lastSegment = lastSegment.substring(lastSegment.indexOf("[") + 1, lastSegment.indexOf("]"));
-                    }
-
-                    if (lastSegment)
-                    {
-                        this.name = this.parent.name + "_" + lastSegment;
+                        this.name = this.parent.name + "_" + this.propertyId;
                         this.nameCalculated = true;
+                    }
+                    else
+                    {
+                        var lastSegment = this.path.substring(this.path.lastIndexOf('/') + 1);
+                        if (lastSegment.indexOf("[") !== -1 && lastSegment.indexOf("]") !== -1)
+                        {
+                            lastSegment = lastSegment.substring(lastSegment.indexOf("[") + 1, lastSegment.indexOf("]"));
+                        }
+    
+                        if (lastSegment)
+                        {
+                            this.name = this.parent.name + "_" + lastSegment;
+                            this.nameCalculated = true;
+                        }
                     }
                 }
                 else
@@ -609,6 +643,7 @@
                 {
                     form = new Alpaca.Form(self.domEl, this.options.form, self.view.id, self.connector, self.errorCallback);
                 }
+
                 form.render(function(form) {
 
                     // NOTE: form is the form instance (not the jquery element)
@@ -2537,6 +2572,13 @@
                             "type": "string"
                         }
                     },
+                    "helpersPosition": {
+                        "title": "Helpers Position",
+                        "description": "Defines the placement location of the helper text relative to the control (either 'above' or 'below')",
+                        "type": "string",
+                        "enum": ["above", "below"],
+                        "default": "below"
+                    },
                     "fieldClass": {
                         "title": "CSS class",
                         "description": "Specifies one or more CSS classes that should be applied to the dom element for this field once it is rendered.  Supports a single value, comma-delimited values, space-delimited values or values passed in as an array.",
@@ -2689,6 +2731,10 @@
                         "items": {
                             "type": "textarea"
                         }
+                    },
+                    "helpersPosition": {
+                        "type": "text",
+                        "optionLabels": ["Above", "Below"]
                     },
                     "fieldClass": {
                         "type": "text"

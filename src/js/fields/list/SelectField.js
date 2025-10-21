@@ -24,11 +24,6 @@
 
             this.base();
 
-            if (self.schema["type"] && self.schema["type"] === "array")
-            {
-                self.options.multiple = true;
-            }
-
             // automatically turn on "hideNone" if we're in multiselect mode and have the multiselect plugin
             if (self.options.multiple && $.fn.multiselect)
             {
@@ -58,6 +53,12 @@
             if (self.options.multiselect && typeof(self.options.multiselect.disableIfEmpty) === "undefined")
             {
                 self.options.multiselect.disableIfEmpty = true;
+            }
+
+            // if we're in a display only mode, turn off multiselect
+            if (self.isDisplayOnly())
+            {
+                delete self.options.multiselect;
             }
         },
 
@@ -109,20 +110,6 @@
                     {
                         self.options.hideNone = self.isRequired();
                     }
-                }
-
-                // if emptySelectFirst and we have options but no data, then auto-select first item in the options list
-                if (self.data.length === 0 && self.options.emptySelectFirst && self.selectOptions.length > 0)
-                {
-                    self.selectOptions[0].selected = true;
-                    self.data = [self.selectOptions[0]];
-                }
-
-                // likewise, we auto-assign first pick if field required
-                if (self.data.length === 0 && self.isRequired() && self.selectOptions.length > 0)
-                {
-                    self.selectOptions[0].selected = true;
-                    self.data = [self.selectOptions[0]];
                 }
 
                 callback(model);
@@ -178,7 +165,10 @@
 
                     for (var i = 0; i < val.length; i++)
                     {
-                        newData.push(tempMap[val[i]]);
+                        if (tempMap[val[i]])
+                        {
+                            newData.push(tempMap[val[i]].value);
+                        }
                     }
 
                     // set value silently
@@ -289,7 +279,7 @@
             return Alpaca.merge(this.base(), {
                 "properties": {
                     "multiple": {
-                        "title": "Mulitple Selection",
+                        "title": "Multiple Selection",
                         "description": "Allow multiple selection if true.",
                         "type": "boolean",
                         "default": false

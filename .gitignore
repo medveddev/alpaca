@@ -21,3 +21,6 @@ _old/
 deploy.log
 
 package.json.npm
+
+.vscode
+package-lock.json

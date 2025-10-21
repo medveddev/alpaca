@@ -31,562 +31,950 @@
 this["HandlebarsPrecompiled"]["web-display"] = this["HandlebarsPrecompiled"]["web-display"] || {};
 this["HandlebarsPrecompiled"]["web-display"]["container-array-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":36}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-array"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "\n            ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":12},"end":{"line":7,"column":30}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":9,"column":17}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-object-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":36}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-object"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "\n            ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":12},"end":{"line":7,"column":30}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":9,"column":17}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-table-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr>\n        "
-    + ((stack1 = (helpers.itemField || (depth0 && depth0.itemField) || helpers.helperMissing).call(depth0 != null ? depth0 : {},"td",{"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"itemField")||(depth0 && lookupProperty(depth0,"itemField"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"td",{"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":41}}})) != null ? stack1 : "")
     + "\n    </tr>\n\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-table"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <th>"
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.value : depth0)) != null ? stack1.title : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? lookupProperty(stack1,"title") : stack1), depth0))
     + "</th>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n                "
-    + ((stack1 = (helpers.item || (depth0 && depth0.item) || helpers.helperMissing).call(depth0 != null ? depth0 : {},"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"item")||(depth0 && lookupProperty(depth0,"item"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":16},"end":{"line":22,"column":39}}})) != null ? stack1 : "")
     + "\n\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n        ";
-  stack1 = ((helper = (helper = helpers.arrayToolbar || (depth0 != null ? depth0.arrayToolbar : depth0)) != null ? helper : alias2),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayToolbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayToolbar") || (depth0 != null ? lookupProperty(depth0,"arrayToolbar") : depth0)) != null ? helper : alias2),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":42}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayToolbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n        <table>\n\n            <!-- table headers -->\n            <thead>\n                <tr>\n"
-    + ((stack1 = (helpers.eachProperty || (depth0 && depth0.eachProperty) || alias2).call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.schema : depth0)) != null ? stack1.items : stack1)) != null ? stack1.properties : stack1),{"name":"eachProperty","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"eachProperty")||(depth0 && lookupProperty(depth0,"eachProperty"))||alias2).call(alias1,((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"schema") : depth0)) != null ? lookupProperty(stack1,"items") : stack1)) != null ? lookupProperty(stack1,"properties") : stack1),{"name":"eachProperty","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":20},"end":{"line":14,"column":37}}})) != null ? stack1 : "")
     + "                </tr>\n            </thead>\n\n            <!-- table body -->\n            <tbody>\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":12},"end":{"line":24,"column":21}}})) != null ? stack1 : "")
     + "            </tbody>\n\n        </table>\n\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-tablerow-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <td>\n        ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":36}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n    </td>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container-tablerow"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "            ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":12},"end":{"line":6,"column":30}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-merge-up\">\n\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":17}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["container"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <legend class=\""
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":23},"end":{"line":6,"column":78}}})) != null ? stack1 : "")
     + " alpaca-container-label\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</legend>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"alpaca-helper "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"alpaca-icon-helper\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"8":function(container,depth0,helpers,partials,data) {
+  return "                    <p class=\"alpaca-helper "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":44},"end":{"line":12,"column":101}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"alpaca-icon-helper\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":24},"end":{"line":14,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
+},"7":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.container || (depth0 != null ? depth0.container : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"container","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.container) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"container") || (depth0 != null ? lookupProperty(depth0,"container") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"container","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"container")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n\n    </div>\n\n</script>";
-},"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-any"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return "<script type=\"text/x-handlebars-template\">\n\n    <div>"
-    + ((stack1 = (helpers.str || (depth0 && depth0.str) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.data : depth0),{"name":"str","hash":{},"data":data})) != null ? stack1 : "")
-    + "</div>\n\n</script>";
-},"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-checkbox"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
-
-  return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+  return buffer + "\n\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-hidden"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+this["HandlebarsPrecompiled"]["web-display"]["control-any"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<script type=\"text/x-handlebars-template\">\n\n    <div>"
+    + ((stack1 = (lookupProperty(helpers,"str")||(depth0 && lookupProperty(depth0,"str"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"data") : depth0),{"name":"str","hash":{},"data":data,"loc":{"start":{"line":3,"column":9},"end":{"line":3,"column":23}}})) != null ? stack1 : "")
+    + "</div>\n\n</script>";
+},"useData":true});
+this["HandlebarsPrecompiled"]["web-display"]["control-checkbox"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
+    + "\n    </div>\n\n</script>";
+},"useData":true});
+this["HandlebarsPrecompiled"]["web-display"]["control-hidden"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<script type=\"text/x-handlebars-template\">\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-image"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+this["HandlebarsPrecompiled"]["web-display"]["control-image"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-image-display\">\n        <img id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":4,"column":17},"end":{"line":4,"column":23}}}) : helper)))
     + "-image\" src=\""
-    + alias4(((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"data","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"data","hash":{},"data":data,"loc":{"start":{"line":4,"column":36},"end":{"line":4,"column":44}}}) : helper)))
     + "\">\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["control-password"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>"
-    + ((stack1 = (helpers.disguise || (depth0 && depth0.disguise) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.data : depth0),"&bull;",{"name":"disguise","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"disguise")||(depth0 && lookupProperty(depth0,"disguise"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"data") : depth0),"&bull;",{"name":"disguise","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":9},"end":{"line":3,"column":49}}})) != null ? stack1 : "")
     + "</div>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-radio"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["web-display"]["control-radio"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-select"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["web-display"]["control-select"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-text"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+this["HandlebarsPrecompiled"]["web-display"]["control-text"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>"
-    + ((stack1 = ((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"data","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"data","hash":{},"data":data,"loc":{"start":{"line":3,"column":9},"end":{"line":3,"column":19}}}) : helper))) != null ? stack1 : "")
     + "</div>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-display"]["control-textarea"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+this["HandlebarsPrecompiled"]["web-display"]["control-textarea"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <p>\n        "
-    + ((stack1 = ((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"data","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"data","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":18}}}) : helper))) != null ? stack1 : "")
     + "\n    </p>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["control-url"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "target=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTarget : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTarget") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTitle : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTitle") : stack1), depth0));
 },"5":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"data","hash":{},"data":data}) : helper)));
+  return container.escapeExpression(((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"data","hash":{},"data":data,"loc":{"start":{"line":4,"column":161},"end":{"line":4,"column":169}}}) : helper)));
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            "
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTitle : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTitle") : stack1), depth0))
     + "\n";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            "
-    + container.escapeExpression(((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"data","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"data","hash":{},"data":data,"loc":{"start":{"line":8,"column":12},"end":{"line":8,"column":20}}}) : helper)))
     + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-control-url-anchor-wrapper\">\n        <a href=\""
-    + container.escapeExpression(((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"data","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"data","hash":{},"data":data,"loc":{"start":{"line":4,"column":17},"end":{"line":4,"column":25}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTarget : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTarget") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":27},"end":{"line":4,"column":95}}})) != null ? stack1 : "")
     + " title=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTitle : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(5, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTitle") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(5, data, 0),"data":data,"loc":{"start":{"line":4,"column":103},"end":{"line":4,"column":176}}})) != null ? stack1 : "")
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.anchorTitle : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.program(9, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"anchorTitle") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.program(9, data, 0),"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":9,"column":15}}})) != null ? stack1 : "")
     + "        </a>\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["control"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <label class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":22},"end":{"line":6,"column":77}}})) != null ? stack1 : "")
     + " alpaca-control-label\" for=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":6,"column":105},"end":{"line":6,"column":111}}}) : helper)))
     + "\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</label>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    return "";
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
+},"5":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return "                    <p class=\""
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":30},"end":{"line":12,"column":87}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"info-sign\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":24},"end":{"line":14,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\""
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
-},"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
+    return "";
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
+    + "\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.control || (depth0 != null ? depth0.control : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"control","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.control) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"control") || (depth0 != null ? lookupProperty(depth0,"control") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"control","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":32}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"control")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-display"]["form"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":12},"end":{"line":11,"column":21}}})) != null ? stack1 : "");
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <button data-key=\""
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":30},"end":{"line":10,"column":38}}}) : helper)))
     + "\" "
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depth0 != null ? depth0.type : depth0),"submit",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,"type") : depth0),"submit",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":40},"end":{"line":10,"column":91}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depth0 != null ? depth0.type : depth0),"reset",{"name":"compare","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,"type") : depth0),"reset",{"name":"compare","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":92},"end":{"line":10,"column":141}}})) != null ? stack1 : "")
     + " class=\"alpaca-form-button alpaca-form-button-"
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":187},"end":{"line":10,"column":195}}}) : helper)))
     + " "
-    + alias4(((helper = (helper = helpers.styles || (depth0 != null ? depth0.styles : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"styles") || (depth0 != null ? lookupProperty(depth0,"styles") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data,"loc":{"start":{"line":10,"column":196},"end":{"line":10,"column":206}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.value : depth0),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"value") : depth0),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":208},"end":{"line":10,"column":251}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.attributes : depth0),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"attributes") : depth0),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":252},"end":{"line":10,"column":301}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":10,"column":302},"end":{"line":10,"column":313}}}) : helper))) != null ? stack1 : "")
     + "</button>\n";
 },"5":function(container,depth0,helpers,partials,data) {
     return "type=\"submit\"";
 },"7":function(container,depth0,helpers,partials,data) {
     return "type=\"reset\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+  return alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":223},"end":{"line":10,"column":231}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return " "
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":273},"end":{"line":10,"column":281}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <form role=\"form\">\n\n        ";
-  stack1 = ((helper = (helper = helpers.formItems || (depth0 != null ? depth0.formItems : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"formItems","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.formItems) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"formItems") || (depth0 != null ? lookupProperty(depth0,"formItems") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"formItems","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"formItems")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n        <div class=\"alpaca-form-buttons-container\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":12},"end":{"line":12,"column":19}}})) != null ? stack1 : "")
     + "        </div>\n\n    </form>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"] = this["HandlebarsPrecompiled"]["web-edit"] || {};
 this["HandlebarsPrecompiled"]["web-edit"]["container-array-actionbar"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <button class=\"alpaca-array-actionbar-action "
-    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? depths[1].view : depths[1])) != null ? stack1.styles : stack1)) != null ? stack1.smallButton : stack1), depth0))
+    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? lookupProperty(depths[1],"view") : depths[1])) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"smallButton") : stack1), depth0))
     + "\" data-alpaca-array-actionbar-action=\""
-    + alias1(((helper = (helper = helpers.action || (depth0 != null ? depth0.action : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"action") || (depth0 != null ? lookupProperty(depth0,"action") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data,"loc":{"start":{"line":5,"column":121},"end":{"line":5,"column":131}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.iconClass : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"iconClass") : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":12},"end":{"line":8,"column":19}}})) != null ? stack1 : "")
     + "            "
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"label") : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":12},"end":{"line":9,"column":43}}})) != null ? stack1 : "")
     + "\n        </button>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    return "            <i class=\""
-    + container.escapeExpression(container.lambda((depth0 != null ? depth0.iconClass : depth0), depth0))
+    var lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "            <i class=\""
+    + container.escapeExpression(container.lambda((depth0 != null ? lookupProperty(depth0,"iconClass") : depth0), depth0))
     + "\"></i>\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = ((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"label","hash":{},"data":data}) : helper))) != null ? stack1 : "");
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+  return ((stack1 = ((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data,"loc":{"start":{"line":9,"column":25},"end":{"line":9,"column":36}}}) : helper))) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-array-actionbar alpaca-array-actionbar-"
-    + alias4(((helper = (helper = helpers.actionbarStyle || (depth0 != null ? depth0.actionbarStyle : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"actionbarStyle","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"actionbarStyle") || (depth0 != null ? lookupProperty(depth0,"actionbarStyle") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"actionbarStyle","hash":{},"data":data,"loc":{"start":{"line":3,"column":62},"end":{"line":3,"column":80}}}) : helper)))
     + " btn-group\" data-alpaca-array-actionbar-parent-field-id=\""
-    + alias4(((helper = (helper = helpers.parentFieldId || (depth0 != null ? depth0.parentFieldId : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"parentFieldId","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"parentFieldId") || (depth0 != null ? lookupProperty(depth0,"parentFieldId") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"parentFieldId","hash":{},"data":data,"loc":{"start":{"line":3,"column":137},"end":{"line":3,"column":154}}}) : helper)))
     + "\" data-alpaca-array-actionbar-field-id=\""
-    + alias4(((helper = (helper = helpers.fieldId || (depth0 != null ? depth0.fieldId : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fieldId","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"fieldId") || (depth0 != null ? lookupProperty(depth0,"fieldId") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fieldId","hash":{},"data":data,"loc":{"start":{"line":3,"column":194},"end":{"line":3,"column":205}}}) : helper)))
     + "\" data-alpaca-array-actionbar-item-index=\""
-    + alias4(((helper = (helper = helpers.itemIndex || (depth0 != null ? depth0.itemIndex : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemIndex","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"itemIndex") || (depth0 != null ? lookupProperty(depth0,"itemIndex") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemIndex","hash":{},"data":data,"loc":{"start":{"line":3,"column":247},"end":{"line":3,"column":260}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.actions : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"actions") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":11,"column":17}}})) != null ? stack1 : "")
     + "    </div>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-array-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=helpers.blockHelperMissing, buffer = 
-  "        <div class=\"pull-left\">\n            ";
-  stack1 = ((helper = (helper = helpers.arrayActionbar || (depth0 != null ? depth0.arrayActionbar : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayActionbar) { stack1 = alias4.call(depth0,stack1,options)}
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.hooks.blockHelperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
+  "        <div class=\"alpaca-array-item-flex-container\">\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"dragAndDrop") : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":12},"end":{"line":7,"column":19}}})) != null ? stack1 : "")
+    + "            <div>\n                ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayActionbar") || (depth0 != null ? lookupProperty(depth0,"arrayActionbar") : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":16},"end":{"line":9,"column":54}}}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayActionbar")) { stack1 = alias4.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  buffer += "\n        </div>\n        <div class=\"pull-right\">\n            ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
-  if (!helpers.itemField) { stack1 = alias4.call(depth0,stack1,options)}
+  buffer += "\n            </div>\n            <div class=\"alpaca-array-item-flex-1\">\n                ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":16},"end":{"line":12,"column":44}}}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = alias4.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n        </div>\n        <div class=\"clear\"></div>\n";
+  return buffer + "\n            </div>\n        </div>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    return "";
+    return "            <i class=\"glyphicon glyphicon-menu-hamburger alpaca-array-item-move\"></i>\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    return "";
+},"6":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.actionbarStyle : depth0),"right",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data})) != null ? stack1 : "");
-},"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=helpers.blockHelperMissing, buffer = 
-  "            <div class=\"pull-left\">\n                ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
-  if (!helpers.itemField) { stack1 = alias4.call(depth0,stack1,options)}
-  if (stack1 != null) { buffer += stack1; }
-  buffer += "\n            </div>\n            <div class=\"pull-right\">\n                ";
-  stack1 = ((helper = (helper = helpers.arrayActionbar || (depth0 != null ? depth0.arrayActionbar : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayActionbar) { stack1 = alias4.call(depth0,stack1,options)}
-  if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n            </div>\n            <div class=\"alpaca-clear\"></div>\n";
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"actionbarStyle") : depth0),"right",{"name":"compare","hash":{},"fn":container.program(7, data, 0),"inverse":container.program(9, data, 0),"data":data,"loc":{"start":{"line":16,"column":8},"end":{"line":51,"column":20}}})) != null ? stack1 : "");
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, buffer = 
-  "            <div>\n\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depth0 != null ? depth0.actionbarStyle : depth0),"top",{"name":"compare","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.hooks.blockHelperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
+  "        <div class=\"alpaca-array-item-flex-container\">\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"dragAndDrop") : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":18,"column":12},"end":{"line":20,"column":19}}})) != null ? stack1 : "")
+    + "            <div class=\"alpaca-array-item-flex-1\">\n                ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":16},"end":{"line":22,"column":44}}}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = alias4.call(depth0,stack1,options)}
+  if (stack1 != null) { buffer += stack1; }
+  buffer += "\n            </div>\n            <div>\n                ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayActionbar") || (depth0 != null ? lookupProperty(depth0,"arrayActionbar") : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":16},"end":{"line":25,"column":54}}}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayActionbar")) { stack1 = alias4.call(depth0,stack1,options)}
+  if (stack1 != null) { buffer += stack1; }
+  return buffer + "\n            </div>\n        </div>\n";
+},"9":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
+  ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"dragAndDrop") : depth0),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.program(12, data, 0),"data":data,"loc":{"start":{"line":29,"column":12},"end":{"line":34,"column":19}}})) != null ? stack1 : "")
+    + "                <div class=\"alpaca-array-item-flex-1\">\n"
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,"actionbarStyle") : depth0),"top",{"name":"compare","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":36,"column":20},"end":{"line":40,"column":32}}})) != null ? stack1 : "")
+    + "\n                    ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : alias2),(options={"name":"itemField","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":42,"column":20},"end":{"line":42,"column":48}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depth0 != null ? depth0.actionbarStyle : depth0),"bottom",{"name":"compare","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n";
-},"8":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
-  "                ";
-  stack1 = ((helper = (helper = helpers.arrayActionbar || (depth0 != null ? depth0.arrayActionbar : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"arrayActionbar","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.arrayActionbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,"actionbarStyle") : depth0),"bottom",{"name":"compare","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":44,"column":20},"end":{"line":48,"column":32}}})) != null ? stack1 : "")
+    + "                </div>   \n            </div>\n";
+},"10":function(container,depth0,helpers,partials,data) {
+    return "            <div class=\"alpaca-array-item-flex-container\">\n                <i class=\"glyphicon glyphicon-menu-hamburger alpaca-array-item-move\"></i>\n";
+},"12":function(container,depth0,helpers,partials,data) {
+    return "            <div>\n";
+},"14":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
+  "                    <div>\n                    ";
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayActionbar") || (depth0 != null ? lookupProperty(depth0,"arrayActionbar") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"arrayActionbar","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":38,"column":20},"end":{"line":38,"column":58}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"arrayActionbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+  return buffer + "\n                    </div>\n";
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.actionbarStyle : depth0),"left",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(4, data, 0),"data":data})) != null ? stack1 : "")
-    + "    </div>\n\n</script>\n";
+  return "<script type=\"text/x-handlebars-template\">\n\n"
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"actionbarStyle") : depth0),"left",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(6, data, 0),"data":data,"loc":{"start":{"line":3,"column":4},"end":{"line":52,"column":16}}})) != null ? stack1 : "")
+    + "\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-array-toolbar"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return " btn-group";
 },"3":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depths[1] != null ? depths[1].toolbarStyle : depths[1]),"link",{"name":"compare","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depths[1] != null ? lookupProperty(depths[1],"toolbarStyle") : depths[1]),"link",{"name":"compare","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":12},"end":{"line":9,"column":24}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depths[1] != null ? depths[1].toolbarStyle : depths[1]),"button",{"name":"compare","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depths[1] != null ? lookupProperty(depths[1],"toolbarStyle") : depths[1]),"button",{"name":"compare","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":12},"end":{"line":18,"column":24}}})) != null ? stack1 : "")
     + "\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <a href=\"#\" class=\"alpaca-array-toolbar-action\" data-alpaca-array-toolbar-action=\""
-    + container.escapeExpression(((helper = (helper = helpers.action || (depth0 != null ? depth0.action : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"action","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"action") || (depth0 != null ? lookupProperty(depth0,"action") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"action","hash":{},"data":data,"loc":{"start":{"line":8,"column":98},"end":{"line":8,"column":108}}}) : helper)))
     + "\">"
-    + ((stack1 = ((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"label","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"label","hash":{},"data":data,"loc":{"start":{"line":8,"column":110},"end":{"line":8,"column":121}}}) : helper))) != null ? stack1 : "")
     + "</a>\n";
 },"6":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <button class=\"alpaca-array-toolbar-action "
-    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? depths[1].view : depths[1])) != null ? stack1.styles : stack1)) != null ? stack1.smallButton : stack1), depth0))
+    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? lookupProperty(depths[1],"view") : depths[1])) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"smallButton") : stack1), depth0))
     + "\" data-alpaca-array-toolbar-action=\""
-    + alias1(((helper = (helper = helpers.action || (depth0 != null ? depth0.action : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"action") || (depth0 != null ? lookupProperty(depth0,"action") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data,"loc":{"start":{"line":12,"column":125},"end":{"line":12,"column":135}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.iconClass : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"iconClass") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":20},"end":{"line":15,"column":27}}})) != null ? stack1 : "")
     + "                    "
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"label") : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":16,"column":20},"end":{"line":16,"column":51}}})) != null ? stack1 : "")
     + "\n                </button>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <i class=\""
-    + container.escapeExpression(((helper = (helper = helpers.iconClass || (depth0 != null ? depth0.iconClass : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"iconClass","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"iconClass") || (depth0 != null ? lookupProperty(depth0,"iconClass") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"iconClass","hash":{},"data":data,"loc":{"start":{"line":14,"column":30},"end":{"line":14,"column":43}}}) : helper)))
     + "\"></i>\n";
 },"9":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = ((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"label","hash":{},"data":data}) : helper))) != null ? stack1 : "");
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+  return ((stack1 = ((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data,"loc":{"start":{"line":16,"column":33},"end":{"line":16,"column":44}}}) : helper))) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-array-toolbar alpaca-array-toolbar-position-"
-    + alias4(((helper = (helper = helpers.toolbarPosition || (depth0 != null ? depth0.toolbarPosition : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"toolbarPosition","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"toolbarPosition") || (depth0 != null ? lookupProperty(depth0,"toolbarPosition") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"toolbarPosition","hash":{},"data":data,"loc":{"start":{"line":3,"column":67},"end":{"line":3,"column":86}}}) : helper)))
     + "\" data-alpaca-array-toolbar-field-id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":124},"end":{"line":3,"column":130}}}) : helper)))
     + "\" "
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,(depth0 != null ? depth0.toolbarStyle : depth0),"button",{"name":"compare","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,"toolbarStyle") : depth0),"button",{"name":"compare","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":132},"end":{"line":3,"column":188}}})) != null ? stack1 : "")
     + ">\n\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.actions : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"actions") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":20,"column":17}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-array"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "        ";
-  stack1 = ((helper = (helper = helpers.arrayToolbar || (depth0 != null ? depth0.arrayToolbar : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.arrayToolbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayToolbar") || (depth0 != null ? lookupProperty(depth0,"arrayToolbar") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":42}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"arrayToolbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "            ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":12},"end":{"line":9,"column":30}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbarPosition : stack1),"top",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"toolbarPosition") : stack1),"top",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":2},"end":{"line":6,"column":14}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":8},"end":{"line":10,"column":17}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbarPosition : stack1),"bottom",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"toolbarPosition") : stack1),"bottom",{"name":"compare","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":2},"end":{"line":14,"column":14}}})) != null ? stack1 : "")
     + "    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-object-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n        ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":36}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-object"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "\n            ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":12},"end":{"line":7,"column":30}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":9,"column":17}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-table-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr>\n        "
-    + ((stack1 = (helpers.itemField || (depth0 && depth0.itemField) || helpers.helperMissing).call(depth0 != null ? depth0 : {},"td",{"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"itemField")||(depth0 && lookupProperty(depth0,"itemField"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"td",{"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":41}}})) != null ? stack1 : "")
     + "\n    </tr>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-table"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -594,489 +982,771 @@ this["HandlebarsPrecompiled"]["web-edit"]["container-table"] = Handlebars.templa
 },"3":function(container,depth0,helpers,partials,data) {
     return "                    <!-- hidden column storing sort order -->\n                    <th class=\"alpaca-table-reorder-index-header\"></th>\n                    <!-- draggable -->\n                    <th class=\"alpaca-table-reorder-draggable-header\"></th>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <th data-header-id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":21,"column":40},"end":{"line":21,"column":46}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.hidden : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"hidden") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":48},"end":{"line":21,"column":103}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":21,"column":104},"end":{"line":21,"column":115}}}) : helper))) != null ? stack1 : "")
     + "</th>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "class=\"alpaca-table-column-hidden\"";
 },"8":function(container,depth0,helpers,partials,data) {
     return "                        <th>Actions</th>\n";
 },"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n                "
-    + ((stack1 = (helpers.item || (depth0 && depth0.item) || helpers.helperMissing).call(depth0 != null ? depth0 : {},"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"item")||(depth0 && lookupProperty(depth0,"item"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":16},"end":{"line":34,"column":39}}})) != null ? stack1 : "")
     + "\n\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n        ";
-  stack1 = ((helper = (helper = helpers.arrayToolbar || (depth0 != null ? depth0.arrayToolbar : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayToolbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayToolbar") || (depth0 != null ? lookupProperty(depth0,"arrayToolbar") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":42}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayToolbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n        <table>\n\n            <!-- table headers -->\n            <thead>\n                <tr>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.dragRows : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"dragRows") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":20},"end":{"line":18,"column":27}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.headers : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"headers") : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":20},"end":{"line":22,"column":29}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showActionsColumn : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showActionsColumn") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":20},"end":{"line":26,"column":27}}})) != null ? stack1 : "")
     + "                </tr>\n            </thead>\n\n            <!-- table body -->\n            <tbody>\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":12},"end":{"line":36,"column":21}}})) != null ? stack1 : "")
     + "            </tbody>\n\n        </table>\n\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-tablerow-item"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <td>\n        ";
-  stack1 = ((helper = (helper = helpers.itemField || (depth0 != null ? depth0.itemField : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.itemField) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"itemField") || (depth0 != null ? lookupProperty(depth0,"itemField") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"itemField","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":36}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"itemField")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n    </td>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container-tablerow"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "\n            <!-- hidden sort order column -->\n            <div class=\"alpaca-table-reorder-index-cell\"></div>\n\n            <!-- reorder draggable -->\n            <div class=\"alpaca-table-reorder-draggable-cell\">\n                <i class=\"glyphicon glyphicon-menu-hamburger\"></i>\n            </div>\n";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.hidden : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"hidden") : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data,"loc":{"start":{"line":18,"column":12},"end":{"line":21,"column":19}}})) != null ? stack1 : "");
 },"4":function(container,depth0,helpers,partials,data) {
     return "";
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, buffer = 
+    var stack1, helper, options, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "                ";
-  stack1 = ((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"item","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},options) : helper));
-  if (!helpers.item) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"item") || (depth0 != null ? lookupProperty(depth0,"item") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"item","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":16},"end":{"line":20,"column":34}}}),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),options) : helper));
+  if (!lookupProperty(helpers,"item")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n";
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", buffer = 
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "            <div class=\"alpaca-merge-up\" data-alpaca-merge-tag=\"td\" data-merge-up-field-id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":26,"column":92},"end":{"line":26,"column":98}}}) : helper)))
     + "\">\n                ";
-  stack1 = ((helper = (helper = helpers.arrayActionbar || (depth0 != null ? depth0.arrayActionbar : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayActionbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayActionbar") || (depth0 != null ? lookupProperty(depth0,"arrayActionbar") : depth0)) != null ? helper : alias2),(options={"name":"arrayActionbar","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":27,"column":16},"end":{"line":27,"column":54}}}),(typeof helper === alias3 ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayActionbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n            </div>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-merge-up\">\n\n        <!-- drag cell -->\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.dragRows : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"dragRows") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":8},"end":{"line":15,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":17,"column":8},"end":{"line":22,"column":17}}})) != null ? stack1 : "")
     + "\n        <!-- actions cell -->\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showActionsColumn : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showActionsColumn") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":8},"end":{"line":29,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["container"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <legend class=\""
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":23},"end":{"line":6,"column":78}}})) != null ? stack1 : "")
     + " alpaca-container-label\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</legend>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"alpaca-helper "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"alpaca-icon-helper\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"8":function(container,depth0,helpers,partials,data) {
+  return "                    <p class=\"alpaca-helper "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":44},"end":{"line":12,"column":101}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"alpaca-icon-helper\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":24},"end":{"line":14,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
+},"7":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.container || (depth0 != null ? depth0.container : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"container","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.container) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"container") || (depth0 != null ? lookupProperty(depth0,"container") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"container","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"container")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n\n    </div>\n\n</script>";
+  return buffer + "\n\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
+    + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-any"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":114},"end":{"line":3,"column":122}}}) : helper)))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":158},"end":{"line":3,"column":166}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"text\" id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":27},"end":{"line":3,"column":33}}}) : helper)))
     + "\" size=\"40\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":45},"end":{"line":3,"column":95}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":96},"end":{"line":3,"column":130}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":131},"end":{"line":3,"column":186}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-checkbox"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.selectOptions : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"selectOptions") : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":17,"column":17}}})) != null ? stack1 : "")
     + "\n";
 },"2":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n            <div>\n\n                <label>\n\n                    <input type=\"checkbox\" data-checkbox-index=\""
-    + alias4(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":11,"column":64},"end":{"line":11,"column":74}}}) : helper)))
     + "\" data-checkbox-value=\""
-    + alias4(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":11,"column":97},"end":{"line":11,"column":106}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.selected : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":108},"end":{"line":11,"column":138}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depths[1] != null ? depths[1].options : depths[1])) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depths[1] != null ? lookupProperty(depths[1],"options") : depths[1])) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":139},"end":{"line":11,"column":192}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":193},"end":{"line":11,"column":227}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depths[1] != null ? depths[1].options : depths[1])) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depths[1] != null ? lookupProperty(depths[1],"options") : depths[1])) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":228},"end":{"line":11,"column":287}}})) != null ? stack1 : "")
     + "/>\n                    "
-    + ((stack1 = ((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":12,"column":20},"end":{"line":12,"column":30}}}) : helper))) != null ? stack1 : "")
     + "\n\n                </label>\n            </div>\n\n";
 },"3":function(container,depth0,helpers,partials,data) {
     return "checked";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":11,"column":211},"end":{"line":11,"column":219}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":11,"column":258},"end":{"line":11,"column":266}}}) : helper)))
     + "=\""
-    + alias4(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":11,"column":268},"end":{"line":11,"column":277}}}) : helper)))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n        <div>\n\n            <label>\n\n                <input type=\"checkbox\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.data : depth0)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? lookupProperty(stack1,"length") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":39},"end":{"line":25,"column":72}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":73},"end":{"line":25,"column":123}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":124},"end":{"line":25,"column":158}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":159},"end":{"line":25,"column":215}}})) != null ? stack1 : "")
     + "/>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.rightLabel : stack1),{"name":"if","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"rightLabel") : stack1),{"name":"if","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":27,"column":16},"end":{"line":29,"column":23}}})) != null ? stack1 : "")
     + "\n            </label>\n\n        </div>\n\n";
 },"12":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    "
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.rightLabel : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"rightLabel") : stack1), depth0)) != null ? stack1 : "")
     + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.multiple : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(11, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"multiple") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(11, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":3,"column":4},"end":{"line":35,"column":11}}})) != null ? stack1 : "")
     + "\n</script>\n";
 },"useData":true,"useDepths":true});
-this["HandlebarsPrecompiled"]["web-edit"]["control-ckeditor"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["web-edit"]["control-ckeditor"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <textarea id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":18},"end":{"line":3,"column":24}}}) : helper)))
     + "\" cols=\"80\" rows=\"10\">\n    </textarea>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-edit"]["control-editor"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["web-edit"]["control-editor"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":13},"end":{"line":3,"column":19}}}) : helper)))
     + "\" class=\"control-field-editor-el\"></div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-file"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"5":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":155},"end":{"line":3,"column":163}}}) : helper)))
     + "\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":199},"end":{"line":3,"column":207}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"file\" id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":27},"end":{"line":3,"column":33}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":35},"end":{"line":3,"column":85}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":86},"end":{"line":3,"column":136}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":137},"end":{"line":3,"column":171}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":172},"end":{"line":3,"column":227}}})) != null ? stack1 : "")
     + "/>\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-hidden"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":55},"end":{"line":3,"column":63}}}) : helper)))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":99},"end":{"line":3,"column":107}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"hidden\" id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":29},"end":{"line":3,"column":35}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":37},"end":{"line":3,"column":71}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":72},"end":{"line":3,"column":127}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-image"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":227},"end":{"line":3,"column":235}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":271},"end":{"line":3,"column":279}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"text\" id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":27},"end":{"line":3,"column":33}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":35},"end":{"line":3,"column":106}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":107},"end":{"line":3,"column":157}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":158},"end":{"line":3,"column":208}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":209},"end":{"line":3,"column":243}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":244},"end":{"line":3,"column":299}}})) != null ? stack1 : "")
     + "/>\n\n    <div class=\"alpaca-image-display\">\n        <h5>Preview</h5>\n        <img id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":7,"column":17},"end":{"line":7,"column":23}}}) : helper)))
     + "-image\" src=\""
-    + alias4(((helper = (helper = helpers.data || (depth0 != null ? depth0.data : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"data","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"data") || (depth0 != null ? lookupProperty(depth0,"data") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"data","hash":{},"data":data,"loc":{"start":{"line":7,"column":36},"end":{"line":7,"column":44}}}) : helper)))
     + "\">\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-optiontree"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":5,"column":236},"end":{"line":5,"column":244}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":5,"column":280},"end":{"line":5,"column":288}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+  return alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":5,"column":337},"end":{"line":5,"column":345}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"optiontree\"></div>\n\n    <input type=\""
-    + alias4(((helper = (helper = helpers.inputType || (depth0 != null ? depth0.inputType : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"inputType") || (depth0 != null ? lookupProperty(depth0,"inputType") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data,"loc":{"start":{"line":5,"column":17},"end":{"line":5,"column":30}}}) : helper)))
     + "\" id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":5,"column":36},"end":{"line":5,"column":42}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":44},"end":{"line":5,"column":115}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":116},"end":{"line":5,"column":166}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":167},"end":{"line":5,"column":217}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":218},"end":{"line":5,"column":252}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":253},"end":{"line":5,"column":308}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.attributes : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"attributes") : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":309},"end":{"line":5,"column":365}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-password"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":231},"end":{"line":3,"column":239}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":275},"end":{"line":3,"column":283}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"password\" id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":31},"end":{"line":3,"column":37}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":39},"end":{"line":3,"column":110}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":111},"end":{"line":3,"column":161}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":162},"end":{"line":3,"column":212}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":213},"end":{"line":3,"column":247}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":248},"end":{"line":3,"column":303}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-radio"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "    <div class=\"radio\">\n        <label>\n            <input type=\"radio\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":32},"end":{"line":7,"column":82}}})) != null ? stack1 : "")
     + " name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
-    + "\" value=\"\"/>"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.noneLabel : stack1), depth0)) != null ? stack1 : "")
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":7,"column":89},"end":{"line":7,"column":97}}}) : helper)))
+    + "\" value=\"\" "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"_noData") : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":108},"end":{"line":7,"column":155}}})) != null ? stack1 : "")
+    + "/>"
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"noneLabel") : stack1), depth0)) != null ? stack1 : "")
     + "\n        </label>\n    </div>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
-},"6":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=container.escapeExpression, alias3=helpers.helperMissing, alias4="function";
+},"6":function(container,depth0,helpers,partials,data) {
+    return "checked=\"checked\"";
+},"8":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.escapeExpression, alias3=container.hooks.helperMissing, alias4="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "    <div class=\"radio\">\n        <label>\n            <input type=\"radio\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depths[1] != null ? depths[1].options : depths[1])) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depths[1] != null ? lookupProperty(depths[1],"options") : depths[1])) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":32},"end":{"line":15,"column":85}}})) != null ? stack1 : "")
     + " name=\""
-    + alias2(container.lambda((depths[1] != null ? depths[1].name : depths[1]), depth0))
+    + alias2(container.lambda((depths[1] != null ? lookupProperty(depths[1],"name") : depths[1]), depth0))
     + "\" value=\""
-    + alias2(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":15,"column":112},"end":{"line":15,"column":121}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.selected : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":123},"end":{"line":15,"column":163}}})) != null ? stack1 : "")
     + "/>"
-    + ((stack1 = ((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":15,"column":165},"end":{"line":15,"column":175}}}) : helper))) != null ? stack1 : "")
     + "\n        </label>\n    </div>\n";
-},"7":function(container,depth0,helpers,partials,data) {
-    return "checked=\"checked\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.hideNone : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"hideNone") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":3,"column":4},"end":{"line":10,"column":11}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.selectOptions : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"selectOptions") : depth0),{"name":"each","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":4},"end":{"line":18,"column":13}}})) != null ? stack1 : "")
     + "\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-select"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1084,608 +1754,993 @@ this["HandlebarsPrecompiled"]["web-edit"]["control-select"] = Handlebars.templat
 },"3":function(container,depth0,helpers,partials,data) {
     return "multiple=\"multiple\"";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":195},"end":{"line":3,"column":203}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.hideNone : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.program(12, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"hideNone") : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.program(12, data, 0),"data":data,"loc":{"start":{"line":7,"column":8},"end":{"line":10,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.selectOptions : depth0),{"name":"each","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"selectOptions") : depth0),{"name":"each","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":8},"end":{"line":14,"column":17}}})) != null ? stack1 : "")
     + "\n";
 },"10":function(container,depth0,helpers,partials,data) {
     return "";
 },"12":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <option value=\"\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.noneLabel : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"noneLabel") : stack1), depth0)) != null ? stack1 : "")
     + "</option>\n";
 },"14":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <option value=\""
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":13,"column":23},"end":{"line":13,"column":34}}}) : helper))) != null ? stack1 : "")
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.selected : depth0),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":36},"end":{"line":13,"column":78}}})) != null ? stack1 : "")
     + ">"
-    + container.escapeExpression(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":13,"column":79},"end":{"line":13,"column":87}}}) : helper)))
     + "</option>\n";
 },"15":function(container,depth0,helpers,partials,data) {
     return "selected=\"selected\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <select id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":16},"end":{"line":3,"column":22}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":24},"end":{"line":3,"column":74}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.multiple : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"multiple") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":75},"end":{"line":3,"column":125}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":126},"end":{"line":3,"column":176}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":177},"end":{"line":3,"column":211}}})) != null ? stack1 : "")
     + ">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.multiple : stack1),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.program(9, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"multiple") : stack1),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.program(9, data, 0),"data":data,"loc":{"start":{"line":5,"column":4},"end":{"line":27,"column":11}}})) != null ? stack1 : "")
     + "\n    </select>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-text"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":236},"end":{"line":3,"column":244}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":280},"end":{"line":3,"column":288}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+  return alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":337},"end":{"line":3,"column":345}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\""
-    + alias4(((helper = (helper = helpers.inputType || (depth0 != null ? depth0.inputType : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"inputType") || (depth0 != null ? lookupProperty(depth0,"inputType") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data,"loc":{"start":{"line":3,"column":17},"end":{"line":3,"column":30}}}) : helper)))
     + "\" id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":36},"end":{"line":3,"column":42}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":44},"end":{"line":3,"column":115}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":116},"end":{"line":3,"column":166}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":167},"end":{"line":3,"column":217}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":218},"end":{"line":3,"column":252}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":253},"end":{"line":3,"column":308}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.attributes : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"attributes") : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":309},"end":{"line":3,"column":365}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-textarea"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "rows=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.rows : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"rows") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "cols=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.cols : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"cols") : stack1), depth0))
     + "\"";
 },"7":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":269},"end":{"line":3,"column":277}}}) : helper)))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + container.escapeExpression(((helper = (helper = helpers.fieldId || (depth0 != null ? depth0.fieldId : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fieldId","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"fieldId") || (depth0 != null ? lookupProperty(depth0,"fieldId") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fieldId","hash":{},"data":data,"loc":{"start":{"line":3,"column":313},"end":{"line":3,"column":324}}}) : helper)))
     + "=\""
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":3,"column":326},"end":{"line":3,"column":337}}}) : helper))) != null ? stack1 : "")
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <textarea id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":18},"end":{"line":3,"column":24}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":26},"end":{"line":3,"column":97}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.rows : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"rows") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":98},"end":{"line":3,"column":148}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.cols : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"cols") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":149},"end":{"line":3,"column":199}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":200},"end":{"line":3,"column":250}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":251},"end":{"line":3,"column":285}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":286},"end":{"line":3,"column":347}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control-url"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":3,"column":227},"end":{"line":3,"column":235}}}) : helper)))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":3,"column":271},"end":{"line":3,"column":279}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <input type=\"text\" id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":27},"end":{"line":3,"column":33}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":35},"end":{"line":3,"column":106}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":107},"end":{"line":3,"column":157}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":158},"end":{"line":3,"column":208}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":209},"end":{"line":3,"column":243}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":244},"end":{"line":3,"column":299}}})) != null ? stack1 : "")
     + "/>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["control"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <label class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":22},"end":{"line":6,"column":77}}})) != null ? stack1 : "")
     + " alpaca-control-label\" for=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":6,"column":105},"end":{"line":6,"column":111}}}) : helper)))
     + "\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</label>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    return "";
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
+},"5":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return "                    <p class=\""
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":30},"end":{"line":12,"column":87}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"info-sign\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":24},"end":{"line":14,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\""
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
-},"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
+    return "";
 },"11":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"13":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"if","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":12},"end":{"line":40,"column":19}}})) != null ? stack1 : "");
+},"14":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <div class=\"alpaca-control-buttons-container\">\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"each","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"each","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":36,"column":16},"end":{"line":38,"column":25}}})) != null ? stack1 : "")
     + "            </div>\n";
-},"12":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"15":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <button data-key=\""
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":34},"end":{"line":37,"column":42}}}) : helper)))
     + "\" type=\""
-    + alias4(((helper = (helper = helpers.type || (depth0 != null ? depth0.type : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":37,"column":50},"end":{"line":37,"column":58}}}) : helper)))
     + "\" class=\"alpaca-control-button alpaca-control-button-"
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":111},"end":{"line":37,"column":119}}}) : helper)))
     + " "
-    + alias4(((helper = (helper = helpers.styles || (depth0 != null ? depth0.styles : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"styles") || (depth0 != null ? lookupProperty(depth0,"styles") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data,"loc":{"start":{"line":37,"column":120},"end":{"line":37,"column":130}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.value : depth0),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"value") : depth0),{"name":"each","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":37,"column":132},"end":{"line":37,"column":177}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":37,"column":178},"end":{"line":37,"column":189}}}) : helper))) != null ? stack1 : "")
     + "</button>\n";
-},"13":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"16":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+  return alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":147},"end":{"line":37,"column":155}}}) : helper)))
     + "=\""
-    + alias4(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":37,"column":157},"end":{"line":37,"column":166}}}) : helper)))
     + "\" ";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
+    + "\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.control || (depth0 != null ? depth0.control : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"control","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.control) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"control") || (depth0 != null ? lookupProperty(depth0,"control") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"control","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":32}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"control")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.renderButtons : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"renderButtons") : stack1),{"name":"if","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":33,"column":8},"end":{"line":41,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["form"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":16},"end":{"line":11,"column":25}}})) != null ? stack1 : "");
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <button data-key=\""
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":38},"end":{"line":10,"column":46}}}) : helper)))
     + "\" type=\""
-    + alias4(((helper = (helper = helpers.type || (depth0 != null ? depth0.type : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":10,"column":54},"end":{"line":10,"column":62}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.id : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"id") : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":64},"end":{"line":10,"column":92}}})) != null ? stack1 : "")
     + " class=\"alpaca-form-button alpaca-form-button-"
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":138},"end":{"line":10,"column":146}}}) : helper)))
     + " "
-    + alias4(((helper = (helper = helpers.styles || (depth0 != null ? depth0.styles : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"styles") || (depth0 != null ? lookupProperty(depth0,"styles") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data,"loc":{"start":{"line":10,"column":147},"end":{"line":10,"column":157}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.value : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"value") : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":159},"end":{"line":10,"column":202}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.attributes : depth0),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"attributes") : depth0),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":203},"end":{"line":10,"column":252}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":10,"column":253},"end":{"line":10,"column":264}}}) : helper))) != null ? stack1 : "")
     + "</button>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"id","hash":{},"data":data,"loc":{"start":{"line":10,"column":78},"end":{"line":10,"column":84}}}) : helper)))
     + "\"";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+  return alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":174},"end":{"line":10,"column":182}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return " "
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":10,"column":224},"end":{"line":10,"column":232}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <form role=\"form\">\n\n        ";
-  stack1 = ((helper = (helper = helpers.formItems || (depth0 != null ? depth0.formItems : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"formItems","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.formItems) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"formItems") || (depth0 != null ? lookupProperty(depth0,"formItems") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"formItems","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"formItems")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n        <div class=\"alpaca-form-buttons-container\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":12},"end":{"line":12,"column":19}}})) != null ? stack1 : "")
     + "        </div>\n\n    </form>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["web-edit"]["message"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+this["HandlebarsPrecompiled"]["web-edit"]["message"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-message alpaca-message-"
-    + ((stack1 = ((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":46},"end":{"line":3,"column":54}}}) : helper))) != null ? stack1 : "")
     + "\">\n        "
-    + ((stack1 = ((helper = (helper = helpers.message || (depth0 != null ? depth0.message : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"message","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"message") || (depth0 != null ? lookupProperty(depth0,"message") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"message","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":21}}}) : helper))) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["web-edit"]["wizard"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <div class=\"alpaca-wizard-nav\">\n            <nav class=\"navbar navbar-default\" role=\"navigation\">\n                <div class=\"container-fluid alpaca-wizard-back\">\n                    <ul class=\"nav navbar-nav\">\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.steps : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"steps") : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":24},"end":{"line":19,"column":33}}})) != null ? stack1 : "")
     + "                    </ul>\n                </div>\n            </nav>\n        </div>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <li data-alpaca-wizard-step-index=\""
-    + container.escapeExpression(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":12,"column":59},"end":{"line":12,"column":69}}}) : helper)))
     + "\">\n                            <div class=\"holder\">\n                                <div class=\"title\">"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":14,"column":51},"end":{"line":14,"column":62}}}) : helper))) != null ? stack1 : "")
     + "</div>\n                                <div class=\"description\">"
-    + ((stack1 = ((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"description") || (depth0 != null ? lookupProperty(depth0,"description") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data,"loc":{"start":{"line":15,"column":57},"end":{"line":15,"column":74}}}) : helper))) != null ? stack1 : "")
     + "</div>\n                            </div>\n                            <div class=\"chevron\"></div>\n                        </li>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     return "        <div class=\"alpaca-wizard-progress-bar\">\n            <div class=\"progress\">\n                <div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 60%;\">\n                </div>\n            </div>\n        </div>\n";
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <h3>"
-    + ((stack1 = ((helper = (helper = helpers.wizardTitle || (depth0 != null ? depth0.wizardTitle : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"wizardTitle","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"wizardTitle") || (depth0 != null ? lookupProperty(depth0,"wizardTitle") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"wizardTitle","hash":{},"data":data,"loc":{"start":{"line":37,"column":16},"end":{"line":37,"column":33}}}) : helper))) != null ? stack1 : "")
     + "</h3>\n";
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <h4>"
-    + ((stack1 = ((helper = (helper = helpers.wizardDescription || (depth0 != null ? depth0.wizardDescription : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"wizardDescription","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"wizardDescription") || (depth0 != null ? lookupProperty(depth0,"wizardDescription") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"wizardDescription","hash":{},"data":data,"loc":{"start":{"line":40,"column":16},"end":{"line":40,"column":39}}}) : helper))) != null ? stack1 : "")
     + "</h4>\n";
 },"10":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.align : depth0),"left",{"name":"compare","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"align") : depth0),"left",{"name":"compare","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":53,"column":20},"end":{"line":55,"column":32}}})) != null ? stack1 : "");
 },"11":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <button type=\""
-    + alias4(((helper = (helper = helpers.type || (depth0 != null ? depth0.type : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":54,"column":38},"end":{"line":54,"column":46}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.id : depth0),{"name":"if","hash":{},"fn":container.program(12, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"id") : depth0),{"name":"if","hash":{},"fn":container.program(12, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":54,"column":48},"end":{"line":54,"column":76}}})) != null ? stack1 : "")
     + " class=\""
-    + alias4(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? depths[1].view : depths[1])) != null ? stack1.styles : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias4(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? lookupProperty(depths[1],"view") : depths[1])) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"button") : stack1), depth0))
     + "\" data-alpaca-wizard-button-key=\""
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":54,"column":142},"end":{"line":54,"column":150}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.attributes : depth0),{"name":"each","hash":{},"fn":container.program(14, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"attributes") : depth0),{"name":"each","hash":{},"fn":container.program(14, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":54,"column":152},"end":{"line":54,"column":201}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":54,"column":202},"end":{"line":54,"column":213}}}) : helper))) != null ? stack1 : "")
     + "</button>\n";
 },"12":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"id","hash":{},"data":data,"loc":{"start":{"line":54,"column":62},"end":{"line":54,"column":68}}}) : helper)))
     + "\"";
 },"14":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return " "
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":54,"column":173},"end":{"line":54,"column":181}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"16":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.align : depth0),"right",{"name":"compare","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "");
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"align") : depth0),"right",{"name":"compare","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":61,"column":20},"end":{"line":63,"column":32}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-wizard\">\n\n        <!-- nav bar -->\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.showSteps : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"showSteps") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":8},"end":{"line":24,"column":15}}})) != null ? stack1 : "")
     + "\n        <!-- wizard progress bar -->\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.showProgressBar : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"showProgressBar") : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":27,"column":8},"end":{"line":34,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.wizardTitle : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.wizardDescription : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"wizardTitle") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":36,"column":8},"end":{"line":38,"column":15}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"wizardDescription") : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":39,"column":8},"end":{"line":41,"column":15}}})) != null ? stack1 : "")
     + "\n        <!-- wizard steps -->\n        <div class=\"alpaca-wizard-steps\">\n\n        </div>\n\n        <!-- wizard buttons -->\n        <div class=\"alpaca-wizard-buttons\">\n\n            <div class=\"pull-left\">\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.buttons : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":52,"column":16},"end":{"line":56,"column":25}}})) != null ? stack1 : "")
     + "            </div>\n\n            <div class=\"pull-right\">\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.buttons : depth0),{"name":"each","hash":{},"fn":container.program(16, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"each","hash":{},"fn":container.program(16, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":60,"column":16},"end":{"line":64,"column":25}}})) != null ? stack1 : "")
     + "            </div>\n\n            <div style=\"clear:both\"></div>\n\n        </div>\n\n    </div>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["bootstrap-display"] = this["HandlebarsPrecompiled"]["bootstrap-display"] || {};
 this["HandlebarsPrecompiled"]["bootstrap-display"]["container"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <legend class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":23},"end":{"line":6,"column":79}}})) != null ? stack1 : "")
     + "alpaca-container-label\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.collapsible : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"collapsible") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":12},"end":{"line":10,"column":19}}})) != null ? stack1 : "")
     + "\n            "
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.collapsible : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"collapsible") : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":12},"end":{"line":16,"column":19}}})) != null ? stack1 : "")
     + "\n        </legend>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0))
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0))
     + " ";
 },"4":function(container,depth0,helpers,partials,data) {
     return "            <span data-toggle=\"collapse\">\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "            </span>\n";
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":12},"end":{"line":29,"column":24}}})) != null ? stack1 : "");
 },"9":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"alpaca-helper help-block "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"alpaca-icon-16 glyphicon glyphicon-info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":16},"end":{"line":28,"column":25}}})) != null ? stack1 : "");
 },"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"12":function(container,depth0,helpers,partials,data) {
+  return "                <p class=\"alpaca-helper help-block "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":51},"end":{"line":24,"column":108}}})) != null ? stack1 : "")
+    + "\">\n                    <i class=\"alpaca-icon-16 glyphicon glyphicon-info-sign\"></i>\n                    "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":26,"column":20},"end":{"line":26,"column":54}}})) != null ? stack1 : "")
+    + "\n                </p>\n";
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"13":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"15":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":35,"column":12},"end":{"line":42,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":19,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":8},"end":{"line":30,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.container || (depth0 != null ? depth0.container : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"container","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.container) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"container") || (depth0 != null ? lookupProperty(depth0,"container") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"container","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":8},"end":{"line":32,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"container")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n\n    </div>\n\n</script>\n";
-},"useData":true});
-this["HandlebarsPrecompiled"]["bootstrap-display"]["control-chooser"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
-
-  return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+  return buffer + "\n\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":8},"end":{"line":43,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
-this["HandlebarsPrecompiled"]["bootstrap-display"]["control-radio"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["bootstrap-display"]["control-chooser"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
-this["HandlebarsPrecompiled"]["bootstrap-display"]["control-select"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+this["HandlebarsPrecompiled"]["bootstrap-display"]["control-radio"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
-    + container.escapeExpression(((helper = (helper = helpers.displayableText || (depth0 != null ? depth0.displayableText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayableText","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
+    + "\n    </div>\n\n</script>\n";
+},"useData":true});
+this["HandlebarsPrecompiled"]["bootstrap-display"]["control-select"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n        "
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"displayableText") || (depth0 != null ? lookupProperty(depth0,"displayableText") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"displayableText","hash":{},"data":data,"loc":{"start":{"line":4,"column":8},"end":{"line":4,"column":27}}}) : helper)))
     + "\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-display"]["control-upload-partial-download"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td></td>\n        <td class=\"name\">\n            <span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</span>\n        </td>\n        <td class=\"size\">\n            <span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span>\n        </td>\n        <td class=\"error\" colspan=\"2\">\n            Error:\n            "
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1), depth0))
     + "\n        </td>\n";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td class=\"preview\">\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":18,"column":12},"end":{"line":22,"column":19}}})) != null ? stack1 : "")
     + "        </td>\n        <td class=\"name\">\n            <a href=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.url : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"url") : stack1), depth0))
     + "\" title=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\" data-gallery=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1), depth0))
     + "gallery\" download=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\">"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</a>\n        </td>\n        <td class=\"size\"><span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span></td>\n        <td colspan=\"2\"></td>\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <a href=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.url : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"url") : stack1), depth0))
     + "\" title=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\" data-gallery=\"gallery\" download=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\">\n                <img src=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1), depth0))
     + "\">\n            </a>\n";
 },"6":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.buttons : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":16},"end":{"line":47,"column":25}}})) != null ? stack1 : "");
 },"7":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.isDelete : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.program(10, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"isDelete") : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.program(10, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":33,"column":20},"end":{"line":46,"column":27}}})) != null ? stack1 : "");
 },"8":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <button class=\"delete btn btn-danger\" data-file-index=\""
-    + alias1(container.lambda((depths[1] != null ? depths[1].fileIndex : depths[1]), depth0))
+    + alias1(container.lambda((depths[1] != null ? lookupProperty(depths[1],"fileIndex") : depths[1]), depth0))
     + "\" data-button-key=\""
-    + alias1(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":34,"column":114},"end":{"line":34,"column":121}}}) : helper)))
     + "\">\n                            <i class=\"glyphicon glyphicon-trash glyphicon-white\"></i>\n                        </button>\n";
 },"10":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <button class=\""
-    + alias4(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":38,"column":39},"end":{"line":38,"column":46}}}) : helper)))
     + " btn "
-    + alias4(((helper = (helper = helpers.buttonClass || (depth0 != null ? depth0.buttonClass : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"buttonClass","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"buttonClass") || (depth0 != null ? lookupProperty(depth0,"buttonClass") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"buttonClass","hash":{},"data":data,"loc":{"start":{"line":38,"column":51},"end":{"line":38,"column":66}}}) : helper)))
     + "\" data-file-index=\""
-    + alias4(container.lambda((depths[1] != null ? depths[1].fileIndex : depths[1]), depth0))
+    + alias4(container.lambda((depths[1] != null ? lookupProperty(depths[1],"fileIndex") : depths[1]), depth0))
     + "\" data-button-key=\""
-    + alias4(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":38,"column":120},"end":{"line":38,"column":127}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.iconClass : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":container.program(13, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"iconClass") : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":39,"column":28},"end":{"line":41,"column":35}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"label") : depth0),{"name":"if","hash":{},"fn":container.program(13, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":42,"column":28},"end":{"line":44,"column":35}}})) != null ? stack1 : "")
     + "                        </button>\n";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                                <i class=\""
-    + container.escapeExpression(((helper = (helper = helpers.iconClass || (depth0 != null ? depth0.iconClass : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"iconClass","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"iconClass") || (depth0 != null ? lookupProperty(depth0,"iconClass") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"iconClass","hash":{},"data":data,"loc":{"start":{"line":40,"column":42},"end":{"line":40,"column":55}}}) : helper)))
     + "\"></i>\n";
 },"13":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                                "
-    + container.escapeExpression(((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"label","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data,"loc":{"start":{"line":43,"column":32},"end":{"line":43,"column":41}}}) : helper)))
     + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr class=\"template-download\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":4,"column":4},"end":{"line":29,"column":11}}})) != null ? stack1 : "")
     + "        <td>\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.buttons : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":31,"column":12},"end":{"line":48,"column":19}}})) != null ? stack1 : "")
     + "        </td>\n    </tr>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["bootstrap-display"]["control-upload-partial-upload"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1693,21 +2748,36 @@ this["HandlebarsPrecompiled"]["bootstrap-display"]["control-upload-partial-uploa
 },"3":function(container,depth0,helpers,partials,data) {
     return "        <td></td>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td class=\"error\" colspan=\"2\"><span class=\"label label-important\">Error</span> "
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1), depth0))
     + "</td>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.valid : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(15, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"valid") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(15, data, 0),"data":data,"loc":{"start":{"line":19,"column":8},"end":{"line":46,"column":15}}})) != null ? stack1 : "");
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(alias1,(data && data.index),0,{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(alias1,(data && lookupProperty(data,"index")),0,{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":12},"end":{"line":26,"column":24}}})) != null ? stack1 : "")
     + "            <td class=\"start\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.autoUpload : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(13, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"autoUpload") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(13, data, 0),"data":data,"loc":{"start":{"line":28,"column":16},"end":{"line":34,"column":23}}})) != null ? stack1 : "")
     + "            </td>\n";
 },"9":function(container,depth0,helpers,partials,data) {
     return "                <td>\n                    <div class=\"progress progress-success progress-striped active\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\">\n                        <div class=\"progress-bar\" style=\"width:0%;\"></div>\n                    </div>\n                </td>\n";
@@ -1716,158 +2786,268 @@ this["HandlebarsPrecompiled"]["bootstrap-display"]["control-upload-partial-uploa
 },"13":function(container,depth0,helpers,partials,data) {
     return "                <button class=\"btn btn-primary\"> \\\n                    <i class=\"glyphicon glyphicon-upload glyphicon-white\"></i>\n                    <span>Start</span>\n                </button>\n";
 },"15":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <td></td>\n            <td class=\"cancel\">\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(data && data.index),0,{"name":"compare","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(data && lookupProperty(data,"index")),0,{"name":"compare","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":39,"column":16},"end":{"line":44,"column":28}}})) != null ? stack1 : "")
     + "            </td>\n";
 },"16":function(container,depth0,helpers,partials,data) {
     return "                <button class=\"btn btn-warning\">\n                    <i class=\"glyphicon glyphicon-ban-circle glyphicon-white\"></i>\n                    <span>Cancel</span>\n                </button>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {}, alias2=container.lambda, alias3=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.lambda, alias3=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr class=\"template-upload\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showUploadPreview : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(3, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showUploadPreview") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(3, data, 0),"data":data,"loc":{"start":{"line":5,"column":4},"end":{"line":11,"column":11}}})) != null ? stack1 : "")
     + "\n        <td class=\"name\"><span>"
-    + alias3(alias2(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias3(alias2(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</span></td>\n        <td class=\"size\"><span>"
-    + alias3(alias2(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias3(alias2(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span></td>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data,"loc":{"start":{"line":16,"column":4},"end":{"line":47,"column":11}}})) != null ? stack1 : "")
     + "        <td></td>\n    </tr>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-display"]["control-upload"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(((helper = (helper = helpers.cssClasses || (depth0 != null ? depth0.cssClasses : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"cssClasses","hash":{},"data":data}) : helper)));
+  return container.escapeExpression(((helper = (helper = lookupProperty(helpers,"cssClasses") || (depth0 != null ? lookupProperty(depth0,"cssClasses") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"cssClasses","hash":{},"data":data,"loc":{"start":{"line":3,"column":62},"end":{"line":3,"column":76}}}) : helper)));
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <thead>\n                            <tr>\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showUploadPreview : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showUploadPreview") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data,"loc":{"start":{"line":23,"column":32},"end":{"line":27,"column":39}}})) != null ? stack1 : "")
     + "                                <td>Name</td>\n                                <td>Size</td>\n                                <td colspan=\"2\"></td><!-- error or start or progress indicator -->\n                                <td>Actions</td>\n                            </tr>\n                        </thead>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     return "                                    <td>Thumbnail</td>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "                                    <td></td>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=container.escapeExpression, alias3=helpers.helperMissing, alias4="function";
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.escapeExpression, alias3=container.hooks.helperMissing, alias4="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-fileupload-container "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.cssClasses : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"cssClasses") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":44},"end":{"line":3,"column":83}}})) != null ? stack1 : "")
     + "\">\n        <div class=\"container-fluid\">\n            <div class=\"row alpaca-fileupload-chooserow\">\n                <div class=\"col-md-12\">\n                    <div class=\"btn-group\">\n                        <span class=\""
-    + alias2(container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0.view : depth0)) != null ? stack1.styles : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias2(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"view") : depth0)) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"button") : stack1), depth0))
     + " fileinput-button\">\n                            <i class=\"glyphicon glyphicon-upload\"></i>\n                            <span class=\"fileupload-add-button\">"
-    + alias2(((helper = (helper = helpers.chooseButtonLabel || (depth0 != null ? depth0.chooseButtonLabel : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"chooseButtonLabel","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"chooseButtonLabel") || (depth0 != null ? lookupProperty(depth0,"chooseButtonLabel") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"chooseButtonLabel","hash":{},"data":data,"loc":{"start":{"line":10,"column":64},"end":{"line":10,"column":85}}}) : helper)))
     + "</span>\n                            <input class=\"alpaca-fileupload-input\" type=\"file\" name=\""
-    + alias2(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":11,"column":85},"end":{"line":11,"column":93}}}) : helper)))
     + "_files\">\n                            <input class=\"alpaca-fileupload-input-hidden\" type=\"hidden\" name=\""
-    + alias2(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":12,"column":94},"end":{"line":12,"column":102}}}) : helper)))
     + "_files_hidden\">\n                        </span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row alpaca-fileupload-well\">\n                <div class=\"col-md-12 fileupload-active-zone\">\n                    <table class=\"table table-striped\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showHeaders : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "                        <tbody class=\"files\">\n                        </tbody>\n                    </table>\n                    <p align=\"center\" class=\"dropzone-message\">"
-    + alias2(((helper = (helper = helpers.dropZoneMessage || (depth0 != null ? depth0.dropZoneMessage : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"dropZoneMessage","hash":{},"data":data}) : helper)))
-    + "</p>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div id=\"progress\" class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\"></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</script>";
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showHeaders") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":24},"end":{"line":34,"column":31}}})) != null ? stack1 : "")
+    + "                        <tbody class=\"files\">\n                        </tbody>\n                    </table>\n                    <!--<p align=\"center\" class=\"dropzone-message\">"
+    + alias2(((helper = (helper = lookupProperty(helpers,"dropZoneMessage") || (depth0 != null ? lookupProperty(depth0,"dropZoneMessage") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"dropZoneMessage","hash":{},"data":data,"loc":{"start":{"line":38,"column":67},"end":{"line":38,"column":86}}}) : helper)))
+    + "</p>-->\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div id=\"progress\" class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\"></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-display"]["control"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <label class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":22},"end":{"line":6,"column":77}}})) != null ? stack1 : "")
     + " control-label alpaca-control-label\" for=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":6,"column":119},"end":{"line":6,"column":125}}}) : helper)))
     + "\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</label>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    return "";
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
+},"5":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return "                    <p class=\"help-block "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":41},"end":{"line":12,"column":98}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"glyphicon glyphicon-info-sign\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":24},"end":{"line":14,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"help-block "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"glyphicon glyphicon-info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
-},"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
+    return "";
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"form-group\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
+    + "\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.control || (depth0 != null ? depth0.control : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"control","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.control) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"control") || (depth0 != null ? lookupProperty(depth0,"control") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"control","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":32}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"control")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["bootstrap-display"]["message"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+this["HandlebarsPrecompiled"]["bootstrap-display"]["message"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"help-block\">\n        <i class=\"glyphicon glyphicon-exclamation-sign\"></i>&nbsp;"
-    + ((stack1 = ((helper = (helper = helpers.message || (depth0 != null ? depth0.message : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"message","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"message") || (depth0 != null ? lookupProperty(depth0,"message") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"message","hash":{},"data":data,"loc":{"start":{"line":4,"column":66},"end":{"line":4,"column":79}}}) : helper))) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"] = this["HandlebarsPrecompiled"]["bootstrap-edit"] || {};
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["container-grid"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return " btn-group";
 },"3":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,((stack1 = (depths[1] != null ? depths[1].options : depths[1])) != null ? stack1.toolbarStyle : stack1),"link",{"name":"compare","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,((stack1 = (depths[1] != null ? lookupProperty(depths[1],"options") : depths[1])) != null ? lookupProperty(stack1,"toolbarStyle") : stack1),"link",{"name":"compare","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":16},"end":{"line":11,"column":28}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || alias2).call(alias1,((stack1 = (depths[1] != null ? depths[1].options : depths[1])) != null ? stack1.toolbarStyle : stack1),"button",{"name":"compare","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||alias2).call(alias1,((stack1 = (depths[1] != null ? lookupProperty(depths[1],"options") : depths[1])) != null ? lookupProperty(stack1,"toolbarStyle") : stack1),"button",{"name":"compare","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":16},"end":{"line":20,"column":28}}})) != null ? stack1 : "")
     + "\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var alias1=container.lambda, alias2=container.escapeExpression;
+    var alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <a href=\"#\" class=\"alpaca-array-toolbar-action\" data-array-toolbar-action=\""
-    + alias2(alias1((depth0 != null ? depth0.action : depth0), depth0))
+    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"action") : depth0), depth0))
     + "\">"
-    + alias2(alias1((depth0 != null ? depth0.label : depth0), depth0))
+    + alias2(alias1((depth0 != null ? lookupProperty(depth0,"label") : depth0), depth0))
     + "</a>\n";
 },"6":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=container.escapeExpression, alias2=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <button class=\"alpaca-array-toolbar-action "
-    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? depths[1].view : depths[1])) != null ? stack1.styles : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias1(container.lambda(((stack1 = ((stack1 = (depths[1] != null ? lookupProperty(depths[1],"view") : depths[1])) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"button") : stack1), depth0))
     + "\" data-array-toolbar-action=\""
-    + alias1(((helper = (helper = helpers.action || (depth0 != null ? depth0.action : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"action") || (depth0 != null ? lookupProperty(depth0,"action") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias2,{"name":"action","hash":{},"data":data,"loc":{"start":{"line":14,"column":113},"end":{"line":14,"column":123}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.iconClass : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"iconClass") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":20},"end":{"line":17,"column":27}}})) != null ? stack1 : "")
     + "                    "
-    + ((stack1 = helpers["if"].call(alias2,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias2,(depth0 != null ? lookupProperty(depth0,"label") : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":18,"column":20},"end":{"line":18,"column":51}}})) != null ? stack1 : "")
     + "\n                </button>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <i class=\""
-    + container.escapeExpression(((helper = (helper = helpers.iconClass || (depth0 != null ? depth0.iconClass : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"iconClass","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"iconClass") || (depth0 != null ? lookupProperty(depth0,"iconClass") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"iconClass","hash":{},"data":data,"loc":{"start":{"line":16,"column":30},"end":{"line":16,"column":43}}}) : helper)))
     + "\"></i>\n";
 },"9":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1, helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = ((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"label","hash":{},"data":data}) : helper))) != null ? stack1 : "");
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+  return ((stack1 = ((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data,"loc":{"start":{"line":18,"column":33},"end":{"line":18,"column":44}}}) : helper))) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n        <div class=\"alpaca-array-toolbar\" "
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbarStyle : stack1),"button",{"name":"compare","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"toolbarStyle") : stack1),"button",{"name":"compare","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":42},"end":{"line":5,"column":106}}})) != null ? stack1 : "")
     + ">\n\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.arrayToolbarActions : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"arrayToolbarActions") : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":12},"end":{"line":22,"column":21}}})) != null ? stack1 : "")
     + "\n        </div>\n\n        <div class=\"alpaca-container-grid-holder\"></div>\n\n    </div>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["container-table"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1875,339 +3055,534 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["container-table"] = Handlebars.
 },"3":function(container,depth0,helpers,partials,data) {
     return "                    <!-- hidden column storing sort order -->\n                    <th class=\"alpaca-table-reorder-index-header\"></th>\n                    <!-- draggable -->\n                    <th class=\"alpaca-table-reorder-draggable-header\"></th>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                    <th data-header-id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":21,"column":40},"end":{"line":21,"column":46}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.hidden : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"hidden") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":48},"end":{"line":21,"column":103}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"title") || (depth0 != null ? lookupProperty(depth0,"title") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data,"loc":{"start":{"line":21,"column":104},"end":{"line":21,"column":115}}}) : helper))) != null ? stack1 : "")
     + "</th>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "class=\"alpaca-table-column-hidden\"";
 },"8":function(container,depth0,helpers,partials,data) {
     return "                        <th>Actions</th>\n";
 },"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n                "
-    + ((stack1 = (helpers.item || (depth0 && depth0.item) || helpers.helperMissing).call(depth0 != null ? depth0 : {},"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"item")||(depth0 && lookupProperty(depth0,"item"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"tr",{"name":"item","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":16},"end":{"line":34,"column":39}}})) != null ? stack1 : "")
     + "\n\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"table-responsive\">\n\n        ";
-  stack1 = ((helper = (helper = helpers.arrayToolbar || (depth0 != null ? depth0.arrayToolbar : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.arrayToolbar) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"arrayToolbar") || (depth0 != null ? lookupProperty(depth0,"arrayToolbar") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"arrayToolbar","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":5,"column":42}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"arrayToolbar")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n        <table>\n\n            <!-- table headers -->\n            <thead>\n                <tr>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.dragRows : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"dragRows") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":20},"end":{"line":18,"column":27}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.headers : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"headers") : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":20},"end":{"line":22,"column":29}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showActionsColumn : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showActionsColumn") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":20},"end":{"line":26,"column":27}}})) != null ? stack1 : "")
     + "                </tr>\n            </thead>\n\n            <!-- table body -->\n            <tbody>\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.items : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"items") : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":12},"end":{"line":36,"column":21}}})) != null ? stack1 : "")
     + "            </tbody>\n\n        </table>\n\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["container"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <legend class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":23},"end":{"line":6,"column":79}}})) != null ? stack1 : "")
     + "alpaca-container-label\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.collapsible : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"collapsible") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":12},"end":{"line":10,"column":19}}})) != null ? stack1 : "")
     + "\n            "
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.collapsible : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"collapsible") : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":12},"end":{"line":16,"column":19}}})) != null ? stack1 : "")
     + "\n        </legend>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0))
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0))
     + " ";
 },"4":function(container,depth0,helpers,partials,data) {
     return "            <span data-toggle=\"collapse\">\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "            </span>\n";
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":12},"end":{"line":29,"column":24}}})) != null ? stack1 : "");
 },"9":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"alpaca-helper help-block "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"alpaca-icon-16 glyphicon glyphicon-info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":16},"end":{"line":28,"column":25}}})) != null ? stack1 : "");
 },"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"12":function(container,depth0,helpers,partials,data) {
+  return "                <p class=\"alpaca-helper help-block "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":51},"end":{"line":24,"column":108}}})) != null ? stack1 : "")
+    + "\">\n                    <i class=\"alpaca-icon-16 glyphicon glyphicon-info-sign\"></i>\n                    "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":26,"column":20},"end":{"line":26,"column":54}}})) != null ? stack1 : "")
+    + "\n                </p>\n";
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"13":function(container,depth0,helpers,partials,data) {
     return "";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"15":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":35,"column":12},"end":{"line":42,"column":24}}})) != null ? stack1 : "");
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":19,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":8},"end":{"line":30,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.container || (depth0 != null ? depth0.container : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"container","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.container) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"container") || (depth0 != null ? lookupProperty(depth0,"container") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"container","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":8},"end":{"line":32,"column":36}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"container")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "\n\n    </div>\n\n</script>\n";
+  return buffer + "\n\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":8},"end":{"line":43,"column":15}}})) != null ? stack1 : "")
+    + "\n    </div>\n\n</script>\n";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-chooser"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.selectOptions : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"selectOptions") : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":13,"column":24},"end":{"line":29,"column":33}}})) != null ? stack1 : "")
     + "\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.filtered : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(5, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"filtered") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(5, data, 0),"data":data,"loc":{"start":{"line":14,"column":28},"end":{"line":28,"column":35}}})) != null ? stack1 : "");
 },"3":function(container,depth0,helpers,partials,data) {
     return "";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                            <div class=\"chooser-item "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.selected : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":16,"column":53},"end":{"line":16,"column":84}}})) != null ? stack1 : "")
     + "\" data-chooser-item-text=\""
-    + ((stack1 = ((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":16,"column":110},"end":{"line":16,"column":120}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-value=\""
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":16,"column":147},"end":{"line":16,"column":158}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-index=\""
-    + alias4(((helper = (helper = helpers.unselectedIndex || (depth0 != null ? depth0.unselectedIndex : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"unselectedIndex","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"unselectedIndex") || (depth0 != null ? lookupProperty(depth0,"unselectedIndex") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"unselectedIndex","hash":{},"data":data,"loc":{"start":{"line":16,"column":185},"end":{"line":16,"column":204}}}) : helper)))
     + "\">\n                                <div class=\"chooser-item-text\">"
-    + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":17,"column":63},"end":{"line":17,"column":71}}}) : helper)))
     + "</div>\n                                <div class=\"chooser-item-buttons\">\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.selected : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(8, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(8, data, 0),"data":data,"loc":{"start":{"line":19,"column":36},"end":{"line":24,"column":43}}})) != null ? stack1 : "")
     + "                                </div>\n                                <div class=\"clear:both\"/>\n                            </div>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "disabled";
 },"8":function(container,depth0,helpers,partials,data) {
     return "                                    <button class=\"btn btn-default btn-xs btn-add\">\n                                        <i class=\"glyphicon glyphicon-plus-sign\"/>\n                                    </button>\n";
 },"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.unselected : depth0)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(15, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"unselected") : depth0)) != null ? lookupProperty(stack1,"length") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(15, data, 0),"data":data,"loc":{"start":{"line":33,"column":24},"end":{"line":50,"column":31}}})) != null ? stack1 : "")
     + "\n";
 },"11":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.unselected : depth0),{"name":"each","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"unselected") : depth0),{"name":"each","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":28},"end":{"line":47,"column":37}}})) != null ? stack1 : "");
 },"12":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.filtered : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(13, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"filtered") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(13, data, 0),"data":data,"loc":{"start":{"line":35,"column":32},"end":{"line":46,"column":39}}})) != null ? stack1 : "");
 },"13":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                                    <div class=\"chooser-item\" data-chooser-item-text=\""
-    + ((stack1 = ((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":37,"column":86},"end":{"line":37,"column":96}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-value=\""
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":37,"column":123},"end":{"line":37,"column":134}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-index=\""
-    + alias4(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":37,"column":161},"end":{"line":37,"column":171}}}) : helper)))
     + "\">\n                                        <div class=\"chooser-item-text\">"
-    + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":38,"column":71},"end":{"line":38,"column":79}}}) : helper)))
     + "</div>\n                                        <div class=\"chooser-item-buttons\">\n                                            <button class=\"btn btn-default btn-xs btn-add\">\n                                                <i class=\"glyphicon glyphicon-plus-sign\"/>\n                                            </button>\n                                        </div>\n                                        <div class=\"clear:both\"/>\n                                    </div>\n";
 },"15":function(container,depth0,helpers,partials,data) {
     return "                            <div class=\"chooser-item-message\">All options have been selected</div>\n";
 },"17":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.selected : depth0),{"name":"each","hash":{},"fn":container.program(18, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"selected") : depth0),{"name":"each","hash":{},"fn":container.program(18, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":60,"column":24},"end":{"line":76,"column":33}}})) != null ? stack1 : "");
 },"18":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                            <div class=\"chooser-item\" data-chooser-item-text=\""
-    + ((stack1 = ((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":61,"column":78},"end":{"line":61,"column":88}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-value=\""
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":61,"column":115},"end":{"line":61,"column":126}}}) : helper))) != null ? stack1 : "")
     + "\" data-chooser-item-index=\""
-    + alias4(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"index") || (data && lookupProperty(data,"index"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"index","hash":{},"data":data,"loc":{"start":{"line":61,"column":153},"end":{"line":61,"column":163}}}) : helper)))
     + "\">\n                                <div class=\"chooser-item-text\">"
-    + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"text") || (depth0 != null ? lookupProperty(depth0,"text") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data,"loc":{"start":{"line":62,"column":63},"end":{"line":62,"column":71}}}) : helper)))
     + "</div>\n                                <div class=\"chooser-item-buttons\">\n                                    <button class=\"btn btn-default btn-xs btn-remove\">\n                                        <i class=\"glyphicon glyphicon-minus-sign\"/>\n                                    </button>\n                                    <button class=\"btn btn-default btn-xs btn-up "
-    + ((stack1 = helpers["if"].call(alias1,(data && data.first),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(data && lookupProperty(data,"first")),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":67,"column":81},"end":{"line":67,"column":110}}})) != null ? stack1 : "")
     + "\">\n                                        <i class=\"glyphicon glyphicon-chevron-up\"/>\n                                    </button>\n                                    <button class=\"btn btn-default btn-xs btn-down "
-    + ((stack1 = helpers["if"].call(alias1,(data && data.last),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(data && lookupProperty(data,"last")),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":70,"column":83},"end":{"line":70,"column":111}}})) != null ? stack1 : "")
     + "\">\n                                        <i class=\"glyphicon glyphicon-chevron-down\"/>\n                                    </button>\n                                </div>\n                                <div class=\"clear:both\"/>\n                            </div>\n";
 },"20":function(container,depth0,helpers,partials,data) {
     return "                        <div class=\"chooser-item-message\">No options have been selected</div>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div id=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":13},"end":{"line":3,"column":19}}}) : helper)))
     + "\" class=\"well\">\n        <div class=\"row\">\n            <div class=\"chooser-panel chooser-panel-unselected col-md-6\">\n                <div class=\"chooser-panel-header chooser-filter\">\n                    <input type=\"text\" placeholder=\"Filter...\"/>\n                </div>\n                <div class=\"chooser-panel-items\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.showAllSelections : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(10, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"showAllSelections") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(10, data, 0),"data":data,"loc":{"start":{"line":11,"column":20},"end":{"line":52,"column":27}}})) != null ? stack1 : "")
     + "                </div>\n            </div>\n            <div class=\"chooser-panel chooser-panel-selected col-md-6\">\n                <div class=\"chooser-panel-header chooser-info\"></div>\n                <div class=\"chooser-panel-items\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.selected : depth0)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":container.program(17, data, 0),"inverse":container.program(20, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"selected") : depth0)) != null ? lookupProperty(stack1,"length") : stack1),{"name":"if","hash":{},"fn":container.program(17, data, 0),"inverse":container.program(20, data, 0),"data":data,"loc":{"start":{"line":59,"column":20},"end":{"line":79,"column":27}}})) != null ? stack1 : "")
     + "\n                </div>\n            </div>\n        </div>\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-colorpicker"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return "    <div class=\"input-group\">\n";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "placeholder=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1), depth0))
     + "\"";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "size=\""
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "\"";
 },"7":function(container,depth0,helpers,partials,data) {
     return "readonly=\"readonly\"";
 },"9":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "name=\""
-    + container.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"name","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"name","hash":{},"data":data,"loc":{"start":{"line":7,"column":240},"end":{"line":7,"column":248}}}) : helper)))
     + "\"";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "data-"
-    + alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":7,"column":284},"end":{"line":7,"column":292}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"13":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias1(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+  return alias1(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":7,"column":341},"end":{"line":7,"column":349}}}) : helper)))
     + "=\""
     + alias1(container.lambda(depth0, depth0))
     + "\"";
 },"15":function(container,depth0,helpers,partials,data) {
     return "        <span class=\"input-group-addon\"><i></i></span>\n        </div>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.component : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"component") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":4},"end":{"line":5,"column":11}}})) != null ? stack1 : "")
     + "\n        <input type=\""
-    + alias4(((helper = (helper = helpers.inputType || (depth0 != null ? depth0.inputType : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"inputType") || (depth0 != null ? lookupProperty(depth0,"inputType") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"inputType","hash":{},"data":data,"loc":{"start":{"line":7,"column":21},"end":{"line":7,"column":34}}}) : helper)))
     + "\" id=\""
-    + alias4(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":7,"column":40},"end":{"line":7,"column":46}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.placeholder : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"placeholder") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":48},"end":{"line":7,"column":119}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"size") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":120},"end":{"line":7,"column":170}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.readonly : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"readonly") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":171},"end":{"line":7,"column":221}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.name : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"name") : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":222},"end":{"line":7,"column":256}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.data : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"data") : stack1),{"name":"each","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":257},"end":{"line":7,"column":312}}})) != null ? stack1 : "")
     + " "
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.attributes : stack1),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"attributes") : stack1),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":313},"end":{"line":7,"column":369}}})) != null ? stack1 : "")
     + "/>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.component : stack1),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"component") : stack1),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":4},"end":{"line":12,"column":11}}})) != null ? stack1 : "")
     + "\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-upload-partial-download"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td></td>\n        <td class=\"name\">\n            <span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</span>\n        </td>\n        <td class=\"size\">\n            <span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span>\n        </td>\n        <td class=\"error\" colspan=\"2\">\n            Error:\n            "
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1), depth0))
     + "\n        </td>\n";
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td class=\"preview\">\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":18,"column":12},"end":{"line":22,"column":19}}})) != null ? stack1 : "")
     + "        </td>\n        <td class=\"name\">\n            <a href=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.url : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"url") : stack1), depth0))
     + "\" title=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\" data-gallery=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1), depth0))
     + "gallery\" download=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\">"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</a>\n        </td>\n        <td class=\"size\"><span>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span></td>\n        <td colspan=\"2\"></td>\n";
 },"4":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <a href=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.url : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"url") : stack1), depth0))
     + "\" title=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\" data-gallery=\"gallery\" download=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "\">\n                <img src=\""
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.thumbnailUrl : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"thumbnailUrl") : stack1), depth0))
     + "\">\n            </a>\n";
 },"6":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.buttons : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"each","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":32,"column":16},"end":{"line":47,"column":25}}})) != null ? stack1 : "");
 },"7":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.isDelete : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.program(10, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"isDelete") : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.program(10, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":33,"column":20},"end":{"line":46,"column":27}}})) != null ? stack1 : "");
 },"8":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var helper, alias1=container.escapeExpression;
+    var helper, alias1=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <button class=\"delete btn btn-danger\" data-file-index=\""
-    + alias1(container.lambda((depths[1] != null ? depths[1].fileIndex : depths[1]), depth0))
+    + alias1(container.lambda((depths[1] != null ? lookupProperty(depths[1],"fileIndex") : depths[1]), depth0))
     + "\" data-button-key=\""
-    + alias1(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"key","hash":{},"data":data}) : helper)))
+    + alias1(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"key","hash":{},"data":data,"loc":{"start":{"line":34,"column":114},"end":{"line":34,"column":121}}}) : helper)))
     + "\">\n                            <i class=\"glyphicon glyphicon-trash glyphicon-white\"></i>\n                        </button>\n";
 },"10":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <button class=\""
-    + alias4(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":38,"column":39},"end":{"line":38,"column":46}}}) : helper)))
     + " btn "
-    + alias4(((helper = (helper = helpers.buttonClass || (depth0 != null ? depth0.buttonClass : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"buttonClass","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"buttonClass") || (depth0 != null ? lookupProperty(depth0,"buttonClass") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"buttonClass","hash":{},"data":data,"loc":{"start":{"line":38,"column":51},"end":{"line":38,"column":66}}}) : helper)))
     + "\" data-file-index=\""
-    + alias4(container.lambda((depths[1] != null ? depths[1].fileIndex : depths[1]), depth0))
+    + alias4(container.lambda((depths[1] != null ? lookupProperty(depths[1],"fileIndex") : depths[1]), depth0))
     + "\" data-button-key=\""
-    + alias4(((helper = (helper = helpers.key || (depth0 != null ? depth0.key : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (depth0 != null ? lookupProperty(depth0,"key") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":38,"column":120},"end":{"line":38,"column":127}}}) : helper)))
     + "\">\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.iconClass : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":container.program(13, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"iconClass") : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":39,"column":28},"end":{"line":41,"column":35}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"label") : depth0),{"name":"if","hash":{},"fn":container.program(13, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":42,"column":28},"end":{"line":44,"column":35}}})) != null ? stack1 : "")
     + "                        </button>\n";
 },"11":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                                <i class=\""
-    + container.escapeExpression(((helper = (helper = helpers.iconClass || (depth0 != null ? depth0.iconClass : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"iconClass","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"iconClass") || (depth0 != null ? lookupProperty(depth0,"iconClass") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"iconClass","hash":{},"data":data,"loc":{"start":{"line":40,"column":42},"end":{"line":40,"column":55}}}) : helper)))
     + "\"></i>\n";
 },"13":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                                "
-    + container.escapeExpression(((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"label","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"label") || (depth0 != null ? lookupProperty(depth0,"label") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data,"loc":{"start":{"line":43,"column":32},"end":{"line":43,"column":41}}}) : helper)))
     + "\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr class=\"template-download\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.program(3, data, 0, blockParams, depths),"data":data,"loc":{"start":{"line":4,"column":4},"end":{"line":29,"column":11}}})) != null ? stack1 : "")
     + "        <td>\n"
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.buttons : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"buttons") : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":31,"column":12},"end":{"line":48,"column":19}}})) != null ? stack1 : "")
     + "        </td>\n    </tr>\n\n</script>";
 },"useData":true,"useDepths":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-upload-partial-upload"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -2215,21 +3590,36 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-upload-partial-upload"]
 },"3":function(container,depth0,helpers,partials,data) {
     return "        <td></td>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <td class=\"error\" colspan=\"2\"><span class=\"label label-important\">Error</span> "
-    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1), depth0))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1), depth0))
     + "</td>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.valid : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(15, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"valid") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(15, data, 0),"data":data,"loc":{"start":{"line":19,"column":8},"end":{"line":46,"column":15}}})) != null ? stack1 : "");
 },"8":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(alias1,(data && data.index),0,{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(alias1,(data && lookupProperty(data,"index")),0,{"name":"compare","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":12},"end":{"line":26,"column":24}}})) != null ? stack1 : "")
     + "            <td class=\"start\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.autoUpload : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(13, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"autoUpload") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(13, data, 0),"data":data,"loc":{"start":{"line":28,"column":16},"end":{"line":34,"column":23}}})) != null ? stack1 : "")
     + "            </td>\n";
 },"9":function(container,depth0,helpers,partials,data) {
     return "                <td>\n                    <div class=\"progress progress-success progress-striped active\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\">\n                        <div class=\"progress-bar\" style=\"width:0%;\"></div>\n                    </div>\n                </td>\n";
@@ -2238,145 +3628,267 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-upload-partial-upload"]
 },"13":function(container,depth0,helpers,partials,data) {
     return "                <button class=\"btn btn-primary\"> \\\n                    <i class=\"glyphicon glyphicon-upload glyphicon-white\"></i>\n                    <span>Start</span>\n                </button>\n";
 },"15":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <td></td>\n            <td class=\"cancel\">\n"
-    + ((stack1 = (helpers.compare || (depth0 && depth0.compare) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(data && data.index),0,{"name":"compare","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(data && lookupProperty(data,"index")),0,{"name":"compare","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":39,"column":16},"end":{"line":44,"column":28}}})) != null ? stack1 : "")
     + "            </td>\n";
 },"16":function(container,depth0,helpers,partials,data) {
     return "                <button class=\"btn btn-warning\">\n                    <i class=\"glyphicon glyphicon-ban-circle glyphicon-white\"></i>\n                    <span>Cancel</span>\n                </button>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=depth0 != null ? depth0 : {}, alias2=container.lambda, alias3=container.escapeExpression;
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.lambda, alias3=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <tr class=\"template-upload\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showUploadPreview : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(3, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showUploadPreview") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(3, data, 0),"data":data,"loc":{"start":{"line":5,"column":4},"end":{"line":11,"column":11}}})) != null ? stack1 : "")
     + "\n        <td class=\"name\"><span>"
-    + alias3(alias2(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.name : stack1), depth0))
+    + alias3(alias2(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"name") : stack1), depth0))
     + "</span></td>\n        <td class=\"size\"><span>"
-    + alias3(alias2(((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.size : stack1), depth0))
+    + alias3(alias2(((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"size") : stack1), depth0))
     + "</span></td>\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.file : depth0)) != null ? stack1.error : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"file") : depth0)) != null ? lookupProperty(stack1,"error") : stack1),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.program(7, data, 0),"data":data,"loc":{"start":{"line":16,"column":4},"end":{"line":47,"column":11}}})) != null ? stack1 : "")
     + "        <td></td>\n    </tr>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control-upload"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(((helper = (helper = helpers.cssClasses || (depth0 != null ? depth0.cssClasses : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"cssClasses","hash":{},"data":data}) : helper)));
+  return container.escapeExpression(((helper = (helper = lookupProperty(helpers,"cssClasses") || (depth0 != null ? lookupProperty(depth0,"cssClasses") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"cssClasses","hash":{},"data":data,"loc":{"start":{"line":3,"column":62},"end":{"line":3,"column":76}}}) : helper)));
 },"3":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                        <thead>\n                            <tr>\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showUploadPreview : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showUploadPreview") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data,"loc":{"start":{"line":23,"column":32},"end":{"line":27,"column":39}}})) != null ? stack1 : "")
     + "                                <td>Name</td>\n                                <td>Size</td>\n                                <td colspan=\"2\"></td><!-- error or start or progress indicator -->\n                                <td>Actions</td>\n                            </tr>\n                        </thead>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     return "                                    <td>Thumbnail</td>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     return "                                    <td></td>\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=container.escapeExpression, alias3=helpers.helperMissing, alias4="function";
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.escapeExpression, alias3=container.hooks.helperMissing, alias4="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"alpaca-fileupload-container "
-    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.cssClasses : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"cssClasses") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":3,"column":44},"end":{"line":3,"column":83}}})) != null ? stack1 : "")
     + "\">\n        <div class=\"container-fluid\">\n            <div class=\"row alpaca-fileupload-chooserow\">\n                <div class=\"col-md-12\">\n                    <div class=\"btn-group\">\n                        <span class=\""
-    + alias2(container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0.view : depth0)) != null ? stack1.styles : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias2(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"view") : depth0)) != null ? lookupProperty(stack1,"styles") : stack1)) != null ? lookupProperty(stack1,"button") : stack1), depth0))
     + " fileinput-button\">\n                            <i class=\"glyphicon glyphicon-upload\"></i>\n                            <span class=\"fileupload-add-button\">"
-    + alias2(((helper = (helper = helpers.chooseButtonLabel || (depth0 != null ? depth0.chooseButtonLabel : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"chooseButtonLabel","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"chooseButtonLabel") || (depth0 != null ? lookupProperty(depth0,"chooseButtonLabel") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"chooseButtonLabel","hash":{},"data":data,"loc":{"start":{"line":10,"column":64},"end":{"line":10,"column":85}}}) : helper)))
     + "</span>\n                            <input class=\"alpaca-fileupload-input\" type=\"file\" name=\""
-    + alias2(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":11,"column":85},"end":{"line":11,"column":93}}}) : helper)))
     + "_files\">\n                            <input class=\"alpaca-fileupload-input-hidden\" type=\"hidden\" name=\""
-    + alias2(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":12,"column":94},"end":{"line":12,"column":102}}}) : helper)))
     + "_files_hidden\">\n                        </span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row alpaca-fileupload-well\">\n                <div class=\"col-md-12 fileupload-active-zone\">\n                    <table class=\"table table-striped\">\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.showHeaders : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"showHeaders") : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":24},"end":{"line":34,"column":31}}})) != null ? stack1 : "")
     + "                        <tbody class=\"files\">\n                        </tbody>\n                    </table>\n                    <p align=\"center\" class=\"dropzone-message\">"
-    + alias2(((helper = (helper = helpers.dropZoneMessage || (depth0 != null ? depth0.dropZoneMessage : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"dropZoneMessage","hash":{},"data":data}) : helper)))
+    + alias2(((helper = (helper = lookupProperty(helpers,"dropZoneMessage") || (depth0 != null ? lookupProperty(depth0,"dropZoneMessage") : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(alias1,{"name":"dropZoneMessage","hash":{},"data":data,"loc":{"start":{"line":38,"column":63},"end":{"line":38,"column":82}}}) : helper)))
     + "</p>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div id=\"progress\" class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\"></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</script>";
 },"useData":true});
 this["HandlebarsPrecompiled"]["bootstrap-edit"]["control"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "        <label class=\""
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":22},"end":{"line":6,"column":77}}})) != null ? stack1 : "")
     + " control-label alpaca-control-label\" for=\""
-    + container.escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":6,"column":119},"end":{"line":6,"column":125}}}) : helper)))
     + "\">"
-    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1), depth0)) != null ? stack1 : "")
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1), depth0)) != null ? stack1 : "")
     + "</label>\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.labelClass : stack1), depth0));
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"labelClass") : stack1), depth0));
 },"4":function(container,depth0,helpers,partials,data) {
-    return "";
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"above",{"name":"compare","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":10,"column":12},"end":{"line":17,"column":24}}})) != null ? stack1 : "");
+},"5":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":16},"end":{"line":16,"column":25}}})) != null ? stack1 : "");
 },"6":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return "                <p class=\"help-block "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":37},"end":{"line":12,"column":94}}})) != null ? stack1 : "")
+    + "\">\n                    <i class=\"glyphicon glyphicon-info-sign\"></i>\n                    "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":20},"end":{"line":14,"column":54}}})) != null ? stack1 : "")
+    + "\n                </p>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return "        <p class=\"help-block "
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n            <i class=\"glyphicon glyphicon-info-sign\"></i>\n            "
-    + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "")
-    + "\n        </p>\n";
-},"8":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helperClass : stack1), depth0));
-},"10":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1), depth0));
+},"9":function(container,depth0,helpers,partials,data) {
+    return "";
 },"11":function(container,depth0,helpers,partials,data) {
-    var stack1;
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = (lookupProperty(helpers,"compare")||(depth0 && lookupProperty(depth0,"compare"))||container.hooks.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpersPosition") : stack1),"below",{"name":"compare","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":23,"column":12},"end":{"line":30,"column":24}}})) != null ? stack1 : "");
+},"12":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":24,"column":16},"end":{"line":29,"column":25}}})) != null ? stack1 : "");
+},"13":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "                    <p class=\"help-block "
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helperClass") : stack1),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":25,"column":41},"end":{"line":25,"column":98}}})) != null ? stack1 : "")
+    + "\">\n                        <i class=\"glyphicon glyphicon-info-sign\"></i>\n                        "
+    + ((stack1 = (lookupProperty(helpers,"showMessage")||(depth0 && lookupProperty(depth0,"showMessage"))||container.hooks.helperMissing).call(alias1,depth0,{"name":"showMessage","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":27,"column":24},"end":{"line":27,"column":58}}})) != null ? stack1 : "")
+    + "\n                    </p>\n";
+},"15":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return ((stack1 = lookupProperty(helpers,"if").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"if","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":34,"column":12},"end":{"line":40,"column":19}}})) != null ? stack1 : "");
+},"16":function(container,depth0,helpers,partials,data) {
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "            <div class=\"alpaca-control-buttons-container\">\n"
-    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.buttons : stack1),{"name":"each","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"buttons") : stack1),{"name":"each","hash":{},"fn":container.program(17, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":36,"column":16},"end":{"line":38,"column":25}}})) != null ? stack1 : "")
     + "            </div>\n";
-},"12":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"17":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "                <button data-key=\""
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":34},"end":{"line":37,"column":42}}}) : helper)))
     + "\" type=\""
-    + alias4(((helper = (helper = helpers.type || (depth0 != null ? depth0.type : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":37,"column":50},"end":{"line":37,"column":58}}}) : helper)))
     + "\" class=\"alpaca-control-button alpaca-control-button-"
-    + alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":111},"end":{"line":37,"column":119}}}) : helper)))
     + " "
-    + alias4(((helper = (helper = helpers.styles || (depth0 != null ? depth0.styles : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"styles") || (depth0 != null ? lookupProperty(depth0,"styles") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styles","hash":{},"data":data,"loc":{"start":{"line":37,"column":120},"end":{"line":37,"column":130}}}) : helper)))
     + "\" "
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.value : depth0),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"value") : depth0),{"name":"each","hash":{},"fn":container.program(18, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":37,"column":132},"end":{"line":37,"column":177}}})) != null ? stack1 : "")
     + ">"
-    + ((stack1 = ((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":37,"column":178},"end":{"line":37,"column":189}}}) : helper))) != null ? stack1 : "")
     + "</button>\n";
-},"13":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+},"18":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
-  return alias4(((helper = (helper = helpers.key || (data && data.key)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data}) : helper)))
+  return alias4(((helper = (helper = lookupProperty(helpers,"key") || (data && lookupProperty(data,"key"))) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"key","hash":{},"data":data,"loc":{"start":{"line":37,"column":147},"end":{"line":37,"column":155}}}) : helper)))
     + "=\""
-    + alias4(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"value") || (depth0 != null ? lookupProperty(depth0,"value") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"value","hash":{},"data":data,"loc":{"start":{"line":37,"column":157},"end":{"line":37,"column":166}}}) : helper)))
     + "\" ";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, options, alias1=depth0 != null ? depth0 : {}, buffer = 
+},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    }, buffer = 
   "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"form-group\">\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.label : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"label") : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":8},"end":{"line":7,"column":15}}})) != null ? stack1 : "")
+    + "\n"
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":8},"end":{"line":18,"column":15}}})) != null ? stack1 : "")
     + "\n        ";
-  stack1 = ((helper = (helper = helpers.control || (depth0 != null ? depth0.control : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"control","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
-  if (!helpers.control) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
+  stack1 = ((helper = (helper = lookupProperty(helpers,"control") || (depth0 != null ? lookupProperty(depth0,"control") : depth0)) != null ? helper : container.hooks.helperMissing),(options={"name":"control","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":20,"column":8},"end":{"line":20,"column":32}}}),(typeof helper === "function" ? helper.call(alias1,options) : helper));
+  if (!lookupProperty(helpers,"control")) { stack1 = container.hooks.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   return buffer + "\n\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.helpers : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"helpers") : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":22,"column":8},"end":{"line":31,"column":15}}})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.renderButtons : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"options") : depth0)) != null ? lookupProperty(stack1,"renderButtons") : stack1),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":33,"column":8},"end":{"line":41,"column":15}}})) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
-this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
+this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
 
   return "<script type=\"text/x-handlebars-template\">\n\n    <div class=\"help-block alpaca-message alpaca-message-"
-    + ((stack1 = ((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"id") || (depth0 != null ? lookupProperty(depth0,"id") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"id","hash":{},"data":data,"loc":{"start":{"line":3,"column":57},"end":{"line":3,"column":65}}}) : helper))) != null ? stack1 : "")
     + "\">\n        <i class=\"glyphicon glyphicon-exclamation-sign\"></i>&nbsp;"
-    + ((stack1 = ((helper = (helper = helpers.message || (depth0 != null ? depth0.message : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"message","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = lookupProperty(helpers,"message") || (depth0 != null ? lookupProperty(depth0,"message") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"message","hash":{},"data":data,"loc":{"start":{"line":4,"column":66},"end":{"line":4,"column":79}}}) : helper))) != null ? stack1 : "")
     + "\n    </div>\n\n</script>";
 },"useData":true});
 /**
@@ -3291,7 +4803,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
          * @returns {Boolean} True if the variable is an array, false otherwise.
          */
         isArray: function(obj) {
-            return obj instanceof Array;
+            return Object.prototype.toString.call(obj) == "[object Array]";
         },
 
         /**
@@ -5542,7 +7054,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         {
             return function(done)
             {
-                if (!optionsReferenceId) {
+                if (!optionsReferenceId)
+                {
                     done();
                 }
                 else if (optionsReferenceId === "#")
@@ -6005,27 +7518,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         return result;
     };
 
-    Alpaca.series = Alpaca.serial = function(funcs, callback)
-    {
-        async.series(funcs, function() {
-            callback();
-        });
-    };
-
-    Alpaca.parallel = function(funcs, callback)
-    {
-        async.parallel(funcs, function() {
-            callback();
-        });
-    };
-
-    Alpaca.nextTick = function(f)
-    {
-        async.nextTick(function() {
-            f();
-        });
-    };
-
     /**
      * Compiles the validation context for the chain of fields from the top-most down to the given field.
      * Each validation context entry is a field in the chain which describes the following:
@@ -6321,997 +7813,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
 
 
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    //
-    // ASYNC
-    //
-    // Here we provide a reduced version of the wonderful async library.  This is entirely inline and
-    // will have no bearing on any external dependencies on async.
-    //
-    // https://github.com/caolan/async
-    // Copyright (c) 2010 Caolan McMahon
-    //
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-
     /*global setImmediate: false, setTimeout: false, console: false */
-    (function () {
-
-        var async = {};
-
-        // global on the server, window in the browser
-        var root, previous_async;
-
-        root = this;
-        if (root != null) {
-            previous_async = root.async;
-        }
-
-        async.noConflict = function () {
-            root.async = previous_async;
-            return async;
-        };
-
-        function only_once(fn) {
-            var called = false;
-            return function() {
-                if (called) {
-                    throw new Error("Callback was already called.");
-                }
-                called = true;
-                fn.apply(root, arguments);
-            };
-        }
-
-        //// cross-browser compatiblity functions ////
-
-        var _each = function (arr, iterator) {
-            if (arr.forEach) {
-                return arr.forEach(iterator);
-            }
-            for (var i = 0; i < arr.length; i += 1) {
-                iterator(arr[i], i, arr);
-            }
-        };
-
-        var _map = function (arr, iterator) {
-            if (arr.map) {
-                return arr.map(iterator);
-            }
-            var results = [];
-            _each(arr, function (x, i, a) {
-                results.push(iterator(x, i, a));
-            });
-            return results;
-        };
-
-        var _reduce = function (arr, iterator, memo) {
-            if (arr.reduce) {
-                return arr.reduce(iterator, memo);
-            }
-            _each(arr, function (x, i, a) {
-                memo = iterator(memo, x, i, a);
-            });
-            return memo;
-        };
-
-        var _keys = function (obj) {
-            if (Object.keys) {
-                return Object.keys(obj);
-            }
-            var keys = [];
-            for (var k in obj) {
-                if (obj.hasOwnProperty(k)) {
-                    keys.push(k);
-                }
-            }
-            return keys;
-        };
-
-        //// exported async module functions ////
-
-        //// nextTick implementation with browser-compatible fallback ////
-        if (typeof process === 'undefined' || !(process.nextTick)) {
-            if (typeof setImmediate === 'function') {
-                async.nextTick = function (fn) {
-                    // not a direct alias for IE10 compatibility
-                    setImmediate(fn);
-                };
-                async.setImmediate = async.nextTick;
-            }
-            else {
-                async.nextTick = function (fn) {
-                    setTimeout(fn, 0); // jshint ignore:line
-                };
-                async.setImmediate = async.nextTick;
-            }
-        }
-        else {
-            async.nextTick = process.nextTick;
-            if (typeof setImmediate !== 'undefined') {
-                async.setImmediate = function (fn) {
-                    // not a direct alias for IE10 compatibility
-                    setImmediate(fn);
-                };
-            }
-            else {
-                async.setImmediate = async.nextTick;
-            }
-        }
-
-        async.each = function (arr, iterator, callback) {
-            callback = callback || function () {};
-            if (!arr.length) {
-                return callback();
-            }
-            var completed = 0;
-            _each(arr, function (x) {
-                iterator(x, only_once(function (err) {
-                    if (err) {
-                        callback(err);
-                        callback = function () {};
-                    }
-                    else {
-                        completed += 1;
-                        if (completed >= arr.length) {
-                            callback(null);
-                        }
-                    }
-                }));
-            });
-        };
-        async.forEach = async.each;
-
-        async.eachSeries = function (arr, iterator, callback) {
-            callback = callback || function () {};
-            if (!arr.length) {
-                return callback();
-            }
-            var completed = 0;
-            var iterate = function () {
-                iterator(arr[completed], function (err) {
-                    if (err) {
-                        callback(err);
-                        callback = function () {};
-                    }
-                    else {
-                        completed += 1;
-                        if (completed >= arr.length) {
-                            callback(null);
-                        }
-                        else {
-                            iterate();
-                        }
-                    }
-                });
-            };
-            iterate();
-        };
-        async.forEachSeries = async.eachSeries;
-
-        async.eachLimit = function (arr, limit, iterator, callback) {
-            var fn = _eachLimit(limit);
-            fn.apply(null, [arr, iterator, callback]);
-        };
-        async.forEachLimit = async.eachLimit;
-
-        var _eachLimit = function (limit) {
-
-            return function (arr, iterator, callback) {
-                callback = callback || function () {};
-                if (!arr.length || limit <= 0) {
-                    return callback();
-                }
-                var completed = 0;
-                var started = 0;
-                var running = 0;
-
-                (function replenish () {
-                    if (completed >= arr.length) {
-                        return callback();
-                    }
-
-                    while (running < limit && started < arr.length) {
-                        started += 1;
-                        running += 1;
-                        iterator(arr[started - 1], function (err) {
-                            if (err) {
-                                callback(err);
-                                callback = function () {};
-                            }
-                            else {
-                                completed += 1;
-                                running -= 1;
-                                if (completed >= arr.length) {
-                                    callback();
-                                }
-                                else {
-                                    replenish();
-                                }
-                            }
-                        });
-                    }
-                })();
-            };
-        };
-
-
-        var doParallel = function (fn) {
-            return function () {
-                var args = Array.prototype.slice.call(arguments);
-                return fn.apply(null, [async.each].concat(args));
-            };
-        };
-        var doParallelLimit = function(limit, fn) {
-            return function () {
-                var args = Array.prototype.slice.call(arguments);
-                return fn.apply(null, [_eachLimit(limit)].concat(args));
-            };
-        };
-        var doSeries = function (fn) {
-            return function () {
-                var args = Array.prototype.slice.call(arguments);
-                return fn.apply(null, [async.eachSeries].concat(args));
-            };
-        };
-
-
-        var _asyncMap = function (eachfn, arr, iterator, callback) {
-            var results = [];
-            arr = _map(arr, function (x, i) {
-                return {index: i, value: x};
-            });
-            eachfn(arr, function (x, callback) {
-                iterator(x.value, function (err, v) {
-                    results[x.index] = v;
-                    callback(err);
-                });
-            }, function (err) {
-                callback(err, results);
-            });
-        };
-        async.map = doParallel(_asyncMap);
-        async.mapSeries = doSeries(_asyncMap);
-        async.mapLimit = function (arr, limit, iterator, callback) {
-            return _mapLimit(limit)(arr, iterator, callback);
-        };
-
-        var _mapLimit = function(limit) {
-            return doParallelLimit(limit, _asyncMap);
-        };
-
-        // reduce only has a series version, as doing reduce in parallel won't
-        // work in many situations.
-        async.reduce = function (arr, memo, iterator, callback) {
-            async.eachSeries(arr, function (x, callback) {
-                iterator(memo, x, function (err, v) {
-                    memo = v;
-                    callback(err);
-                });
-            }, function (err) {
-                callback(err, memo);
-            });
-        };
-        // inject alias
-        async.inject = async.reduce;
-        // foldl alias
-        async.foldl = async.reduce;
-
-        async.reduceRight = function (arr, memo, iterator, callback) {
-            var reversed = _map(arr, function (x) {
-                return x;
-            }).reverse();
-            async.reduce(reversed, memo, iterator, callback);
-        };
-        // foldr alias
-        async.foldr = async.reduceRight;
-
-        var _filter = function (eachfn, arr, iterator, callback) {
-            var results = [];
-            arr = _map(arr, function (x, i) {
-                return {index: i, value: x};
-            });
-            eachfn(arr, function (x, callback) {
-                iterator(x.value, function (v) {
-                    if (v) {
-                        results.push(x);
-                    }
-                    callback();
-                });
-            }, function (err) {
-                callback(_map(results.sort(function (a, b) {
-                    return a.index - b.index;
-                }), function (x) {
-                    return x.value;
-                }));
-            });
-        };
-        async.filter = doParallel(_filter);
-        async.filterSeries = doSeries(_filter);
-        // select alias
-        async.select = async.filter;
-        async.selectSeries = async.filterSeries;
-
-        var _reject = function (eachfn, arr, iterator, callback) {
-            var results = [];
-            arr = _map(arr, function (x, i) {
-                return {index: i, value: x};
-            });
-            eachfn(arr, function (x, callback) {
-                iterator(x.value, function (v) {
-                    if (!v) {
-                        results.push(x);
-                    }
-                    callback();
-                });
-            }, function (err) {
-                callback(_map(results.sort(function (a, b) {
-                    return a.index - b.index;
-                }), function (x) {
-                    return x.value;
-                }));
-            });
-        };
-        async.reject = doParallel(_reject);
-        async.rejectSeries = doSeries(_reject);
-
-        var _detect = function (eachfn, arr, iterator, main_callback) {
-            eachfn(arr, function (x, callback) {
-                iterator(x, function (result) {
-                    if (result) {
-                        main_callback(x);
-                        main_callback = function () {};
-                    }
-                    else {
-                        callback();
-                    }
-                });
-            }, function (err) {
-                main_callback();
-            });
-        };
-        async.detect = doParallel(_detect);
-        async.detectSeries = doSeries(_detect);
-
-        async.some = function (arr, iterator, main_callback) {
-            async.each(arr, function (x, callback) {
-                iterator(x, function (v) {
-                    if (v) {
-                        main_callback(true);
-                        main_callback = function () {};
-                    }
-                    callback();
-                });
-            }, function (err) {
-                main_callback(false);
-            });
-        };
-        // any alias
-        async.any = async.some;
-
-        async.every = function (arr, iterator, main_callback) {
-            async.each(arr, function (x, callback) {
-                iterator(x, function (v) {
-                    if (!v) {
-                        main_callback(false);
-                        main_callback = function () {};
-                    }
-                    callback();
-                });
-            }, function (err) {
-                main_callback(true);
-            });
-        };
-        // all alias
-        async.all = async.every;
-
-        async.sortBy = function (arr, iterator, callback) {
-            async.map(arr, function (x, callback) {
-                iterator(x, function (err, criteria) {
-                    if (err) {
-                        callback(err);
-                    }
-                    else {
-                        callback(null, {value: x, criteria: criteria});
-                    }
-                });
-            }, function (err, results) {
-                if (err) {
-                    return callback(err);
-                }
-                else {
-                    var fn = function (left, right) {
-                        var a = left.criteria, b = right.criteria;
-                        return a < b ? -1 : a > b ? 1 : 0;
-                    };
-                    callback(null, _map(results.sort(fn), function (x) {
-                        return x.value;
-                    }));
-                }
-            });
-        };
-
-        async.auto = function (tasks, callback) {
-            callback = callback || function () {};
-            var keys = _keys(tasks);
-            if (!keys.length) {
-                return callback(null);
-            }
-
-            var results = {};
-
-            var listeners = [];
-            var addListener = function (fn) {
-                listeners.unshift(fn);
-            };
-            var removeListener = function (fn) {
-                for (var i = 0; i < listeners.length; i += 1) {
-                    if (listeners[i] === fn) {
-                        listeners.splice(i, 1);
-                        return;
-                    }
-                }
-            };
-            var taskComplete = function () {
-                _each(listeners.slice(0), function (fn) {
-                    fn();
-                });
-            };
-
-            addListener(function () {
-                if (_keys(results).length === keys.length) {
-                    callback(null, results);
-                    callback = function () {};
-                }
-            });
-
-            _each(keys, function (k) {
-                var task = (tasks[k] instanceof Function) ? [tasks[k]]: tasks[k];
-                var taskCallback = function (err) {
-                    var args = Array.prototype.slice.call(arguments, 1);
-                    if (args.length <= 1) {
-                        args = args[0];
-                    }
-                    if (err) {
-                        var safeResults = {};
-                        _each(_keys(results), function(rkey) {
-                            safeResults[rkey] = results[rkey];
-                        });
-                        safeResults[k] = args;
-                        callback(err, safeResults);
-                        // stop subsequent errors hitting callback multiple times
-                        callback = function () {};
-                    }
-                    else {
-                        results[k] = args;
-                        async.setImmediate(taskComplete);
-                    }
-                };
-                var requires = task.slice(0, Math.abs(task.length - 1)) || [];
-                var ready = function () {
-                    return _reduce(requires, function (a, x) {
-                        return (a && results.hasOwnProperty(x));
-                    }, true) && !results.hasOwnProperty(k);
-                };
-                if (ready()) {
-                    task[task.length - 1](taskCallback, results);
-                }
-                else {
-                    var listener = function () {
-                        if (ready()) {
-                            removeListener(listener);
-                            task[task.length - 1](taskCallback, results);
-                        }
-                    };
-                    addListener(listener);
-                }
-            });
-        };
-
-        async.waterfall = function (tasks, callback) {
-            callback = callback || function () {};
-            if (tasks.constructor !== Array) {
-                var err = new Error('First argument to waterfall must be an array of functions');
-                return callback(err);
-            }
-            if (!tasks.length) {
-                return callback();
-            }
-            var wrapIterator = function (iterator) {
-                return function (err) {
-                    if (err) {
-                        callback.apply(null, arguments);
-                        callback = function () {};
-                    }
-                    else {
-                        var args = Array.prototype.slice.call(arguments, 1);
-                        var next = iterator.next();
-                        if (next) {
-                            args.push(wrapIterator(next));
-                        }
-                        else {
-                            args.push(callback);
-                        }
-                        async.setImmediate(function () {
-                            iterator.apply(null, args);
-                        });
-                    }
-                };
-            };
-            wrapIterator(async.iterator(tasks))();
-        };
-
-        var _parallel = function(eachfn, tasks, callback) {
-            callback = callback || function () {};
-            if (tasks.constructor === Array) {
-                eachfn.map(tasks, function (fn, callback) {
-                    if (fn) {
-                        fn(function (err) {
-                            var args = Array.prototype.slice.call(arguments, 1);
-                            if (args.length <= 1) {
-                                args = args[0];
-                            }
-                            callback.call(null, err, args);
-                        });
-                    }
-                }, callback);
-            }
-            else {
-                var results = {};
-                eachfn.each(_keys(tasks), function (k, callback) {
-                    tasks[k](function (err) {
-                        var args = Array.prototype.slice.call(arguments, 1);
-                        if (args.length <= 1) {
-                            args = args[0];
-                        }
-                        results[k] = args;
-                        callback(err);
-                    });
-                }, function (err) {
-                    callback(err, results);
-                });
-            }
-        };
-
-        async.parallel = function (tasks, callback) {
-            _parallel({ map: async.map, each: async.each }, tasks, callback);
-        };
-
-        async.parallelLimit = function(tasks, limit, callback) {
-            _parallel({ map: _mapLimit(limit), each: _eachLimit(limit) }, tasks, callback);
-        };
-
-        async.series = function (tasks, callback) {
-            callback = callback || function () {};
-            if (tasks.constructor === Array) {
-                async.mapSeries(tasks, function (fn, callback) {
-                    if (fn) {
-                        fn(function (err) {
-                            var args = Array.prototype.slice.call(arguments, 1);
-                            if (args.length <= 1) {
-                                args = args[0];
-                            }
-                            callback.call(null, err, args);
-                        });
-                    }
-                }, callback);
-            }
-            else {
-                var results = {};
-                async.eachSeries(_keys(tasks), function (k, callback) {
-                    tasks[k](function (err) {
-                        var args = Array.prototype.slice.call(arguments, 1);
-                        if (args.length <= 1) {
-                            args = args[0];
-                        }
-                        results[k] = args;
-                        callback(err);
-                    });
-                }, function (err) {
-                    callback(err, results);
-                });
-            }
-        };
-
-        async.iterator = function (tasks) {
-            var makeCallback = function (index) {
-                var fn = function () {
-                    if (tasks.length) {
-                        tasks[index].apply(null, arguments);
-                    }
-                    return fn.next();
-                };
-                fn.next = function () {
-                    return (index < tasks.length - 1) ? makeCallback(index + 1): null;
-                };
-                return fn;
-            };
-            return makeCallback(0);
-        };
-
-        async.apply = function (fn) {
-            var args = Array.prototype.slice.call(arguments, 1);
-            return function () {
-                return fn.apply(
-                    null, args.concat(Array.prototype.slice.call(arguments))
-                );
-            };
-        };
-
-        var _concat = function (eachfn, arr, fn, callback) {
-            var r = [];
-            eachfn(arr, function (x, cb) {
-                fn(x, function (err, y) {
-                    r = r.concat(y || []);
-                    cb(err);
-                });
-            }, function (err) {
-                callback(err, r);
-            });
-        };
-        async.concat = doParallel(_concat);
-        async.concatSeries = doSeries(_concat);
-
-        async.whilst = function (test, iterator, callback) {
-            if (test()) {
-                iterator(function (err) {
-                    if (err) {
-                        return callback(err);
-                    }
-                    async.whilst(test, iterator, callback);
-                });
-            }
-            else {
-                callback();
-            }
-        };
-
-        async.doWhilst = function (iterator, test, callback) {
-            iterator(function (err) {
-                if (err) {
-                    return callback(err);
-                }
-                if (test()) {
-                    async.doWhilst(iterator, test, callback);
-                }
-                else {
-                    callback();
-                }
-            });
-        };
-
-        async.until = function (test, iterator, callback) {
-            if (!test()) {
-                iterator(function (err) {
-                    if (err) {
-                        return callback(err);
-                    }
-                    async.until(test, iterator, callback);
-                });
-            }
-            else {
-                callback();
-            }
-        };
-
-        async.doUntil = function (iterator, test, callback) {
-            iterator(function (err) {
-                if (err) {
-                    return callback(err);
-                }
-                if (!test()) {
-                    async.doUntil(iterator, test, callback);
-                }
-                else {
-                    callback();
-                }
-            });
-        };
-
-        async.queue = function (worker, concurrency) {
-            if (concurrency === undefined) {
-                concurrency = 1;
-            }
-            function _insert(q, data, pos, callback) {
-                if(data.constructor !== Array) {
-                    data = [data];
-                }
-                _each(data, function(task) {
-                    var item = {
-                        data: task,
-                        callback: typeof callback === 'function' ? callback : null
-                    };
-
-                    if (pos) {
-                        q.tasks.unshift(item);
-                    } else {
-                        q.tasks.push(item);
-                    }
-
-                    if (q.saturated && q.tasks.length === concurrency) {
-                        q.saturated();
-                    }
-                    async.setImmediate(q.process);
-                });
-            }
-
-            var workers = 0;
-            var q = {
-                tasks: [],
-                concurrency: concurrency,
-                saturated: null,
-                empty: null,
-                drain: null,
-                push: function (data, callback) {
-                    _insert(q, data, false, callback);
-                },
-                unshift: function (data, callback) {
-                    _insert(q, data, true, callback);
-                },
-                process: function () {
-                    if (workers < q.concurrency && q.tasks.length) {
-                        var task = q.tasks.shift();
-                        if (q.empty && q.tasks.length === 0) {
-                            q.empty();
-                        }
-                        workers += 1;
-                        var next = function () {
-                            workers -= 1;
-                            if (task.callback) {
-                                task.callback.apply(task, arguments);
-                            }
-                            if (q.drain && q.tasks.length + workers === 0) {
-                                q.drain();
-                            }
-                            q.process();
-                        };
-                        var cb = only_once(next);
-                        worker(task.data, cb);
-                    }
-                },
-                length: function () {
-                    return q.tasks.length;
-                },
-                running: function () {
-                    return workers;
-                }
-            };
-            return q;
-        };
-
-        async.cargo = function (worker, payload) {
-            var working     = false,
-                tasks       = [];
-
-            var cargo = {
-                tasks: tasks,
-                payload: payload,
-                saturated: null,
-                empty: null,
-                drain: null,
-                push: function (data, callback) {
-                    if(data.constructor !== Array) {
-                        data = [data];
-                    }
-                    _each(data, function(task) {
-                        tasks.push({
-                            data: task,
-                            callback: typeof callback === 'function' ? callback : null
-                        });
-                        if (cargo.saturated && tasks.length === payload) {
-                            cargo.saturated();
-                        }
-                    });
-                    async.setImmediate(cargo.process);
-                },
-                process: function process() {
-                    if (working) {
-                        return;
-                    }
-                    if (tasks.length === 0) {
-                        if(cargo.drain) {
-                            cargo.drain();
-                        }
-                        return;
-                    }
-
-                    var ts = typeof payload === 'number' ?
-                        tasks.splice(0, payload) :
-                        tasks.splice(0);
-
-                    var ds = _map(ts, function (task) {
-                        return task.data;
-                    });
-
-                    if(cargo.empty) {
-                        cargo.empty();
-                    }
-                    working = true;
-                    worker(ds, function () {
-                        working = false;
-
-                        var args = arguments;
-                        _each(ts, function (data) {
-                            if (data.callback) {
-                                data.callback.apply(null, args);
-                            }
-                        });
-
-                        process();
-                    });
-                },
-                length: function () {
-                    return tasks.length;
-                },
-                running: function () {
-                    return working;
-                }
-            };
-            return cargo;
-        };
-
-        /* jshint ignore:start */
-        var _console_fn = function (name) {
-            return function (fn) {
-                var args = Array.prototype.slice.call(arguments, 1);
-                fn.apply(null, args.concat([function (err) {
-                    var args = Array.prototype.slice.call(arguments, 1);
-                    if (typeof console !== 'undefined') {
-                        if (err) {
-                            if (console.error) {
-                                console.error(err);
-                            }
-                        }
-                        else if (console[name]) {
-                            _each(args, function (x) {
-                                console[name](x);
-                            });
-                        }
-                    }
-                }]));
-            };
-        };
-        /* jshint ignore:end */
-
-        async.log = _console_fn('log');
-        async.dir = _console_fn('dir');
-        /*async.info = _console_fn('info');
-         async.warn = _console_fn('warn');
-         async.error = _console_fn('error');*/
-
-        async.memoize = function (fn, hasher) {
-            var memo = {};
-            var queues = {};
-            hasher = hasher || function (x) {
-                return x;
-            };
-            var memoized = function () {
-                var args = Array.prototype.slice.call(arguments);
-                var callback = args.pop();
-                var key = hasher.apply(null, args);
-                if (key in memo) {
-                    callback.apply(null, memo[key]);
-                }
-                else if (key in queues) {
-                    queues[key].push(callback);
-                }
-                else {
-                    queues[key] = [callback];
-                    fn.apply(null, args.concat([function () {
-                        memo[key] = arguments;
-                        var q = queues[key];
-                        delete queues[key];
-                        for (var i = 0, l = q.length; i < l; i++) {
-                            q[i].apply(null, arguments);
-                        }
-                    }]));
-                }
-            };
-            memoized.memo = memo;
-            memoized.unmemoized = fn;
-            return memoized;
-        };
-
-        async.unmemoize = function (fn) {
-            return function () {
-                return (fn.unmemoized || fn).apply(null, arguments);
-            };
-        };
-
-        async.times = function (count, iterator, callback) {
-            var counter = [];
-            for (var i = 0; i < count; i++) {
-                counter.push(i);
-            }
-            return async.map(counter, iterator, callback);
-        };
-
-        async.timesSeries = function (count, iterator, callback) {
-            var counter = [];
-            for (var i = 0; i < count; i++) {
-                counter.push(i);
-            }
-            return async.mapSeries(counter, iterator, callback);
-        };
-
-        async.compose = function (/* functions... */) {
-            var fns = Array.prototype.reverse.call(arguments);
-            return function () {
-                var that = this;
-                var args = Array.prototype.slice.call(arguments);
-                var callback = args.pop();
-                async.reduce(fns, args, function (newargs, fn, cb) {
-                        fn.apply(that, newargs.concat([function () {
-                            var err = arguments[0];
-                            var nextargs = Array.prototype.slice.call(arguments, 1);
-                            cb(err, nextargs);
-                        }]));
-                    },
-                    function (err, results) {
-                        callback.apply(that, [err].concat(results));
-                    });
-            };
-        };
-
-        var _applyEach = function (eachfn, fns /*args...*/) {
-            var go = function () {
-                var that = this;
-                var args = Array.prototype.slice.call(arguments);
-                var callback = args.pop();
-                return eachfn(fns, function (fn, cb) {
-                        fn.apply(that, args.concat([cb]));
-                    },
-                    callback);
-            };
-            if (arguments.length > 2) {
-                var args = Array.prototype.slice.call(arguments, 2);
-                return go.apply(this, args);
-            }
-            else {
-                return go;
-            }
-        };
-        async.applyEach = doParallel(_applyEach);
-        async.applyEachSeries = doSeries(_applyEach);
-
-        async.forever = function (fn, callback) {
-            function next(err) {
-                if (err) {
-                    if (callback) {
-                        return callback(err);
-                    }
-                    throw err;
-                }
-                fn(next);
-            }
-            next();
-        };
-
-        /*
-        // AMD / RequireJS
-        if (typeof define !== 'undefined' && define.amd) {
-            define([], function () {
-                return async;
-            });
-        }
-        // Node.js
-        else if (typeof module !== 'undefined' && module.exports) {
-            module.exports = async;
-        }
-        // included directly via <script> tag
-        else {
-            root.async = async;
-        }
-        */
-
-        root.async = async;
-
-
-
-
+    (function (root) {
 
         //////////////////////////////////////////////////////////////////////////////////////
         //
@@ -7509,7 +8012,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
         }();
 
-    }());
+    }(window));
 
     Alpaca.MARKER_CLASS_CONTROL_FIELD = "alpaca-marker-control-field";
     Alpaca.MARKER_CLASS_CONTAINER_FIELD = "alpaca-marker-container-field";
@@ -7807,6 +8310,31 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         return $.inArray(val, array);
     };
 
+    Alpaca.hashCode = function(text)
+    {        
+        var hash = 0, i, chr, len;
+
+        if (typeof text !== "string") {
+            text = JSON.stringify(text);
+        }
+
+        if (text.length === 0) {
+          return hash;
+        }
+      
+        for (i = 0, len = text.length; i < len; i++) {
+          chr = text.charCodeAt(i);
+          hash = ((hash << 5) - hash) + chr;
+          hash |= 0; // Convert to 32bit integer
+        }
+      
+        if (hash < 0) {
+          hash = hash * -1;
+        }
+      
+        return hash;
+    };
+
     ////////////////////////////////////////////////////////////////////////////////////////////////
     //
     // Moment.js static
@@ -7844,12 +8372,19 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
     //
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
+    // use this to set the default "drag and drop" behavior
+    // set to true to have toolbars always disabled and drag and drop enabled
+    Alpaca.defaultDragAndDrop = false;
+
     // use this to set the default "sticky" toolbar behavior
     // set to true to have toolbars always stick or undefined to have them appear on hover
     Alpaca.defaultToolbarSticky = undefined;
 
     // use this to have invalid messages show up for read-only fields
     Alpaca.showReadOnlyInvalidState = false;
+
+    // use this to globally control the position of helper text
+    Alpaca.defaultHelpersPosition = "below";
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7869,8 +8404,4699 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
     };
 
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    // EXTERNAL MESSAGE SUPPORT
+    //
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // hook to support external message bundles
+    Alpaca.externalMessage = function(key)
+    {
+        return undefined;
+    };
+
+
 })(jQuery);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// ASYNC
+//
+// Here we provide a reduced version of the wonderful async library.  This is entirely inline and
+// will have no bearing on any external dependencies on async.
+//
+// https://github.com/caolan/async
+// Copyright (c) 2010 Caolan McMahon
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+(function() {
+
+    //'use strict';
+
+    var async = {};
+
+    Alpaca.series = Alpaca.serial = function(funcs, callback)
+    {
+        async.series(funcs, function() {
+            callback();
+        });
+    };
+
+    Alpaca.parallel = function(funcs, callback)
+    {
+        async.parallel(funcs, function() {
+            callback();
+        });
+    };
+
+    Alpaca.nextTick = function(f)
+    {
+        async.nextTick(function() {
+            f();
+        });
+    };
+
+
+
+    // here is where async begins
+
+
+
+
+
+    /**
+     * Creates a continuation function with some arguments already applied.
+     *
+     * Useful as a shorthand when combined with other control flow functions. Any
+     * arguments passed to the returned function are added to the arguments
+     * originally passed to apply.
+     *
+     * @name apply
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {Function} fn - The function you want to eventually apply all
+     * arguments to. Invokes with (arguments...).
+     * @param {...*} arguments... - Any number of arguments to automatically apply
+     * when the continuation is called.
+     * @returns {Function} the partially-applied function
+     * @example
+     *
+     * // using apply
+     * async.parallel([
+     *     async.apply(fs.writeFile, 'testfile1', 'test1'),
+     *     async.apply(fs.writeFile, 'testfile2', 'test2')
+     * ]);
+     *
+     *
+     * // the same process without using apply
+     * async.parallel([
+     *     function(callback) {
+     *         fs.writeFile('testfile1', 'test1', callback);
+     *     },
+     *     function(callback) {
+     *         fs.writeFile('testfile2', 'test2', callback);
+     *     }
+     * ]);
+     *
+     * // It's possible to pass any number of additional arguments when calling the
+     * // continuation:
+     *
+     * node> var fn = async.apply(sys.puts, 'one');
+     * node> fn('two', 'three');
+     * one
+     * two
+     * three
+     */
+    function apply(fn, ...args) {
+        return (...callArgs) => fn(...args,...callArgs);
+    }
+
+    function initialParams (fn) {
+        return function (...args/*, callback*/) {
+            var callback = args.pop();
+            return fn.call(this, args, callback);
+        };
+    }
+
+    var hasSetImmediate = typeof setImmediate === 'function' && setImmediate;
+    var hasNextTick = typeof process === 'object' && typeof process.nextTick === 'function';
+
+    function fallback(fn) {
+        setTimeout(fn, 0);
+    }
+
+    function wrap(defer) {
+        return (fn, ...args) => defer(() => fn(...args));
+    }
+
+    var _defer;
+
+    if (hasSetImmediate) {
+        _defer = setImmediate;
+    } else if (hasNextTick) {
+        _defer = process.nextTick;
+    } else {
+        _defer = fallback;
+    }
+
+    var setImmediate$1 = wrap(_defer);
+
+    /**
+     * Take a sync function and make it async, passing its return value to a
+     * callback. This is useful for plugging sync functions into a waterfall,
+     * series, or other async functions. Any arguments passed to the generated
+     * function will be passed to the wrapped function (except for the final
+     * callback argument). Errors thrown will be passed to the callback.
+     *
+     * If the function passed to `asyncify` returns a Promise, that promises's
+     * resolved/rejected state will be used to call the callback, rather than simply
+     * the synchronous return value.
+     *
+     * This also means you can asyncify ES2017 `async` functions.
+     *
+     * @name asyncify
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @alias wrapSync
+     * @category Util
+     * @param {Function} func - The synchronous function, or Promise-returning
+     * function to convert to an {@link AsyncFunction}.
+     * @returns {AsyncFunction} An asynchronous wrapper of the `func`. To be
+     * invoked with `(args..., callback)`.
+     * @example
+     *
+     * // passing a regular synchronous function
+     * async.waterfall([
+     *     async.apply(fs.readFile, filename, "utf8"),
+     *     async.asyncify(JSON.parse),
+     *     function (data, next) {
+     *         // data is the result of parsing the text.
+     *         // If there was a parsing error, it would have been caught.
+     *     }
+     * ], callback);
+     *
+     * // passing a function returning a promise
+     * async.waterfall([
+     *     async.apply(fs.readFile, filename, "utf8"),
+     *     async.asyncify(function (contents) {
+     *         return db.model.create(contents);
+     *     }),
+     *     function (model, next) {
+     *         // `model` is the instantiated model object.
+     *         // If there was an error, this function would be skipped.
+     *     }
+     * ], callback);
+     *
+     * // es2017 example, though `asyncify` is not needed if your JS environment
+     * // supports async functions out of the box
+     * var q = async.queue(async.asyncify(async function(file) {
+     *     var intermediateStep = await processFile(file);
+     *     return await somePromise(intermediateStep)
+     * }));
+     *
+     * q.push(files);
+     */
+    function asyncify(func) {
+        if (isAsync(func)) {
+            return function (...args/*, callback*/) {
+                const callback = args.pop();
+                const promise = func.apply(this, args);
+                return handlePromise(promise, callback)
+            }
+        }
+
+        return initialParams(function (args, callback) {
+            var result;
+            try {
+                result = func.apply(this, args);
+            } catch (e) {
+                return callback(e);
+            }
+            // if result is Promise object
+            if (result && typeof result.then === 'function') {
+                return handlePromise(result, callback)
+            } else {
+                callback(null, result);
+            }
+        });
+    }
+
+    function handlePromise(promise, callback) {
+        return promise.then(value => {
+            invokeCallback(callback, null, value);
+        }, err => {
+            invokeCallback(callback, err && err.message ? err : new Error(err));
+        });
+    }
+
+    function invokeCallback(callback, error, value) {
+        try {
+            callback(error, value);
+        } catch (err) {
+            setImmediate$1(e => { throw e }, err);
+        }
+    }
+
+    function isAsync(fn) {
+        return fn[Symbol.toStringTag] === 'AsyncFunction';
+    }
+
+    function isAsyncGenerator(fn) {
+        return fn[Symbol.toStringTag] === 'AsyncGenerator';
+    }
+
+    function isAsyncIterable(obj) {
+        return typeof obj[Symbol.asyncIterator] === 'function';
+    }
+
+    function wrapAsync(asyncFn) {
+        if (typeof asyncFn !== 'function') throw new Error('expected a function')
+        return isAsync(asyncFn) ? asyncify(asyncFn) : asyncFn;
+    }
+
+    function applyEach(eachfn) {
+        return function(fns, ...callArgs) {
+            var go = initialParams(function(args, callback) {
+                var that = this;
+                return eachfn(fns, (fn, cb) => {
+                    wrapAsync(fn).apply(that, args.concat(cb));
+                }, callback);
+            });
+            if (callArgs.length) {
+                return go.apply(this, callArgs);
+            }
+            return go;
+        };
+    }
+
+    function _asyncMap(eachfn, arr, iteratee, callback) {
+        arr = arr || [];
+        var results = [];
+        var counter = 0;
+        var _iteratee = wrapAsync(iteratee);
+
+        return eachfn(arr, (value, _, iterCb) => {
+            var index = counter++;
+            _iteratee(value, (err, v) => {
+                results[index] = v;
+                iterCb(err);
+            });
+        }, err => {
+            callback(err, results);
+        });
+    }
+
+    function isArrayLike(value) {
+        return value &&
+            typeof value.length === 'number' &&
+            value.length >= 0 &&
+            value.length % 1 === 0;
+    }
+
+    // A temporary value used to identify if the loop should be broken.
+    // See #1064, #1293
+    const breakLoop = {};
+
+    function once(fn) {
+        function wrapper (...args) {
+            if (fn === null) return;
+            var callFn = fn;
+            fn = null;
+            callFn.apply(this, args);
+        }
+        Object.assign(wrapper, fn);
+        return wrapper
+    }
+
+    function getIterator (coll) {
+        return coll[Symbol.iterator] && coll[Symbol.iterator]();
+    }
+
+    function createArrayIterator(coll) {
+        var i = -1;
+        var len = coll.length;
+        return function next() {
+            return ++i < len ? {value: coll[i], key: i} : null;
+        }
+    }
+
+    function createES2015Iterator(iterator) {
+        var i = -1;
+        return function next() {
+            var item = iterator.next();
+            if (item.done)
+                return null;
+            i++;
+            return {value: item.value, key: i};
+        }
+    }
+
+    function createObjectIterator(obj) {
+        var okeys = obj ? Object.keys(obj) : [];
+        var i = -1;
+        var len = okeys.length;
+        return function next() {
+            var key = okeys[++i];
+            return i < len ? {value: obj[key], key} : null;
+        };
+    }
+
+    function createIterator(coll) {
+        if (isArrayLike(coll)) {
+            return createArrayIterator(coll);
+        }
+
+        var iterator = getIterator(coll);
+        return iterator ? createES2015Iterator(iterator) : createObjectIterator(coll);
+    }
+
+    function onlyOnce(fn) {
+        return function (...args) {
+            if (fn === null) throw new Error("Callback was already called.");
+            var callFn = fn;
+            fn = null;
+            callFn.apply(this, args);
+        };
+    }
+
+    // for async generators
+    function asyncEachOfLimit(generator, limit, iteratee, callback) {
+        let done = false;
+        let canceled = false;
+        let awaiting = false;
+        let running = 0;
+        let idx = 0;
+
+        function replenish() {
+            //console.log('replenish')
+            if (running >= limit || awaiting || done) return
+            //console.log('replenish awaiting')
+            awaiting = true;
+            generator.next().then(({value, done: iterDone}) => {
+                //console.log('got value', value)
+                if (canceled || done) return
+                awaiting = false;
+                if (iterDone) {
+                    done = true;
+                    if (running <= 0) {
+                        //console.log('done nextCb')
+                        callback(null);
+                    }
+                    return;
+                }
+                running++;
+                iteratee(value, idx, iterateeCallback);
+                idx++;
+                replenish();
+            }).catch(handleError);
+        }
+
+        function iterateeCallback(err, result) {
+            //console.log('iterateeCallback')
+            running -= 1;
+            if (canceled) return
+            if (err) return handleError(err)
+
+            if (err === false) {
+                done = true;
+                canceled = true;
+                return
+            }
+
+            if (result === breakLoop || (done && running <= 0)) {
+                done = true;
+                //console.log('done iterCb')
+                return callback(null);
+            }
+            replenish();
+        }
+
+        function handleError(err) {
+            if (canceled) return
+            awaiting = false;
+            done = true;
+            callback(err);
+        }
+
+        replenish();
+    }
+
+    var eachOfLimit = (limit) => {
+        return (obj, iteratee, callback) => {
+            callback = once(callback);
+            if (limit <= 0) {
+                throw new RangeError('concurrency limit cannot be less than 1')
+            }
+            if (!obj) {
+                return callback(null);
+            }
+            if (isAsyncGenerator(obj)) {
+                return asyncEachOfLimit(obj, limit, iteratee, callback)
+            }
+            if (isAsyncIterable(obj)) {
+                return asyncEachOfLimit(obj[Symbol.asyncIterator](), limit, iteratee, callback)
+            }
+            var nextElem = createIterator(obj);
+            var done = false;
+            var canceled = false;
+            var running = 0;
+            var looping = false;
+
+            function iterateeCallback(err, value) {
+                if (canceled) return
+                running -= 1;
+                if (err) {
+                    done = true;
+                    callback(err);
+                }
+                else if (err === false) {
+                    done = true;
+                    canceled = true;
+                }
+                else if (value === breakLoop || (done && running <= 0)) {
+                    done = true;
+                    return callback(null);
+                }
+                else if (!looping) {
+                    replenish();
+                }
+            }
+
+            function replenish () {
+                looping = true;
+                while (running < limit && !done) {
+                    var elem = nextElem();
+                    if (elem === null) {
+                        done = true;
+                        if (running <= 0) {
+                            callback(null);
+                        }
+                        return;
+                    }
+                    running += 1;
+                    iteratee(elem.value, elem.key, onlyOnce(iterateeCallback));
+                }
+                looping = false;
+            }
+
+            replenish();
+        };
+    };
+
+    // conditionally promisify a function.
+    // only return a promise if a callback is omitted
+    function awaitify (asyncFn, arity = asyncFn.length) {
+        if (!arity) throw new Error('arity is undefined')
+        function awaitable (...args) {
+            if (typeof args[arity - 1] === 'function') {
+                return asyncFn.apply(this, args)
+            }
+
+            return new Promise((resolve, reject) => {
+                args[arity - 1] = (err, ...cbArgs) => {
+                    if (err) return reject(err)
+                    resolve(cbArgs.length > 1 ? cbArgs : cbArgs[0]);
+                };
+                asyncFn.apply(this, args);
+            })
+        }
+
+        Object.defineProperty(awaitable, 'name', {
+            value: `awaitable(${asyncFn.name})`
+        });
+
+        return awaitable
+    }
+
+    /**
+     * The same as [`eachOf`]{@link module:Collections.eachOf} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name eachOfLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.eachOf]{@link module:Collections.eachOf}
+     * @alias forEachOfLimit
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async function to apply to each
+     * item in `coll`. The `key` is the item's key, or index in the case of an
+     * array.
+     * Invoked with (item, key, callback).
+     * @param {Function} [callback] - A callback which is called when all
+     * `iteratee` functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     */
+    function eachOfLimit$1(coll, limit, iteratee, callback) {
+        return eachOfLimit(limit)(coll, wrapAsync(iteratee), callback);
+    }
+
+    var eachOfLimit$2 = awaitify(eachOfLimit$1, 4);
+
+    // eachOf implementation optimized for array-likes
+    function eachOfArrayLike(coll, iteratee, callback) {
+        callback = once(callback);
+        var index = 0,
+            completed = 0,
+            {length} = coll,
+            canceled = false;
+        if (length === 0) {
+            callback(null);
+        }
+
+        function iteratorCallback(err, value) {
+            if (err === false) {
+                canceled = true;
+            }
+            if (canceled === true) return
+            if (err) {
+                callback(err);
+            } else if ((++completed === length) || value === breakLoop) {
+                callback(null);
+            }
+        }
+
+        for (; index < length; index++) {
+            iteratee(coll[index], index, onlyOnce(iteratorCallback));
+        }
+    }
+
+    // a generic version of eachOf which can handle array, object, and iterator cases.
+    function eachOfGeneric (coll, iteratee, callback) {
+        return eachOfLimit$2(coll, Infinity, iteratee, callback);
+    }
+
+    /**
+     * Like [`each`]{@link module:Collections.each}, except that it passes the key (or index) as the second argument
+     * to the iteratee.
+     *
+     * @name eachOf
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias forEachOf
+     * @category Collection
+     * @see [async.each]{@link module:Collections.each}
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A function to apply to each
+     * item in `coll`.
+     * The `key` is the item's key, or index in the case of an array.
+     * Invoked with (item, key, callback).
+     * @param {Function} [callback] - A callback which is called when all
+     * `iteratee` functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     * @example
+     *
+     * var obj = {dev: "/dev.json", test: "/test.json", prod: "/prod.json"};
+     * var configs = {};
+     *
+     * async.forEachOf(obj, function (value, key, callback) {
+     *     fs.readFile(__dirname + value, "utf8", function (err, data) {
+     *         if (err) return callback(err);
+     *         try {
+     *             configs[key] = JSON.parse(data);
+     *         } catch (e) {
+     *             return callback(e);
+     *         }
+     *         callback();
+     *     });
+     * }, function (err) {
+     *     if (err) console.error(err.message);
+     *     // configs is now a map of JSON data
+     *     doSomethingWith(configs);
+     * });
+     */
+    function eachOf(coll, iteratee, callback) {
+        var eachOfImplementation = isArrayLike(coll) ? eachOfArrayLike : eachOfGeneric;
+        return eachOfImplementation(coll, wrapAsync(iteratee), callback);
+    }
+
+    var eachOf$1 = awaitify(eachOf, 3);
+
+    /**
+     * Produces a new collection of values by mapping each value in `coll` through
+     * the `iteratee` function. The `iteratee` is called with an item from `coll`
+     * and a callback for when it has finished processing. Each of these callback
+     * takes 2 arguments: an `error`, and the transformed item from `coll`. If
+     * `iteratee` passes an error to its callback, the main `callback` (for the
+     * `map` function) is immediately called with the error.
+     *
+     * Note, that since this function applies the `iteratee` to each item in
+     * parallel, there is no guarantee that the `iteratee` functions will complete
+     * in order. However, the results array will be in the same order as the
+     * original `coll`.
+     *
+     * If `map` is passed an Object, the results will be an Array.  The results
+     * will roughly be in the order of the original Objects' keys (but this can
+     * vary across JavaScript engines).
+     *
+     * @name map
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with the transformed item.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Results is an Array of the
+     * transformed items from the `coll`. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * async.map(['file1','file2','file3'], fs.stat, function(err, results) {
+     *     // results is now an array of stats for each file
+     * });
+     */
+    function map (coll, iteratee, callback) {
+        return _asyncMap(eachOf$1, coll, iteratee, callback)
+    }
+    var map$1 = awaitify(map, 3);
+
+    /**
+     * Applies the provided arguments to each function in the array, calling
+     * `callback` after all functions have completed. If you only provide the first
+     * argument, `fns`, then it will return a function which lets you pass in the
+     * arguments as if it were a single function call. If more arguments are
+     * provided, `callback` is required while `args` is still optional. The results
+     * for each of the applied async functions are passed to the final callback
+     * as an array.
+     *
+     * @name applyEach
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} fns - A collection of {@link AsyncFunction}s
+     * to all call with the same arguments
+     * @param {...*} [args] - any number of separate arguments to pass to the
+     * function.
+     * @param {Function} [callback] - the final argument should be the callback,
+     * called when all functions have completed processing.
+     * @returns {Function} - If only the first argument, `fns`, is provided, it will
+     * return a function which lets you pass in the arguments as if it were a single
+     * function call. The signature is `(..args, callback)`. If invoked with any
+     * arguments, `callback` is required.
+     * @example
+     *
+     * async.applyEach([enableSearch, updateSchema], 'bucket', (err, results) => {
+     *     // results[0] is the results for `enableSearch`
+     *     // results[1] is the results for `updateSchema`
+     * });
+     *
+     * // partial application example:
+     * async.each(
+     *     buckets,
+     *     async.applyEach([enableSearch, updateSchema]),
+     *     callback
+     * );
+     */
+    var applyEach$1 = applyEach(map$1);
+
+    /**
+     * The same as [`eachOf`]{@link module:Collections.eachOf} but runs only a single async operation at a time.
+     *
+     * @name eachOfSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.eachOf]{@link module:Collections.eachOf}
+     * @alias forEachOfSeries
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * Invoked with (item, key, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     */
+    function eachOfSeries(coll, iteratee, callback) {
+        return eachOfLimit$2(coll, 1, iteratee, callback)
+    }
+    var eachOfSeries$1 = awaitify(eachOfSeries, 3);
+
+    /**
+     * The same as [`map`]{@link module:Collections.map} but runs only a single async operation at a time.
+     *
+     * @name mapSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.map]{@link module:Collections.map}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with the transformed item.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Results is an array of the
+     * transformed items from the `coll`. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function mapSeries (coll, iteratee, callback) {
+        return _asyncMap(eachOfSeries$1, coll, iteratee, callback)
+    }
+    var mapSeries$1 = awaitify(mapSeries, 3);
+
+    /**
+     * The same as [`applyEach`]{@link module:ControlFlow.applyEach} but runs only a single async operation at a time.
+     *
+     * @name applyEachSeries
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.applyEach]{@link module:ControlFlow.applyEach}
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} fns - A collection of {@link AsyncFunction}s to all
+     * call with the same arguments
+     * @param {...*} [args] - any number of separate arguments to pass to the
+     * function.
+     * @param {Function} [callback] - the final argument should be the callback,
+     * called when all functions have completed processing.
+     * @returns {Function} - If only the first argument is provided, it will return
+     * a function which lets you pass in the arguments as if it were a single
+     * function call.
+     */
+    var applyEachSeries = applyEach(mapSeries$1);
+
+    const PROMISE_SYMBOL = Symbol('promiseCallback');
+
+    function promiseCallback () {
+        let resolve, reject;
+        function callback (err, ...args) {
+            if (err) return reject(err)
+            resolve(args.length > 1 ? args : args[0]);
+        }
+
+        callback[PROMISE_SYMBOL] = new Promise((res, rej) => {
+            resolve = res,
+                reject = rej;
+        });
+
+        return callback
+    }
+
+    /**
+     * Determines the best order for running the {@link AsyncFunction}s in `tasks`, based on
+     * their requirements. Each function can optionally depend on other functions
+     * being completed first, and each function is run as soon as its requirements
+     * are satisfied.
+     *
+     * If any of the {@link AsyncFunction}s pass an error to their callback, the `auto` sequence
+     * will stop. Further tasks will not execute (so any other functions depending
+     * on it will not run), and the main `callback` is immediately called with the
+     * error.
+     *
+     * {@link AsyncFunction}s also receive an object containing the results of functions which
+     * have completed so far as the first argument, if they have dependencies. If a
+     * task function has no dependencies, it will only be passed a callback.
+     *
+     * @name auto
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Object} tasks - An object. Each of its properties is either a
+     * function or an array of requirements, with the {@link AsyncFunction} itself the last item
+     * in the array. The object's key of a property serves as the name of the task
+     * defined by that property, i.e. can be used when specifying requirements for
+     * other tasks. The function receives one or two arguments:
+     * * a `results` object, containing the results of the previously executed
+     *   functions, only passed if the task has any dependencies,
+     * * a `callback(err, result)` function, which must be called when finished,
+     *   passing an `error` (which can be `null`) and the result of the function's
+     *   execution.
+     * @param {number} [concurrency=Infinity] - An optional `integer` for
+     * determining the maximum number of tasks that can be run in parallel. By
+     * default, as many as possible.
+     * @param {Function} [callback] - An optional callback which is called when all
+     * the tasks have been completed. It receives the `err` argument if any `tasks`
+     * pass an error to their callback. Results are always returned; however, if an
+     * error occurs, no further `tasks` will be performed, and the results object
+     * will only contain partial results. Invoked with (err, results).
+     * @returns {Promise} a promise, if a callback is not passed
+     * @example
+     *
+     * async.auto({
+     *     // this function will just be passed a callback
+     *     readData: async.apply(fs.readFile, 'data.txt', 'utf-8'),
+     *     showData: ['readData', function(results, cb) {
+     *         // results.readData is the file's contents
+     *         // ...
+     *     }]
+     * }, callback);
+     *
+     * async.auto({
+     *     get_data: function(callback) {
+     *         console.log('in get_data');
+     *         // async code to get some data
+     *         callback(null, 'data', 'converted to array');
+     *     },
+     *     make_folder: function(callback) {
+     *         console.log('in make_folder');
+     *         // async code to create a directory to store a file in
+     *         // this is run at the same time as getting the data
+     *         callback(null, 'folder');
+     *     },
+     *     write_file: ['get_data', 'make_folder', function(results, callback) {
+     *         console.log('in write_file', JSON.stringify(results));
+     *         // once there is some data and the directory exists,
+     *         // write the data to a file in the directory
+     *         callback(null, 'filename');
+     *     }],
+     *     email_link: ['write_file', function(results, callback) {
+     *         console.log('in email_link', JSON.stringify(results));
+     *         // once the file is written let's email a link to it...
+     *         // results.write_file contains the filename returned by write_file.
+     *         callback(null, {'file':results.write_file, 'email':'user@example.com'});
+     *     }]
+     * }, function(err, results) {
+     *     console.log('err = ', err);
+     *     console.log('results = ', results);
+     * });
+     */
+    function auto(tasks, concurrency, callback) {
+        if (typeof concurrency !== 'number') {
+            // concurrency is optional, shift the args.
+            callback = concurrency;
+            concurrency = null;
+        }
+        callback = once(callback || promiseCallback());
+        var numTasks = Object.keys(tasks).length;
+        if (!numTasks) {
+            return callback(null);
+        }
+        if (!concurrency) {
+            concurrency = numTasks;
+        }
+
+        var results = {};
+        var runningTasks = 0;
+        var canceled = false;
+        var hasError = false;
+
+        var listeners = Object.create(null);
+
+        var readyTasks = [];
+
+        // for cycle detection:
+        var readyToCheck = []; // tasks that have been identified as reachable
+        // without the possibility of returning to an ancestor task
+        var uncheckedDependencies = {};
+
+        Object.keys(tasks).forEach(key => {
+            var task = tasks[key];
+            if (!Array.isArray(task)) {
+                // no dependencies
+                enqueueTask(key, [task]);
+                readyToCheck.push(key);
+                return;
+            }
+
+            var dependencies = task.slice(0, task.length - 1);
+            var remainingDependencies = dependencies.length;
+            if (remainingDependencies === 0) {
+                enqueueTask(key, task);
+                readyToCheck.push(key);
+                return;
+            }
+            uncheckedDependencies[key] = remainingDependencies;
+
+            dependencies.forEach(dependencyName => {
+                if (!tasks[dependencyName]) {
+                    throw new Error('async.auto task `' + key +
+                        '` has a non-existent dependency `' +
+                        dependencyName + '` in ' +
+                        dependencies.join(', '));
+                }
+                addListener(dependencyName, () => {
+                    remainingDependencies--;
+                    if (remainingDependencies === 0) {
+                        enqueueTask(key, task);
+                    }
+                });
+            });
+        });
+
+        checkForDeadlocks();
+        processQueue();
+
+        function enqueueTask(key, task) {
+            readyTasks.push(() => runTask(key, task));
+        }
+
+        function processQueue() {
+            if (canceled) return
+            if (readyTasks.length === 0 && runningTasks === 0) {
+                return callback(null, results);
+            }
+            while(readyTasks.length && runningTasks < concurrency) {
+                var run = readyTasks.shift();
+                run();
+            }
+
+        }
+
+        function addListener(taskName, fn) {
+            var taskListeners = listeners[taskName];
+            if (!taskListeners) {
+                taskListeners = listeners[taskName] = [];
+            }
+
+            taskListeners.push(fn);
+        }
+
+        function taskComplete(taskName) {
+            var taskListeners = listeners[taskName] || [];
+            taskListeners.forEach(fn => fn());
+            processQueue();
+        }
+
+
+        function runTask(key, task) {
+            if (hasError) return;
+
+            var taskCallback = onlyOnce((err, ...result) => {
+                runningTasks--;
+                if (err === false) {
+                    canceled = true;
+                    return
+                }
+                if (result.length < 2) {
+                    [result] = result;
+                }
+                if (err) {
+                    var safeResults = {};
+                    Object.keys(results).forEach(rkey => {
+                        safeResults[rkey] = results[rkey];
+                    });
+                    safeResults[key] = result;
+                    hasError = true;
+                    listeners = Object.create(null);
+                    if (canceled) return
+                    callback(err, safeResults);
+                } else {
+                    results[key] = result;
+                    taskComplete(key);
+                }
+            });
+
+            runningTasks++;
+            var taskFn = wrapAsync(task[task.length - 1]);
+            if (task.length > 1) {
+                taskFn(results, taskCallback);
+            } else {
+                taskFn(taskCallback);
+            }
+        }
+
+        function checkForDeadlocks() {
+            // Kahn's algorithm
+            // https://en.wikipedia.org/wiki/Topological_sorting#Kahn.27s_algorithm
+            // http://connalle.blogspot.com/2013/10/topological-sortingkahn-algorithm.html
+            var currentTask;
+            var counter = 0;
+            while (readyToCheck.length) {
+                currentTask = readyToCheck.pop();
+                counter++;
+                getDependents(currentTask).forEach(dependent => {
+                    if (--uncheckedDependencies[dependent] === 0) {
+                        readyToCheck.push(dependent);
+                    }
+                });
+            }
+
+            if (counter !== numTasks) {
+                throw new Error(
+                    'async.auto cannot execute tasks due to a recursive dependency'
+                );
+            }
+        }
+
+        function getDependents(taskName) {
+            var result = [];
+            Object.keys(tasks).forEach(key => {
+                const task = tasks[key];
+                if (Array.isArray(task) && task.indexOf(taskName) >= 0) {
+                    result.push(key);
+                }
+            });
+            return result;
+        }
+
+        return callback[PROMISE_SYMBOL]
+    }
+
+    var FN_ARGS = /^(?:async\s+)?(?:function)?\s*[^(]*\(\s*([^)]+)\s*\)(?:\s*{)/m;
+    var ARROW_FN_ARGS = /^(?:async\s+)?\(?\s*([^)^=]+)\s*\)?(?:\s*=>)/m;
+    var FN_ARG_SPLIT = /,/;
+    var FN_ARG = /(=.+)?(\s*)$/;
+    var STRIP_COMMENTS = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg;
+
+    function parseParams(func) {
+        const src = func.toString().replace(STRIP_COMMENTS, '');
+        let match = src.match(FN_ARGS);
+        if (!match) {
+            match = src.match(ARROW_FN_ARGS);
+        }
+        if (!match) throw new Error('could not parse args in autoInject\nSource:\n' + src)
+        let [, args] = match;
+        return args
+            .replace(/\s/g, '')
+            .split(FN_ARG_SPLIT)
+            .map((arg) => arg.replace(FN_ARG, '').trim());
+    }
+
+    /**
+     * A dependency-injected version of the [async.auto]{@link module:ControlFlow.auto} function. Dependent
+     * tasks are specified as parameters to the function, after the usual callback
+     * parameter, with the parameter names matching the names of the tasks it
+     * depends on. This can provide even more readable task graphs which can be
+     * easier to maintain.
+     *
+     * If a final callback is specified, the task results are similarly injected,
+     * specified as named parameters after the initial error parameter.
+     *
+     * The autoInject function is purely syntactic sugar and its semantics are
+     * otherwise equivalent to [async.auto]{@link module:ControlFlow.auto}.
+     *
+     * @name autoInject
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.auto]{@link module:ControlFlow.auto}
+     * @category Control Flow
+     * @param {Object} tasks - An object, each of whose properties is an {@link AsyncFunction} of
+     * the form 'func([dependencies...], callback). The object's key of a property
+     * serves as the name of the task defined by that property, i.e. can be used
+     * when specifying requirements for other tasks.
+     * * The `callback` parameter is a `callback(err, result)` which must be called
+     *   when finished, passing an `error` (which can be `null`) and the result of
+     *   the function's execution. The remaining parameters name other tasks on
+     *   which the task is dependent, and the results from those tasks are the
+     *   arguments of those parameters.
+     * @param {Function} [callback] - An optional callback which is called when all
+     * the tasks have been completed. It receives the `err` argument if any `tasks`
+     * pass an error to their callback, and a `results` object with any completed
+     * task results, similar to `auto`.
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * //  The example from `auto` can be rewritten as follows:
+     * async.autoInject({
+     *     get_data: function(callback) {
+     *         // async code to get some data
+     *         callback(null, 'data', 'converted to array');
+     *     },
+     *     make_folder: function(callback) {
+     *         // async code to create a directory to store a file in
+     *         // this is run at the same time as getting the data
+     *         callback(null, 'folder');
+     *     },
+     *     write_file: function(get_data, make_folder, callback) {
+     *         // once there is some data and the directory exists,
+     *         // write the data to a file in the directory
+     *         callback(null, 'filename');
+     *     },
+     *     email_link: function(write_file, callback) {
+     *         // once the file is written let's email a link to it...
+     *         // write_file contains the filename returned by write_file.
+     *         callback(null, {'file':write_file, 'email':'user@example.com'});
+     *     }
+     * }, function(err, results) {
+     *     console.log('err = ', err);
+     *     console.log('email_link = ', results.email_link);
+     * });
+     *
+     * // If you are using a JS minifier that mangles parameter names, `autoInject`
+     * // will not work with plain functions, since the parameter names will be
+     * // collapsed to a single letter identifier.  To work around this, you can
+     * // explicitly specify the names of the parameters your task function needs
+     * // in an array, similar to Angular.js dependency injection.
+     *
+     * // This still has an advantage over plain `auto`, since the results a task
+     * // depends on are still spread into arguments.
+     * async.autoInject({
+     *     //...
+     *     write_file: ['get_data', 'make_folder', function(get_data, make_folder, callback) {
+     *         callback(null, 'filename');
+     *     }],
+     *     email_link: ['write_file', function(write_file, callback) {
+     *         callback(null, {'file':write_file, 'email':'user@example.com'});
+     *     }]
+     *     //...
+     * }, function(err, results) {
+     *     console.log('err = ', err);
+     *     console.log('email_link = ', results.email_link);
+     * });
+     */
+    function autoInject(tasks, callback) {
+        var newTasks = {};
+
+        Object.keys(tasks).forEach(key => {
+            var taskFn = tasks[key];
+            var params;
+            var fnIsAsync = isAsync(taskFn);
+            var hasNoDeps =
+                (!fnIsAsync && taskFn.length === 1) ||
+                (fnIsAsync && taskFn.length === 0);
+
+            if (Array.isArray(taskFn)) {
+                params = [...taskFn];
+                taskFn = params.pop();
+
+                newTasks[key] = params.concat(params.length > 0 ? newTask : taskFn);
+            } else if (hasNoDeps) {
+                // no dependencies, use the function as-is
+                newTasks[key] = taskFn;
+            } else {
+                params = parseParams(taskFn);
+                if ((taskFn.length === 0 && !fnIsAsync) && params.length === 0) {
+                    throw new Error("autoInject task functions require explicit parameters.");
+                }
+
+                // remove callback param
+                if (!fnIsAsync) params.pop();
+
+                newTasks[key] = params.concat(newTask);
+            }
+
+            function newTask(results, taskCb) {
+                var newArgs = params.map(name => results[name]);
+                newArgs.push(taskCb);
+                wrapAsync(taskFn)(...newArgs);
+            }
+        });
+
+        return auto(newTasks, callback);
+    }
+
+    // Simple doubly linked list (https://en.wikipedia.org/wiki/Doubly_linked_list) implementation
+    // used for queues. This implementation assumes that the node provided by the user can be modified
+    // to adjust the next and last properties. We implement only the minimal functionality
+    // for queue support.
+    class DLL {
+        constructor() {
+            this.head = this.tail = null;
+            this.length = 0;
+        }
+
+        removeLink(node) {
+            if (node.prev) node.prev.next = node.next;
+            else this.head = node.next;
+            if (node.next) node.next.prev = node.prev;
+            else this.tail = node.prev;
+
+            node.prev = node.next = null;
+            this.length -= 1;
+            return node;
+        }
+
+        empty () {
+            while(this.head) this.shift();
+            return this;
+        }
+
+        insertAfter(node, newNode) {
+            newNode.prev = node;
+            newNode.next = node.next;
+            if (node.next) node.next.prev = newNode;
+            else this.tail = newNode;
+            node.next = newNode;
+            this.length += 1;
+        }
+
+        insertBefore(node, newNode) {
+            newNode.prev = node.prev;
+            newNode.next = node;
+            if (node.prev) node.prev.next = newNode;
+            else this.head = newNode;
+            node.prev = newNode;
+            this.length += 1;
+        }
+
+        unshift(node) {
+            if (this.head) this.insertBefore(this.head, node);
+            else setInitial(this, node);
+        }
+
+        push(node) {
+            if (this.tail) this.insertAfter(this.tail, node);
+            else setInitial(this, node);
+        }
+
+        shift() {
+            return this.head && this.removeLink(this.head);
+        }
+
+        pop() {
+            return this.tail && this.removeLink(this.tail);
+        }
+
+        toArray() {
+            return [...this]
+        }
+
+        *[Symbol.iterator] () {
+            var cur = this.head;
+            while (cur) {
+                yield cur.data;
+                cur = cur.next;
+            }
+        }
+
+        remove (testFn) {
+            var curr = this.head;
+            while(curr) {
+                var {next} = curr;
+                if (testFn(curr)) {
+                    this.removeLink(curr);
+                }
+                curr = next;
+            }
+            return this;
+        }
+    }
+
+    function setInitial(dll, node) {
+        dll.length = 1;
+        dll.head = dll.tail = node;
+    }
+
+    const noop = () => {};
+
+    function queue(worker, concurrency, payload) {
+        if (concurrency == null) {
+            concurrency = 1;
+        }
+        else if(concurrency === 0) {
+            throw new RangeError('Concurrency must not be zero');
+        }
+
+        var _worker = wrapAsync(worker);
+        var numRunning = 0;
+        var workersList = [];
+
+        var processingScheduled = false;
+        function _insert(data, insertAtFront, callback) {
+            if (callback != null && typeof callback !== 'function') {
+                throw new Error('task callback must be a function');
+            }
+            q.started = true;
+            if (!Array.isArray(data)) {
+                data = [data];
+            }
+            if (data.length === 0 && q.idle()) {
+                // call drain immediately if there are no tasks
+                return setImmediate$1(() => q.drain());
+            }
+
+            for (var i = 0, l = data.length; i < l; i++) {
+                var item = {
+                    data: data[i],
+                    callback: callback || noop
+                };
+
+                if (insertAtFront) {
+                    q._tasks.unshift(item);
+                } else {
+                    q._tasks.push(item);
+                }
+            }
+
+            if (!processingScheduled) {
+                processingScheduled = true;
+                setImmediate$1(() => {
+                    processingScheduled = false;
+                    q.process();
+                });
+            }
+        }
+
+        function _next(tasks) {
+            return function (err, ...args) {
+                numRunning -= 1;
+
+                for (var i = 0, l = tasks.length; i < l; i++) {
+                    var task = tasks[i];
+
+                    var index = workersList.indexOf(task);
+                    if (index === 0) {
+                        workersList.shift();
+                    } else if (index > 0) {
+                        workersList.splice(index, 1);
+                    }
+
+                    task.callback(err, ...args);
+
+                    if (err != null) {
+                        q.error(err, task.data);
+                    }
+                }
+
+                if (numRunning <= (q.concurrency - q.buffer) ) {
+                    q.unsaturated();
+                }
+
+                if (q.idle()) {
+                    q.drain();
+                }
+                q.process();
+            };
+        }
+
+        var isProcessing = false;
+        var q = {
+            _tasks: new DLL(),
+            *[Symbol.iterator] () {
+                yield* q._tasks[Symbol.iterator]();
+            },
+            concurrency,
+            payload,
+            saturated: noop,
+            unsaturated:noop,
+            buffer: concurrency / 4,
+            empty: noop,
+            drain: noop,
+            error: noop,
+            started: false,
+            paused: false,
+            push (data, callback) {
+                _insert(data, false, callback);
+            },
+            kill () {
+                q.drain = noop;
+                q._tasks.empty();
+            },
+            unshift (data, callback) {
+                _insert(data, true, callback);
+            },
+            remove (testFn) {
+                q._tasks.remove(testFn);
+            },
+            process () {
+                // Avoid trying to start too many processing operations. This can occur
+                // when callbacks resolve synchronously (#1267).
+                if (isProcessing) {
+                    return;
+                }
+                isProcessing = true;
+                while(!q.paused && numRunning < q.concurrency && q._tasks.length){
+                    var tasks = [], data = [];
+                    var l = q._tasks.length;
+                    if (q.payload) l = Math.min(l, q.payload);
+                    for (var i = 0; i < l; i++) {
+                        var node = q._tasks.shift();
+                        tasks.push(node);
+                        workersList.push(node);
+                        data.push(node.data);
+                    }
+
+                    numRunning += 1;
+
+                    if (q._tasks.length === 0) {
+                        q.empty();
+                    }
+
+                    if (numRunning === q.concurrency) {
+                        q.saturated();
+                    }
+
+                    var cb = onlyOnce(_next(tasks));
+                    _worker(data, cb);
+                }
+                isProcessing = false;
+            },
+            length () {
+                return q._tasks.length;
+            },
+            running () {
+                return numRunning;
+            },
+            workersList () {
+                return workersList;
+            },
+            idle() {
+                return q._tasks.length + numRunning === 0;
+            },
+            pause () {
+                q.paused = true;
+            },
+            resume () {
+                if (q.paused === false) { return; }
+                q.paused = false;
+                setImmediate$1(q.process);
+            }
+        };
+        return q;
+    }
+
+    /**
+     * A cargo of tasks for the worker function to complete. Cargo inherits all of
+     * the same methods and event callbacks as [`queue`]{@link module:ControlFlow.queue}.
+     * @typedef {Object} CargoObject
+     * @memberOf module:ControlFlow
+     * @property {Function} length - A function returning the number of items
+     * waiting to be processed. Invoke like `cargo.length()`.
+     * @property {number} payload - An `integer` for determining how many tasks
+     * should be process per round. This property can be changed after a `cargo` is
+     * created to alter the payload on-the-fly.
+     * @property {Function} push - Adds `task` to the `queue`. The callback is
+     * called once the `worker` has finished processing the task. Instead of a
+     * single task, an array of `tasks` can be submitted. The respective callback is
+     * used for every task in the list. Invoke like `cargo.push(task, [callback])`.
+     * @property {Function} saturated - A callback that is called when the
+     * `queue.length()` hits the concurrency and further tasks will be queued.
+     * @property {Function} empty - A callback that is called when the last item
+     * from the `queue` is given to a `worker`.
+     * @property {Function} drain - A callback that is called when the last item
+     * from the `queue` has returned from the `worker`.
+     * @property {Function} idle - a function returning false if there are items
+     * waiting or being processed, or true if not. Invoke like `cargo.idle()`.
+     * @property {Function} pause - a function that pauses the processing of tasks
+     * until `resume()` is called. Invoke like `cargo.pause()`.
+     * @property {Function} resume - a function that resumes the processing of
+     * queued tasks when the queue is paused. Invoke like `cargo.resume()`.
+     * @property {Function} kill - a function that removes the `drain` callback and
+     * empties remaining tasks from the queue forcing it to go idle. Invoke like `cargo.kill()`.
+     */
+
+    /**
+     * Creates a `cargo` object with the specified payload. Tasks added to the
+     * cargo will be processed altogether (up to the `payload` limit). If the
+     * `worker` is in progress, the task is queued until it becomes available. Once
+     * the `worker` has completed some tasks, each callback of those tasks is
+     * called. Check out [these](https://camo.githubusercontent.com/6bbd36f4cf5b35a0f11a96dcd2e97711ffc2fb37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130382f62626330636662302d356632392d313165322d393734662d3333393763363464633835382e676966) [animations](https://camo.githubusercontent.com/f4810e00e1c5f5f8addbe3e9f49064fd5d102699/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130312f38346339323036362d356632392d313165322d383134662d3964336430323431336266642e676966)
+     * for how `cargo` and `queue` work.
+     *
+     * While [`queue`]{@link module:ControlFlow.queue} passes only one task to one of a group of workers
+     * at a time, cargo passes an array of tasks to a single worker, repeating
+     * when the worker is finished.
+     *
+     * @name cargo
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.queue]{@link module:ControlFlow.queue}
+     * @category Control Flow
+     * @param {AsyncFunction} worker - An asynchronous function for processing an array
+     * of queued tasks. Invoked with `(tasks, callback)`.
+     * @param {number} [payload=Infinity] - An optional `integer` for determining
+     * how many tasks should be processed per round; if omitted, the default is
+     * unlimited.
+     * @returns {module:ControlFlow.CargoObject} A cargo object to manage the tasks. Callbacks can
+     * attached as certain properties to listen for specific events during the
+     * lifecycle of the cargo and inner queue.
+     * @example
+     *
+     * // create a cargo object with payload 2
+     * var cargo = async.cargo(function(tasks, callback) {
+     *     for (var i=0; i<tasks.length; i++) {
+     *         console.log('hello ' + tasks[i].name);
+     *     }
+     *     callback();
+     * }, 2);
+     *
+     * // add some items
+     * cargo.push({name: 'foo'}, function(err) {
+     *     console.log('finished processing foo');
+     * });
+     * cargo.push({name: 'bar'}, function(err) {
+     *     console.log('finished processing bar');
+     * });
+     * cargo.push({name: 'baz'}, function(err) {
+     *     console.log('finished processing baz');
+     * });
+     */
+    function cargo(worker, payload) {
+        return queue(worker, 1, payload);
+    }
+
+    /**
+     * Creates a `cargoQueue` object with the specified payload. Tasks added to the
+     * cargoQueue will be processed together (up to the `payload` limit) in `concurrency` parallel workers.
+     * If the all `workers` are in progress, the task is queued until one becomes available. Once
+     * a `worker` has completed some tasks, each callback of those tasks is
+     * called. Check out [these](https://camo.githubusercontent.com/6bbd36f4cf5b35a0f11a96dcd2e97711ffc2fb37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130382f62626330636662302d356632392d313165322d393734662d3333393763363464633835382e676966) [animations](https://camo.githubusercontent.com/f4810e00e1c5f5f8addbe3e9f49064fd5d102699/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130312f38346339323036362d356632392d313165322d383134662d3964336430323431336266642e676966)
+     * for how `cargo` and `queue` work.
+     *
+     * While [`queue`]{@link module:ControlFlow.queue} passes only one task to one of a group of workers
+     * at a time, and [`cargo`]{@link module:ControlFlow.cargo} passes an array of tasks to a single worker,
+     * the cargoQueue passes an array of tasks to multiple parallel workers.
+     *
+     * @name cargoQueue
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.queue]{@link module:ControlFlow.queue}
+     * @see [async.cargo]{@link module:ControlFLow.cargo}
+     * @category Control Flow
+     * @param {AsyncFunction} worker - An asynchronous function for processing an array
+     * of queued tasks. Invoked with `(tasks, callback)`.
+     * @param {number} [concurrency=1] - An `integer` for determining how many
+     * `worker` functions should be run in parallel.  If omitted, the concurrency
+     * defaults to `1`.  If the concurrency is `0`, an error is thrown.
+     * @param {number} [payload=Infinity] - An optional `integer` for determining
+     * how many tasks should be processed per round; if omitted, the default is
+     * unlimited.
+     * @returns {module:ControlFlow.CargoObject} A cargoQueue object to manage the tasks. Callbacks can
+     * attached as certain properties to listen for specific events during the
+     * lifecycle of the cargoQueue and inner queue.
+     * @example
+     *
+     * // create a cargoQueue object with payload 2 and concurrency 2
+     * var cargoQueue = async.cargoQueue(function(tasks, callback) {
+     *     for (var i=0; i<tasks.length; i++) {
+     *         console.log('hello ' + tasks[i].name);
+     *     }
+     *     callback();
+     * }, 2, 2);
+     *
+     * // add some items
+     * cargoQueue.push({name: 'foo'}, function(err) {
+     *     console.log('finished processing foo');
+     * });
+     * cargoQueue.push({name: 'bar'}, function(err) {
+     *     console.log('finished processing bar');
+     * });
+     * cargoQueue.push({name: 'baz'}, function(err) {
+     *     console.log('finished processing baz');
+     * });
+     * cargoQueue.push({name: 'boo'}, function(err) {
+     *     console.log('finished processing boo');
+     * });
+     */
+    function cargo$1(worker, concurrency, payload) {
+        return queue(worker, concurrency, payload);
+    }
+
+    /**
+     * Reduces `coll` into a single value using an async `iteratee` to return each
+     * successive step. `memo` is the initial state of the reduction. This function
+     * only operates in series.
+     *
+     * For performance reasons, it may make sense to split a call to this function
+     * into a parallel map, and then use the normal `Array.prototype.reduce` on the
+     * results. This function is for situations where each step in the reduction
+     * needs to be async; if you can get the data before reducing it, then it's
+     * probably a good idea to do so.
+     *
+     * @name reduce
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias inject
+     * @alias foldl
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {*} memo - The initial state of the reduction.
+     * @param {AsyncFunction} iteratee - A function applied to each item in the
+     * array to produce the next step in the reduction.
+     * The `iteratee` should complete with the next state of the reduction.
+     * If the iteratee complete with an error, the reduction is stopped and the
+     * main `callback` is immediately called with the error.
+     * Invoked with (memo, item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result is the reduced value. Invoked with
+     * (err, result).
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * async.reduce([1,2,3], 0, function(memo, item, callback) {
+     *     // pointless async:
+     *     process.nextTick(function() {
+     *         callback(null, memo + item)
+     *     });
+     * }, function(err, result) {
+     *     // result is now equal to the last value of memo, which is 6
+     * });
+     */
+    function reduce(coll, memo, iteratee, callback) {
+        callback = once(callback);
+        var _iteratee = wrapAsync(iteratee);
+        return eachOfSeries$1(coll, (x, i, iterCb) => {
+            _iteratee(memo, x, (err, v) => {
+                memo = v;
+                iterCb(err);
+            });
+        }, err => callback(err, memo));
+    }
+    var reduce$1 = awaitify(reduce, 4);
+
+    /**
+     * Version of the compose function that is more natural to read. Each function
+     * consumes the return value of the previous function. It is the equivalent of
+     * [compose]{@link module:ControlFlow.compose} with the arguments reversed.
+     *
+     * Each function is executed with the `this` binding of the composed function.
+     *
+     * @name seq
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.compose]{@link module:ControlFlow.compose}
+     * @category Control Flow
+     * @param {...AsyncFunction} functions - the asynchronous functions to compose
+     * @returns {Function} a function that composes the `functions` in order
+     * @example
+     *
+     * // Requires lodash (or underscore), express3 and dresende's orm2.
+     * // Part of an app, that fetches cats of the logged user.
+     * // This example uses `seq` function to avoid overnesting and error
+     * // handling clutter.
+     * app.get('/cats', function(request, response) {
+     *     var User = request.models.User;
+     *     async.seq(
+     *         _.bind(User.get, User),  // 'User.get' has signature (id, callback(err, data))
+     *         function(user, fn) {
+     *             user.getCats(fn);      // 'getCats' has signature (callback(err, data))
+     *         }
+     *     )(req.session.user_id, function (err, cats) {
+     *         if (err) {
+     *             console.error(err);
+     *             response.json({ status: 'error', message: err.message });
+     *         } else {
+     *             response.json({ status: 'ok', message: 'Cats found', data: cats });
+     *         }
+     *     });
+     * });
+     */
+    function seq(...functions) {
+        var _functions = functions.map(wrapAsync);
+        return function (...args) {
+            var that = this;
+
+            var cb = args[args.length - 1];
+            if (typeof cb == 'function') {
+                args.pop();
+            } else {
+                cb = promiseCallback();
+            }
+
+            reduce$1(_functions, args, (newargs, fn, iterCb) => {
+                    fn.apply(that, newargs.concat((err, ...nextargs) => {
+                        iterCb(err, nextargs);
+                    }));
+                },
+                (err, results) => cb(err, ...results));
+
+            return cb[PROMISE_SYMBOL]
+        };
+    }
+
+    /**
+     * Creates a function which is a composition of the passed asynchronous
+     * functions. Each function consumes the return value of the function that
+     * follows. Composing functions `f()`, `g()`, and `h()` would produce the result
+     * of `f(g(h()))`, only this version uses callbacks to obtain the return values.
+     *
+     * If the last argument to the composed function is not a function, a promise
+     * is returned when you call it.
+     *
+     * Each function is executed with the `this` binding of the composed function.
+     *
+     * @name compose
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {...AsyncFunction} functions - the asynchronous functions to compose
+     * @returns {Function} an asynchronous function that is the composed
+     * asynchronous `functions`
+     * @example
+     *
+     * function add1(n, callback) {
+     *     setTimeout(function () {
+     *         callback(null, n + 1);
+     *     }, 10);
+     * }
+     *
+     * function mul3(n, callback) {
+     *     setTimeout(function () {
+     *         callback(null, n * 3);
+     *     }, 10);
+     * }
+     *
+     * var add1mul3 = async.compose(mul3, add1);
+     * add1mul3(4, function (err, result) {
+     *     // result now equals 15
+     * });
+     */
+    function compose(...args) {
+        return seq(...args.reverse());
+    }
+
+    /**
+     * The same as [`map`]{@link module:Collections.map} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name mapLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.map]{@link module:Collections.map}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with the transformed item.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Results is an array of the
+     * transformed items from the `coll`. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function mapLimit (coll, limit, iteratee, callback) {
+        return _asyncMap(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var mapLimit$1 = awaitify(mapLimit, 4);
+
+    /**
+     * The same as [`concat`]{@link module:Collections.concat} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name concatLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.concat]{@link module:Collections.concat}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - A function to apply to each item in `coll`,
+     * which should use an array as its result. Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished, or an error occurs. Results is an array
+     * containing the concatenated results of the `iteratee` function. Invoked with
+     * (err, results).
+     * @returns A Promise, if no callback is passed
+     */
+    function concatLimit(coll, limit, iteratee, callback) {
+        var _iteratee = wrapAsync(iteratee);
+        return mapLimit$1(coll, limit, (val, iterCb) => {
+            _iteratee(val, (err, ...args) => {
+                if (err) return iterCb(err);
+                return iterCb(null, args);
+            });
+        }, (err, mapResults) => {
+            var result = [];
+            for (var i = 0; i < mapResults.length; i++) {
+                if (mapResults[i]) {
+                    result = result.concat(...mapResults[i]);
+                }
+            }
+
+            return callback(err, result);
+        });
+    }
+    var concatLimit$1 = awaitify(concatLimit, 4);
+
+    /**
+     * Applies `iteratee` to each item in `coll`, concatenating the results. Returns
+     * the concatenated list. The `iteratee`s are called in parallel, and the
+     * results are concatenated as they return. The results array will be returned in
+     * the original order of `coll` passed to the `iteratee` function.
+     *
+     * @name concat
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A function to apply to each item in `coll`,
+     * which should use an array as its result. Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished, or an error occurs. Results is an array
+     * containing the concatenated results of the `iteratee` function. Invoked with
+     * (err, results).
+     * @returns A Promise, if no callback is passed
+     * @example
+     *
+     * async.concat(['dir1','dir2','dir3'], fs.readdir, function(err, files) {
+     *     // files is now a list of filenames that exist in the 3 directories
+     * });
+     */
+    function concat(coll, iteratee, callback) {
+        return concatLimit$1(coll, Infinity, iteratee, callback)
+    }
+    var concat$1 = awaitify(concat, 3);
+
+    /**
+     * The same as [`concat`]{@link module:Collections.concat} but runs only a single async operation at a time.
+     *
+     * @name concatSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.concat]{@link module:Collections.concat}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A function to apply to each item in `coll`.
+     * The iteratee should complete with an array an array of results.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished, or an error occurs. Results is an array
+     * containing the concatenated results of the `iteratee` function. Invoked with
+     * (err, results).
+     * @returns A Promise, if no callback is passed
+     */
+    function concatSeries(coll, iteratee, callback) {
+        return concatLimit$1(coll, 1, iteratee, callback)
+    }
+    var concatSeries$1 = awaitify(concatSeries, 3);
+
+    /**
+     * Returns a function that when called, calls-back with the values provided.
+     * Useful as the first function in a [`waterfall`]{@link module:ControlFlow.waterfall}, or for plugging values in to
+     * [`auto`]{@link module:ControlFlow.auto}.
+     *
+     * @name constant
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {...*} arguments... - Any number of arguments to automatically invoke
+     * callback with.
+     * @returns {AsyncFunction} Returns a function that when invoked, automatically
+     * invokes the callback with the previous given arguments.
+     * @example
+     *
+     * async.waterfall([
+     *     async.constant(42),
+     *     function (value, next) {
+     *         // value === 42
+     *     },
+     *     //...
+     * ], callback);
+     *
+     * async.waterfall([
+     *     async.constant(filename, "utf8"),
+     *     fs.readFile,
+     *     function (fileData, next) {
+     *         //...
+     *     }
+     *     //...
+     * ], callback);
+     *
+     * async.auto({
+     *     hostname: async.constant("https://server.net/"),
+     *     port: findFreePort,
+     *     launchServer: ["hostname", "port", function (options, cb) {
+     *         startServer(options, cb);
+     *     }],
+     *     //...
+     * }, callback);
+     */
+    function constant(...args) {
+        return function (...ignoredArgs/*, callback*/) {
+            var callback = ignoredArgs.pop();
+            return callback(null, ...args);
+        };
+    }
+
+    function _createTester(check, getResult) {
+        return (eachfn, arr, _iteratee, cb) => {
+            var testPassed = false;
+            var testResult;
+            const iteratee = wrapAsync(_iteratee);
+            eachfn(arr, (value, _, callback) => {
+                iteratee(value, (err, result) => {
+                    if (err) return callback(err)
+
+                    if (check(result) && !testResult) {
+                        testPassed = true;
+                        testResult = getResult(true, value);
+                        return callback(null, breakLoop);
+                    }
+                    callback();
+                });
+            }, err => {
+                if (err) return cb(err);
+                cb(null, testPassed ? testResult : getResult(false));
+            });
+        };
+    }
+
+    /**
+     * Returns the first value in `coll` that passes an async truth test. The
+     * `iteratee` is applied in parallel, meaning the first iteratee to return
+     * `true` will fire the detect `callback` with that result. That means the
+     * result might not be the first item in the original `coll` (in terms of order)
+     * that passes the test.
+
+     * If order within the original `coll` is important, then look at
+     * [`detectSeries`]{@link module:Collections.detectSeries}.
+     *
+     * @name detect
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias find
+     * @category Collections
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+     * The iteratee must complete with a boolean value as its result.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the `iteratee` functions have finished.
+     * Result will be the first item in the array that passes the truth test
+     * (iteratee) or the value `undefined` if none passed. Invoked with
+     * (err, result).
+     * @returns A Promise, if no callback is passed
+     * @example
+     *
+     * async.detect(['file1','file2','file3'], function(filePath, callback) {
+     *     fs.access(filePath, function(err) {
+     *         callback(null, !err)
+     *     });
+     * }, function(err, result) {
+     *     // result now equals the first file in the list that exists
+     * });
+     */
+    function detect(coll, iteratee, callback) {
+        return _createTester(bool => bool, (res, item) => item)(eachOf$1, coll, iteratee, callback)
+    }
+    var detect$1 = awaitify(detect, 3);
+
+    /**
+     * The same as [`detect`]{@link module:Collections.detect} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name detectLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.detect]{@link module:Collections.detect}
+     * @alias findLimit
+     * @category Collections
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+     * The iteratee must complete with a boolean value as its result.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the `iteratee` functions have finished.
+     * Result will be the first item in the array that passes the truth test
+     * (iteratee) or the value `undefined` if none passed. Invoked with
+     * (err, result).
+     * @returns a Promise if no callback is passed
+     */
+    function detectLimit(coll, limit, iteratee, callback) {
+        return _createTester(bool => bool, (res, item) => item)(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var detectLimit$1 = awaitify(detectLimit, 4);
+
+    /**
+     * The same as [`detect`]{@link module:Collections.detect} but runs only a single async operation at a time.
+     *
+     * @name detectSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.detect]{@link module:Collections.detect}
+     * @alias findSeries
+     * @category Collections
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+     * The iteratee must complete with a boolean value as its result.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the `iteratee` functions have finished.
+     * Result will be the first item in the array that passes the truth test
+     * (iteratee) or the value `undefined` if none passed. Invoked with
+     * (err, result).
+     * @returns a Promise if no callback is passed
+     */
+    function detectSeries(coll, iteratee, callback) {
+        return _createTester(bool => bool, (res, item) => item)(eachOfLimit(1), coll, iteratee, callback)
+    }
+
+    var detectSeries$1 = awaitify(detectSeries, 3);
+
+    function consoleFunc(name) {
+        return (fn, ...args) => wrapAsync(fn)(...args, (err, ...resultArgs) => {
+            if (typeof console === 'object') {
+                if (err) {
+                    if (console.error) {
+                        console.error(err);
+                    }
+                } else if (console[name]) {
+                    resultArgs.forEach(x => console[name](x));
+                }
+            }
+        })
+    }
+
+    /**
+     * Logs the result of an [`async` function]{@link AsyncFunction} to the
+     * `console` using `console.dir` to display the properties of the resulting object.
+     * Only works in Node.js or in browsers that support `console.dir` and
+     * `console.error` (such as FF and Chrome).
+     * If multiple arguments are returned from the async function,
+     * `console.dir` is called on each argument in order.
+     *
+     * @name dir
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} function - The function you want to eventually apply
+     * all arguments to.
+     * @param {...*} arguments... - Any number of arguments to apply to the function.
+     * @example
+     *
+     * // in a module
+     * var hello = function(name, callback) {
+     *     setTimeout(function() {
+     *         callback(null, {hello: name});
+     *     }, 1000);
+     * };
+     *
+     * // in the node repl
+     * node> async.dir(hello, 'world');
+     * {hello: 'world'}
+     */
+    var dir = consoleFunc('dir');
+
+    /**
+     * The post-check version of [`whilst`]{@link module:ControlFlow.whilst}. To reflect the difference in
+     * the order of operations, the arguments `test` and `iteratee` are switched.
+     *
+     * `doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.
+     *
+     * @name doWhilst
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.whilst]{@link module:ControlFlow.whilst}
+     * @category Control Flow
+     * @param {AsyncFunction} iteratee - A function which is called each time `test`
+     * passes. Invoked with (callback).
+     * @param {AsyncFunction} test - asynchronous truth test to perform after each
+     * execution of `iteratee`. Invoked with (...args, callback), where `...args` are the
+     * non-error args from the previous callback of `iteratee`.
+     * @param {Function} [callback] - A callback which is called after the test
+     * function has failed and repeated execution of `iteratee` has stopped.
+     * `callback` will be passed an error and any arguments passed to the final
+     * `iteratee`'s callback. Invoked with (err, [results]);
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function doWhilst(iteratee, test, callback) {
+        callback = onlyOnce(callback);
+        var _fn = wrapAsync(iteratee);
+        var _test = wrapAsync(test);
+        var results;
+
+        function next(err, ...args) {
+            if (err) return callback(err);
+            if (err === false) return;
+            results = args;
+            _test(...args, check);
+        }
+
+        function check(err, truth) {
+            if (err) return callback(err);
+            if (err === false) return;
+            if (!truth) return callback(null, ...results);
+            _fn(next);
+        }
+
+        return check(null, true);
+    }
+
+    var doWhilst$1 = awaitify(doWhilst, 3);
+
+    /**
+     * Like ['doWhilst']{@link module:ControlFlow.doWhilst}, except the `test` is inverted. Note the
+     * argument ordering differs from `until`.
+     *
+     * @name doUntil
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.doWhilst]{@link module:ControlFlow.doWhilst}
+     * @category Control Flow
+     * @param {AsyncFunction} iteratee - An async function which is called each time
+     * `test` fails. Invoked with (callback).
+     * @param {AsyncFunction} test - asynchronous truth test to perform after each
+     * execution of `iteratee`. Invoked with (...args, callback), where `...args` are the
+     * non-error args from the previous callback of `iteratee`
+     * @param {Function} [callback] - A callback which is called after the test
+     * function has passed and repeated execution of `iteratee` has stopped. `callback`
+     * will be passed an error and any arguments passed to the final `iteratee`'s
+     * callback. Invoked with (err, [results]);
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function doUntil(iteratee, test, callback) {
+        const _test = wrapAsync(test);
+        return doWhilst$1(iteratee, (...args) => {
+            const cb = args.pop();
+            _test(...args, (err, truth) => cb (err, !truth));
+        }, callback);
+    }
+
+    function _withoutIndex(iteratee) {
+        return (value, index, callback) => iteratee(value, callback);
+    }
+
+    /**
+     * Applies the function `iteratee` to each item in `coll`, in parallel.
+     * The `iteratee` is called with an item from the list, and a callback for when
+     * it has finished. If the `iteratee` passes an error to its `callback`, the
+     * main `callback` (for the `each` function) is immediately called with the
+     * error.
+     *
+     * Note, that since this function applies `iteratee` to each item in parallel,
+     * there is no guarantee that the iteratee functions will complete in order.
+     *
+     * @name each
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias forEach
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to
+     * each item in `coll`. Invoked with (item, callback).
+     * The array index is not passed to the iteratee.
+     * If you need the index, use `eachOf`.
+     * @param {Function} [callback] - A callback which is called when all
+     * `iteratee` functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     * @example
+     *
+     * // assuming openFiles is an array of file names and saveFile is a function
+     * // to save the modified contents of that file:
+     *
+     * async.each(openFiles, saveFile, function(err){
+     *   // if any of the saves produced an error, err would equal that error
+     * });
+     *
+     * // assuming openFiles is an array of file names
+     * async.each(openFiles, function(file, callback) {
+     *
+     *     // Perform operation on file here.
+     *     console.log('Processing file ' + file);
+     *
+     *     if( file.length > 32 ) {
+     *       console.log('This file name is too long');
+     *       callback('File name too long');
+     *     } else {
+     *       // Do work to process file here
+     *       console.log('File processed');
+     *       callback();
+     *     }
+     * }, function(err) {
+     *     // if any of the file processing produced an error, err would equal that error
+     *     if( err ) {
+     *       // One of the iterations produced an error.
+     *       // All processing will now stop.
+     *       console.log('A file failed to process');
+     *     } else {
+     *       console.log('All files have been processed successfully');
+     *     }
+     * });
+     */
+    function eachLimit(coll, iteratee, callback) {
+        return eachOf$1(coll, _withoutIndex(wrapAsync(iteratee)), callback);
+    }
+
+    var each = awaitify(eachLimit, 3);
+
+    /**
+     * The same as [`each`]{@link module:Collections.each} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name eachLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.each]{@link module:Collections.each}
+     * @alias forEachLimit
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The array index is not passed to the iteratee.
+     * If you need the index, use `eachOfLimit`.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called when all
+     * `iteratee` functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     */
+    function eachLimit$1(coll, limit, iteratee, callback) {
+        return eachOfLimit(limit)(coll, _withoutIndex(wrapAsync(iteratee)), callback);
+    }
+    var eachLimit$2 = awaitify(eachLimit$1, 4);
+
+    /**
+     * The same as [`each`]{@link module:Collections.each} but runs only a single async operation at a time.
+     *
+     * @name eachSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.each]{@link module:Collections.each}
+     * @alias forEachSeries
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each
+     * item in `coll`.
+     * The array index is not passed to the iteratee.
+     * If you need the index, use `eachOfSeries`.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called when all
+     * `iteratee` functions have finished, or an error occurs. Invoked with (err).
+     * @returns {Promise} a promise, if a callback is omitted
+     */
+    function eachSeries(coll, iteratee, callback) {
+        return eachLimit$2(coll, 1, iteratee, callback)
+    }
+    var eachSeries$1 = awaitify(eachSeries, 3);
+
+    /**
+     * Wrap an async function and ensure it calls its callback on a later tick of
+     * the event loop.  If the function already calls its callback on a next tick,
+     * no extra deferral is added. This is useful for preventing stack overflows
+     * (`RangeError: Maximum call stack size exceeded`) and generally keeping
+     * [Zalgo](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony)
+     * contained. ES2017 `async` functions are returned as-is -- they are immune
+     * to Zalgo's corrupting influences, as they always resolve on a later tick.
+     *
+     * @name ensureAsync
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} fn - an async function, one that expects a node-style
+     * callback as its last argument.
+     * @returns {AsyncFunction} Returns a wrapped function with the exact same call
+     * signature as the function passed in.
+     * @example
+     *
+     * function sometimesAsync(arg, callback) {
+     *     if (cache[arg]) {
+     *         return callback(null, cache[arg]); // this would be synchronous!!
+     *     } else {
+     *         doSomeIO(arg, callback); // this IO would be asynchronous
+     *     }
+     * }
+     *
+     * // this has a risk of stack overflows if many results are cached in a row
+     * async.mapSeries(args, sometimesAsync, done);
+     *
+     * // this will defer sometimesAsync's callback if necessary,
+     * // preventing stack overflows
+     * async.mapSeries(args, async.ensureAsync(sometimesAsync), done);
+     */
+    function ensureAsync(fn) {
+        if (isAsync(fn)) return fn;
+        return function (...args/*, callback*/) {
+            var callback = args.pop();
+            var sync = true;
+            args.push((...innerArgs) => {
+                if (sync) {
+                    setImmediate$1(() => callback(...innerArgs));
+                } else {
+                    callback(...innerArgs);
+                }
+            });
+            fn.apply(this, args);
+            sync = false;
+        };
+    }
+
+    /**
+     * Returns `true` if every element in `coll` satisfies an async test. If any
+     * iteratee call returns `false`, the main `callback` is immediately called.
+     *
+     * @name every
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias all
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collection in parallel.
+     * The iteratee must complete with a boolean result value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result will be either `true` or `false`
+     * depending on the values of the async tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     * @example
+     *
+     * async.every(['file1','file2','file3'], function(filePath, callback) {
+     *     fs.access(filePath, function(err) {
+     *         callback(null, !err)
+     *     });
+     * }, function(err, result) {
+     *     // if result is true then every file exists
+     * });
+     */
+    function every(coll, iteratee, callback) {
+        return _createTester(bool => !bool, res => !res)(eachOf$1, coll, iteratee, callback)
+    }
+    var every$1 = awaitify(every, 3);
+
+    /**
+     * The same as [`every`]{@link module:Collections.every} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name everyLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.every]{@link module:Collections.every}
+     * @alias allLimit
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collection in parallel.
+     * The iteratee must complete with a boolean result value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result will be either `true` or `false`
+     * depending on the values of the async tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function everyLimit(coll, limit, iteratee, callback) {
+        return _createTester(bool => !bool, res => !res)(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var everyLimit$1 = awaitify(everyLimit, 4);
+
+    /**
+     * The same as [`every`]{@link module:Collections.every} but runs only a single async operation at a time.
+     *
+     * @name everySeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.every]{@link module:Collections.every}
+     * @alias allSeries
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collection in series.
+     * The iteratee must complete with a boolean result value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result will be either `true` or `false`
+     * depending on the values of the async tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function everySeries(coll, iteratee, callback) {
+        return _createTester(bool => !bool, res => !res)(eachOfSeries$1, coll, iteratee, callback)
+    }
+    var everySeries$1 = awaitify(everySeries, 3);
+
+    function filterArray(eachfn, arr, iteratee, callback) {
+        var truthValues = new Array(arr.length);
+        eachfn(arr, (x, index, iterCb) => {
+            iteratee(x, (err, v) => {
+                truthValues[index] = !!v;
+                iterCb(err);
+            });
+        }, err => {
+            if (err) return callback(err);
+            var results = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (truthValues[i]) results.push(arr[i]);
+            }
+            callback(null, results);
+        });
+    }
+
+    function filterGeneric(eachfn, coll, iteratee, callback) {
+        var results = [];
+        eachfn(coll, (x, index, iterCb) => {
+            iteratee(x, (err, v) => {
+                if (err) return iterCb(err);
+                if (v) {
+                    results.push({index, value: x});
+                }
+                iterCb();
+            });
+        }, err => {
+            if (err) return callback(err);
+            callback(null, results
+                .sort((a, b) => a.index - b.index)
+                .map(v => v.value));
+        });
+    }
+
+    function _filter(eachfn, coll, iteratee, callback) {
+        var filter = isArrayLike(coll) ? filterArray : filterGeneric;
+        return filter(eachfn, coll, wrapAsync(iteratee), callback);
+    }
+
+    /**
+     * Returns a new array of all the values in `coll` which pass an async truth
+     * test. This operation is performed in parallel, but the results array will be
+     * in the same order as the original.
+     *
+     * @name filter
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias select
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {Function} iteratee - A truth test to apply to each item in `coll`.
+     * The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+     * with a boolean argument once it has completed. Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback provided
+     * @example
+     *
+     * async.filter(['file1','file2','file3'], function(filePath, callback) {
+     *     fs.access(filePath, function(err) {
+     *         callback(null, !err)
+     *     });
+     * }, function(err, results) {
+     *     // results now equals an array of the existing files
+     * });
+     */
+    function filter (coll, iteratee, callback) {
+        return _filter(eachOf$1, coll, iteratee, callback)
+    }
+    var filter$1 = awaitify(filter, 3);
+
+    /**
+     * The same as [`filter`]{@link module:Collections.filter} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name filterLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.filter]{@link module:Collections.filter}
+     * @alias selectLimit
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {Function} iteratee - A truth test to apply to each item in `coll`.
+     * The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+     * with a boolean argument once it has completed. Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function filterLimit (coll, limit, iteratee, callback) {
+        return _filter(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var filterLimit$1 = awaitify(filterLimit, 4);
+
+    /**
+     * The same as [`filter`]{@link module:Collections.filter} but runs only a single async operation at a time.
+     *
+     * @name filterSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.filter]{@link module:Collections.filter}
+     * @alias selectSeries
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {Function} iteratee - A truth test to apply to each item in `coll`.
+     * The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+     * with a boolean argument once it has completed. Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results)
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function filterSeries (coll, iteratee, callback) {
+        return _filter(eachOfSeries$1, coll, iteratee, callback)
+    }
+    var filterSeries$1 = awaitify(filterSeries, 3);
+
+    /**
+     * Calls the asynchronous function `fn` with a callback parameter that allows it
+     * to call itself again, in series, indefinitely.
+
+     * If an error is passed to the callback then `errback` is called with the
+     * error, and execution stops, otherwise it will never be called.
+     *
+     * @name forever
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {AsyncFunction} fn - an async function to call repeatedly.
+     * Invoked with (next).
+     * @param {Function} [errback] - when `fn` passes an error to it's callback,
+     * this function will be called, and execution stops. Invoked with (err).
+     * @returns {Promise} a promise that rejects if an error occurs and an errback
+     * is not passed
+     * @example
+     *
+     * async.forever(
+     *     function(next) {
+     *         // next is suitable for passing to things that need a callback(err [, whatever]);
+     *         // it will result in this function being called again.
+     *     },
+     *     function(err) {
+     *         // if next is called with a value in its first parameter, it will appear
+     *         // in here as 'err', and execution will stop.
+     *     }
+     * );
+     */
+    function forever(fn, errback) {
+        var done = onlyOnce(errback);
+        var task = wrapAsync(ensureAsync(fn));
+
+        function next(err) {
+            if (err) return done(err);
+            if (err === false) return;
+            task(next);
+        }
+        return next();
+    }
+    var forever$1 = awaitify(forever, 2);
+
+    /**
+     * The same as [`groupBy`]{@link module:Collections.groupBy} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name groupByLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.groupBy]{@link module:Collections.groupBy}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with a `key` to group the value under.
+     * Invoked with (value, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Result is an `Object` whoses
+     * properties are arrays of values which returned the corresponding key.
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function groupByLimit(coll, limit, iteratee, callback) {
+        var _iteratee = wrapAsync(iteratee);
+        return mapLimit$1(coll, limit, (val, iterCb) => {
+            _iteratee(val, (err, key) => {
+                if (err) return iterCb(err);
+                return iterCb(null, {key, val});
+            });
+        }, (err, mapResults) => {
+            var result = {};
+            // from MDN, handle object having an `hasOwnProperty` prop
+            var {hasOwnProperty} = Object.prototype;
+
+            for (var i = 0; i < mapResults.length; i++) {
+                if (mapResults[i]) {
+                    var {key} = mapResults[i];
+                    var {val} = mapResults[i];
+
+                    if (hasOwnProperty.call(result, key)) {
+                        result[key].push(val);
+                    } else {
+                        result[key] = [val];
+                    }
+                }
+            }
+
+            return callback(err, result);
+        });
+    }
+
+    var groupByLimit$1 = awaitify(groupByLimit, 4);
+
+    /**
+     * Returns a new object, where each value corresponds to an array of items, from
+     * `coll`, that returned the corresponding key. That is, the keys of the object
+     * correspond to the values passed to the `iteratee` callback.
+     *
+     * Note: Since this function applies the `iteratee` to each item in parallel,
+     * there is no guarantee that the `iteratee` functions will complete in order.
+     * However, the values for each key in the `result` will be in the same order as
+     * the original `coll`. For Objects, the values will roughly be in the order of
+     * the original Objects' keys (but this can vary across JavaScript engines).
+     *
+     * @name groupBy
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with a `key` to group the value under.
+     * Invoked with (value, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Result is an `Object` whoses
+     * properties are arrays of values which returned the corresponding key.
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * async.groupBy(['userId1', 'userId2', 'userId3'], function(userId, callback) {
+     *     db.findById(userId, function(err, user) {
+     *         if (err) return callback(err);
+     *         return callback(null, user.age);
+     *     });
+     * }, function(err, result) {
+     *     // result is object containing the userIds grouped by age
+     *     // e.g. { 30: ['userId1', 'userId3'], 42: ['userId2']};
+     * });
+     */
+    function groupBy (coll, iteratee, callback) {
+        return groupByLimit$1(coll, Infinity, iteratee, callback)
+    }
+
+    /**
+     * The same as [`groupBy`]{@link module:Collections.groupBy} but runs only a single async operation at a time.
+     *
+     * @name groupBySeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.groupBy]{@link module:Collections.groupBy}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with a `key` to group the value under.
+     * Invoked with (value, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. Result is an `Object` whoses
+     * properties are arrays of values which returned the corresponding key.
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function groupBySeries (coll, iteratee, callback) {
+        return groupByLimit$1(coll, 1, iteratee, callback)
+    }
+
+    /**
+     * Logs the result of an `async` function to the `console`. Only works in
+     * Node.js or in browsers that support `console.log` and `console.error` (such
+     * as FF and Chrome). If multiple arguments are returned from the async
+     * function, `console.log` is called on each argument in order.
+     *
+     * @name log
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} function - The function you want to eventually apply
+     * all arguments to.
+     * @param {...*} arguments... - Any number of arguments to apply to the function.
+     * @example
+     *
+     * // in a module
+     * var hello = function(name, callback) {
+     *     setTimeout(function() {
+     *         callback(null, 'hello ' + name);
+     *     }, 1000);
+     * };
+     *
+     * // in the node repl
+     * node> async.log(hello, 'world');
+     * 'hello world'
+     */
+    var log = consoleFunc('log');
+
+    /**
+     * The same as [`mapValues`]{@link module:Collections.mapValues} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name mapValuesLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.mapValues]{@link module:Collections.mapValues}
+     * @category Collection
+     * @param {Object} obj - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - A function to apply to each value and key
+     * in `coll`.
+     * The iteratee should complete with the transformed value as its result.
+     * Invoked with (value, key, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. `result` is a new object consisting
+     * of each key from `obj`, with each transformed value on the right-hand side.
+     * Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function mapValuesLimit(obj, limit, iteratee, callback) {
+        callback = once(callback);
+        var newObj = {};
+        var _iteratee = wrapAsync(iteratee);
+        return eachOfLimit(limit)(obj, (val, key, next) => {
+            _iteratee(val, key, (err, result) => {
+                if (err) return next(err);
+                newObj[key] = result;
+                next();
+            });
+        }, err => callback(err, newObj));
+    }
+
+    var mapValuesLimit$1 = awaitify(mapValuesLimit, 4);
+
+    /**
+     * A relative of [`map`]{@link module:Collections.map}, designed for use with objects.
+     *
+     * Produces a new Object by mapping each value of `obj` through the `iteratee`
+     * function. The `iteratee` is called each `value` and `key` from `obj` and a
+     * callback for when it has finished processing. Each of these callbacks takes
+     * two arguments: an `error`, and the transformed item from `obj`. If `iteratee`
+     * passes an error to its callback, the main `callback` (for the `mapValues`
+     * function) is immediately called with the error.
+     *
+     * Note, the order of the keys in the result is not guaranteed.  The keys will
+     * be roughly in the order they complete, (but this is very engine-specific)
+     *
+     * @name mapValues
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Object} obj - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A function to apply to each value and key
+     * in `coll`.
+     * The iteratee should complete with the transformed value as its result.
+     * Invoked with (value, key, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. `result` is a new object consisting
+     * of each key from `obj`, with each transformed value on the right-hand side.
+     * Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * async.mapValues({
+     *     f1: 'file1',
+     *     f2: 'file2',
+     *     f3: 'file3'
+     * }, function (file, key, callback) {
+     *   fs.stat(file, callback);
+     * }, function(err, result) {
+     *     // result is now a map of stats for each file, e.g.
+     *     // {
+     *     //     f1: [stats for file1],
+     *     //     f2: [stats for file2],
+     *     //     f3: [stats for file3]
+     *     // }
+     * });
+     */
+    function mapValues(obj, iteratee, callback) {
+        return mapValuesLimit$1(obj, Infinity, iteratee, callback)
+    }
+
+    /**
+     * The same as [`mapValues`]{@link module:Collections.mapValues} but runs only a single async operation at a time.
+     *
+     * @name mapValuesSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.mapValues]{@link module:Collections.mapValues}
+     * @category Collection
+     * @param {Object} obj - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - A function to apply to each value and key
+     * in `coll`.
+     * The iteratee should complete with the transformed value as its result.
+     * Invoked with (value, key, callback).
+     * @param {Function} [callback] - A callback which is called when all `iteratee`
+     * functions have finished, or an error occurs. `result` is a new object consisting
+     * of each key from `obj`, with each transformed value on the right-hand side.
+     * Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function mapValuesSeries(obj, iteratee, callback) {
+        return mapValuesLimit$1(obj, 1, iteratee, callback)
+    }
+
+    /**
+     * Caches the results of an async function. When creating a hash to store
+     * function results against, the callback is omitted from the hash and an
+     * optional hash function can be used.
+     *
+     * **Note: if the async function errs, the result will not be cached and
+     * subsequent calls will call the wrapped function.**
+     *
+     * If no hash function is specified, the first argument is used as a hash key,
+     * which may work reasonably if it is a string or a data type that converts to a
+     * distinct string. Note that objects and arrays will not behave reasonably.
+     * Neither will cases where the other arguments are significant. In such cases,
+     * specify your own hash function.
+     *
+     * The cache of results is exposed as the `memo` property of the function
+     * returned by `memoize`.
+     *
+     * @name memoize
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} fn - The async function to proxy and cache results from.
+     * @param {Function} hasher - An optional function for generating a custom hash
+     * for storing results. It has all the arguments applied to it apart from the
+     * callback, and must be synchronous.
+     * @returns {AsyncFunction} a memoized version of `fn`
+     * @example
+     *
+     * var slow_fn = function(name, callback) {
+     *     // do something
+     *     callback(null, result);
+     * };
+     * var fn = async.memoize(slow_fn);
+     *
+     * // fn can now be used as if it were slow_fn
+     * fn('some name', function() {
+     *     // callback
+     * });
+     */
+    function memoize(fn, hasher = v => v) {
+        var memo = Object.create(null);
+        var queues = Object.create(null);
+        var _fn = wrapAsync(fn);
+        var memoized = initialParams((args, callback) => {
+            var key = hasher(...args);
+            if (key in memo) {
+                setImmediate$1(() => callback(null, ...memo[key]));
+            } else if (key in queues) {
+                queues[key].push(callback);
+            } else {
+                queues[key] = [callback];
+                _fn(...args, (err, ...resultArgs) => {
+                    // #1465 don't memoize if an error occurred
+                    if (!err) {
+                        memo[key] = resultArgs;
+                    }
+                    var q = queues[key];
+                    delete queues[key];
+                    for (var i = 0, l = q.length; i < l; i++) {
+                        q[i](err, ...resultArgs);
+                    }
+                });
+            }
+        });
+        memoized.memo = memo;
+        memoized.unmemoized = fn;
+        return memoized;
+    }
+
+    /**
+     * Calls `callback` on a later loop around the event loop. In Node.js this just
+     * calls `process.nextTick`.  In the browser it will use `setImmediate` if
+     * available, otherwise `setTimeout(callback, 0)`, which means other higher
+     * priority events may precede the execution of `callback`.
+     *
+     * This is used internally for browser-compatibility purposes.
+     *
+     * @name nextTick
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @see [async.setImmediate]{@link module:Utils.setImmediate}
+     * @category Util
+     * @param {Function} callback - The function to call on a later loop around
+     * the event loop. Invoked with (args...).
+     * @param {...*} args... - any number of additional arguments to pass to the
+     * callback on the next tick.
+     * @example
+     *
+     * var call_order = [];
+     * async.nextTick(function() {
+     *     call_order.push('two');
+     *     // call_order now equals ['one','two']
+     * });
+     * call_order.push('one');
+     *
+     * async.setImmediate(function (a, b, c) {
+     *     // a, b, and c equal 1, 2, and 3
+     * }, 1, 2, 3);
+     */
+    var _defer$1;
+
+    if (hasNextTick) {
+        _defer$1 = process.nextTick;
+    } else if (hasSetImmediate) {
+        _defer$1 = setImmediate;
+    } else {
+        _defer$1 = fallback;
+    }
+
+    var nextTick = wrap(_defer$1);
+
+    var _parallel = awaitify((eachfn, tasks, callback) => {
+        var results = isArrayLike(tasks) ? [] : {};
+
+        eachfn(tasks, (task, key, taskCb) => {
+            wrapAsync(task)((err, ...result) => {
+                if (result.length < 2) {
+                    [result] = result;
+                }
+                results[key] = result;
+                taskCb(err);
+            });
+        }, err => callback(err, results));
+    }, 3);
+
+    /**
+     * Run the `tasks` collection of functions in parallel, without waiting until
+     * the previous function has completed. If any of the functions pass an error to
+     * its callback, the main `callback` is immediately called with the value of the
+     * error. Once the `tasks` have completed, the results are passed to the final
+     * `callback` as an array.
+     *
+     * **Note:** `parallel` is about kicking-off I/O tasks in parallel, not about
+     * parallel execution of code.  If your tasks do not use any timers or perform
+     * any I/O, they will actually be executed in series.  Any synchronous setup
+     * sections for each task will happen one after the other.  JavaScript remains
+     * single-threaded.
+     *
+     * **Hint:** Use [`reflect`]{@link module:Utils.reflect} to continue the
+     * execution of other tasks when a task fails.
+     *
+     * It is also possible to use an object instead of an array. Each property will
+     * be run as a function and the results will be passed to the final `callback`
+     * as an object instead of an array. This can be a more readable way of handling
+     * results from {@link async.parallel}.
+     *
+     * @name parallel
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} tasks - A collection of
+     * [async functions]{@link AsyncFunction} to run.
+     * Each async function can complete with any number of optional `result` values.
+     * @param {Function} [callback] - An optional callback to run once all the
+     * functions have completed successfully. This function gets a results array
+     * (or object) containing all the result arguments passed to the task callbacks.
+     * Invoked with (err, results).
+     * @returns {Promise} a promise, if a callback is not passed
+     *
+     * @example
+     * async.parallel([
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'one');
+     *         }, 200);
+     *     },
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'two');
+     *         }, 100);
+     *     }
+     * ],
+     * // optional callback
+     * function(err, results) {
+     *     // the results array will equal ['one','two'] even though
+     *     // the second function had a shorter timeout.
+     * });
+     *
+     * // an example using an object instead of an array
+     * async.parallel({
+     *     one: function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 1);
+     *         }, 200);
+     *     },
+     *     two: function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 2);
+     *         }, 100);
+     *     }
+     * }, function(err, results) {
+     *     // results is now equals to: {one: 1, two: 2}
+     * });
+     */
+    function parallel(tasks, callback) {
+        return _parallel(eachOf$1, tasks, callback);
+    }
+
+    /**
+     * The same as [`parallel`]{@link module:ControlFlow.parallel} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name parallelLimit
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.parallel]{@link module:ControlFlow.parallel}
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} tasks - A collection of
+     * [async functions]{@link AsyncFunction} to run.
+     * Each async function can complete with any number of optional `result` values.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {Function} [callback] - An optional callback to run once all the
+     * functions have completed successfully. This function gets a results array
+     * (or object) containing all the result arguments passed to the task callbacks.
+     * Invoked with (err, results).
+     * @returns {Promise} a promise, if a callback is not passed
+     */
+    function parallelLimit(tasks, limit, callback) {
+        return _parallel(eachOfLimit(limit), tasks, callback);
+    }
+
+    /**
+     * A queue of tasks for the worker function to complete.
+     * @typedef {Iterable} QueueObject
+     * @memberOf module:ControlFlow
+     * @property {Function} length - a function returning the number of items
+     * waiting to be processed. Invoke with `queue.length()`.
+     * @property {boolean} started - a boolean indicating whether or not any
+     * items have been pushed and processed by the queue.
+     * @property {Function} running - a function returning the number of items
+     * currently being processed. Invoke with `queue.running()`.
+     * @property {Function} workersList - a function returning the array of items
+     * currently being processed. Invoke with `queue.workersList()`.
+     * @property {Function} idle - a function returning false if there are items
+     * waiting or being processed, or true if not. Invoke with `queue.idle()`.
+     * @property {number} concurrency - an integer for determining how many `worker`
+     * functions should be run in parallel. This property can be changed after a
+     * `queue` is created to alter the concurrency on-the-fly.
+     * @property {Function} push - add a new task to the `queue`. Calls `callback`
+     * once the `worker` has finished processing the task. Instead of a single task,
+     * a `tasks` array can be submitted. The respective callback is used for every
+     * task in the list. Invoke with `queue.push(task, [callback])`,
+     * @property {Function} unshift - add a new task to the front of the `queue`.
+     * Invoke with `queue.unshift(task, [callback])`.
+     * @property {Function} remove - remove items from the queue that match a test
+     * function.  The test function will be passed an object with a `data` property,
+     * and a `priority` property, if this is a
+     * [priorityQueue]{@link module:ControlFlow.priorityQueue} object.
+     * Invoked with `queue.remove(testFn)`, where `testFn` is of the form
+     * `function ({data, priority}) {}` and returns a Boolean.
+     * @property {Function} saturated - a callback that is called when the number of
+     * running workers hits the `concurrency` limit, and further tasks will be
+     * queued.
+     * @property {Function} unsaturated - a callback that is called when the number
+     * of running workers is less than the `concurrency` & `buffer` limits, and
+     * further tasks will not be queued.
+     * @property {number} buffer - A minimum threshold buffer in order to say that
+     * the `queue` is `unsaturated`.
+     * @property {Function} empty - a callback that is called when the last item
+     * from the `queue` is given to a `worker`.
+     * @property {Function} drain - a callback that is called when the last item
+     * from the `queue` has returned from the `worker`.
+     * @property {Function} error - a callback that is called when a task errors.
+     * Has the signature `function(error, task)`.
+     * @property {boolean} paused - a boolean for determining whether the queue is
+     * in a paused state.
+     * @property {Function} pause - a function that pauses the processing of tasks
+     * until `resume()` is called. Invoke with `queue.pause()`.
+     * @property {Function} resume - a function that resumes the processing of
+     * queued tasks when the queue is paused. Invoke with `queue.resume()`.
+     * @property {Function} kill - a function that removes the `drain` callback and
+     * empties remaining tasks from the queue forcing it to go idle. No more tasks
+     * should be pushed to the queue after calling this function. Invoke with `queue.kill()`.
+     *
+     * @example
+     * const q = aync.queue(worker, 2)
+     * q.push(item1)
+     * q.push(item2)
+     * q.push(item3)
+     * // queues are iterable, spread into an array to inspect
+     * const items = [...q] // [item1, item2, item3]
+     * // or use for of
+     * for (let item of q) {
+     *     console.log(item)
+     * }
+     */
+
+    /**
+     * Creates a `queue` object with the specified `concurrency`. Tasks added to the
+     * `queue` are processed in parallel (up to the `concurrency` limit). If all
+     * `worker`s are in progress, the task is queued until one becomes available.
+     * Once a `worker` completes a `task`, that `task`'s callback is called.
+     *
+     * @name queue
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {AsyncFunction} worker - An async function for processing a queued task.
+     * If you want to handle errors from an individual task, pass a callback to
+     * `q.push()`. Invoked with (task, callback).
+     * @param {number} [concurrency=1] - An `integer` for determining how many
+     * `worker` functions should be run in parallel.  If omitted, the concurrency
+     * defaults to `1`.  If the concurrency is `0`, an error is thrown.
+     * @returns {module:ControlFlow.QueueObject} A queue object to manage the tasks. Callbacks can be
+     * attached as certain properties to listen for specific events during the
+     * lifecycle of the queue.
+     * @example
+     *
+     * // create a queue object with concurrency 2
+     * var q = async.queue(function(task, callback) {
+     *     console.log('hello ' + task.name);
+     *     callback();
+     * }, 2);
+     *
+     * // assign a callback
+     * q.drain = function() {
+     *     console.log('all items have been processed');
+     * };
+     *
+     * // assign an error callback
+     * q.error = function(err, task) {
+     *     console.error('task experienced an error');
+     * };
+     *
+     * // add some items to the queue
+     * q.push({name: 'foo'}, function(err) {
+     *     console.log('finished processing foo');
+     * });
+     * q.push({name: 'bar'}, function (err) {
+     *     console.log('finished processing bar');
+     * });
+     *
+     * // add some items to the queue (batch-wise)
+     * q.push([{name: 'baz'},{name: 'bay'},{name: 'bax'}], function(err) {
+     *     console.log('finished processing item');
+     * });
+     *
+     * // add some items to the front of the queue
+     * q.unshift({name: 'bar'}, function (err) {
+     *     console.log('finished processing bar');
+     * });
+     */
+    function queue$1 (worker, concurrency) {
+        var _worker = wrapAsync(worker);
+        return queue((items, cb) => {
+            _worker(items[0], cb);
+        }, concurrency, 1);
+    }
+
+    /**
+     * The same as [async.queue]{@link module:ControlFlow.queue} only tasks are assigned a priority and
+     * completed in ascending priority order.
+     *
+     * @name priorityQueue
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.queue]{@link module:ControlFlow.queue}
+     * @category Control Flow
+     * @param {AsyncFunction} worker - An async function for processing a queued task.
+     * If you want to handle errors from an individual task, pass a callback to
+     * `q.push()`.
+     * Invoked with (task, callback).
+     * @param {number} concurrency - An `integer` for determining how many `worker`
+     * functions should be run in parallel.  If omitted, the concurrency defaults to
+     * `1`.  If the concurrency is `0`, an error is thrown.
+     * @returns {module:ControlFlow.QueueObject} A priorityQueue object to manage the tasks. There are two
+     * differences between `queue` and `priorityQueue` objects:
+     * * `push(task, priority, [callback])` - `priority` should be a number. If an
+     *   array of `tasks` is given, all tasks will be assigned the same priority.
+     * * The `unshift` method was removed.
+     */
+    function priorityQueue(worker, concurrency) {
+        // Start with a normal queue
+        var q = queue$1(worker, concurrency);
+
+        // Override push to accept second parameter representing priority
+        q.push = function(data, priority = 0, callback = () => {}) {
+            if (typeof callback !== 'function') {
+                throw new Error('task callback must be a function');
+            }
+            q.started = true;
+            if (!Array.isArray(data)) {
+                data = [data];
+            }
+            if (data.length === 0) {
+                // call drain immediately if there are no tasks
+                return setImmediate$1(() => q.drain());
+            }
+
+            var nextNode = q._tasks.head;
+            while (nextNode && priority >= nextNode.priority) {
+                nextNode = nextNode.next;
+            }
+
+            for (var i = 0, l = data.length; i < l; i++) {
+                var item = {
+                    data: data[i],
+                    priority,
+                    callback
+                };
+
+                if (nextNode) {
+                    q._tasks.insertBefore(nextNode, item);
+                } else {
+                    q._tasks.push(item);
+                }
+            }
+            setImmediate$1(q.process);
+        };
+
+        // Remove unshift function
+        delete q.unshift;
+
+        return q;
+    }
+
+    /**
+     * Runs the `tasks` array of functions in parallel, without waiting until the
+     * previous function has completed. Once any of the `tasks` complete or pass an
+     * error to its callback, the main `callback` is immediately called. It's
+     * equivalent to `Promise.race()`.
+     *
+     * @name race
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array} tasks - An array containing [async functions]{@link AsyncFunction}
+     * to run. Each function can complete with an optional `result` value.
+     * @param {Function} callback - A callback to run once any of the functions have
+     * completed. This function gets an error or result from the first function that
+     * completed. Invoked with (err, result).
+     * @returns undefined
+     * @example
+     *
+     * async.race([
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'one');
+     *         }, 200);
+     *     },
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'two');
+     *         }, 100);
+     *     }
+     * ],
+     * // main callback
+     * function(err, result) {
+     *     // the result will be equal to 'two' as it finishes earlier
+     * });
+     */
+    function race(tasks, callback) {
+        callback = once(callback);
+        if (!Array.isArray(tasks)) return callback(new TypeError('First argument to race must be an array of functions'));
+        if (!tasks.length) return callback();
+        for (var i = 0, l = tasks.length; i < l; i++) {
+            wrapAsync(tasks[i])(callback);
+        }
+    }
+
+    var race$1 = awaitify(race, 2);
+
+    /**
+     * Same as [`reduce`]{@link module:Collections.reduce}, only operates on `array` in reverse order.
+     *
+     * @name reduceRight
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.reduce]{@link module:Collections.reduce}
+     * @alias foldr
+     * @category Collection
+     * @param {Array} array - A collection to iterate over.
+     * @param {*} memo - The initial state of the reduction.
+     * @param {AsyncFunction} iteratee - A function applied to each item in the
+     * array to produce the next step in the reduction.
+     * The `iteratee` should complete with the next state of the reduction.
+     * If the iteratee complete with an error, the reduction is stopped and the
+     * main `callback` is immediately called with the error.
+     * Invoked with (memo, item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result is the reduced value. Invoked with
+     * (err, result).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function reduceRight (array, memo, iteratee, callback) {
+        var reversed = [...array].reverse();
+        return reduce$1(reversed, memo, iteratee, callback);
+    }
+
+    /**
+     * Wraps the async function in another function that always completes with a
+     * result object, even when it errors.
+     *
+     * The result object has either the property `error` or `value`.
+     *
+     * @name reflect
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} fn - The async function you want to wrap
+     * @returns {Function} - A function that always passes null to it's callback as
+     * the error. The second argument to the callback will be an `object` with
+     * either an `error` or a `value` property.
+     * @example
+     *
+     * async.parallel([
+     *     async.reflect(function(callback) {
+     *         // do some stuff ...
+     *         callback(null, 'one');
+     *     }),
+     *     async.reflect(function(callback) {
+     *         // do some more stuff but error ...
+     *         callback('bad stuff happened');
+     *     }),
+     *     async.reflect(function(callback) {
+     *         // do some more stuff ...
+     *         callback(null, 'two');
+     *     })
+     * ],
+     * // optional callback
+     * function(err, results) {
+     *     // values
+     *     // results[0].value = 'one'
+     *     // results[1].error = 'bad stuff happened'
+     *     // results[2].value = 'two'
+     * });
+     */
+    function reflect(fn) {
+        var _fn = wrapAsync(fn);
+        return initialParams(function reflectOn(args, reflectCallback) {
+            args.push((error, ...cbArgs) => {
+                if (error) {
+                    return reflectCallback(null, { error });
+                }
+                var value = cbArgs;
+                if (cbArgs.length <= 1) {
+                    [value] = cbArgs;
+                }
+                reflectCallback(null, { value });
+            });
+
+            return _fn.apply(this, args);
+        });
+    }
+
+    /**
+     * A helper function that wraps an array or an object of functions with `reflect`.
+     *
+     * @name reflectAll
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @see [async.reflect]{@link module:Utils.reflect}
+     * @category Util
+     * @param {Array|Object|Iterable} tasks - The collection of
+     * [async functions]{@link AsyncFunction} to wrap in `async.reflect`.
+     * @returns {Array} Returns an array of async functions, each wrapped in
+     * `async.reflect`
+     * @example
+     *
+     * let tasks = [
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'one');
+     *         }, 200);
+     *     },
+     *     function(callback) {
+     *         // do some more stuff but error ...
+     *         callback(new Error('bad stuff happened'));
+     *     },
+     *     function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'two');
+     *         }, 100);
+     *     }
+     * ];
+     *
+     * async.parallel(async.reflectAll(tasks),
+     * // optional callback
+     * function(err, results) {
+     *     // values
+     *     // results[0].value = 'one'
+     *     // results[1].error = Error('bad stuff happened')
+     *     // results[2].value = 'two'
+     * });
+     *
+     * // an example using an object instead of an array
+     * let tasks = {
+     *     one: function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'one');
+     *         }, 200);
+     *     },
+     *     two: function(callback) {
+     *         callback('two');
+     *     },
+     *     three: function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 'three');
+     *         }, 100);
+     *     }
+     * };
+     *
+     * async.parallel(async.reflectAll(tasks),
+     * // optional callback
+     * function(err, results) {
+     *     // values
+     *     // results.one.value = 'one'
+     *     // results.two.error = 'two'
+     *     // results.three.value = 'three'
+     * });
+     */
+    function reflectAll(tasks) {
+        var results;
+        if (Array.isArray(tasks)) {
+            results = tasks.map(reflect);
+        } else {
+            results = {};
+            Object.keys(tasks).forEach(key => {
+                results[key] = reflect.call(this, tasks[key]);
+            });
+        }
+        return results;
+    }
+
+    function reject(eachfn, arr, _iteratee, callback) {
+        const iteratee = wrapAsync(_iteratee);
+        return _filter(eachfn, arr, (value, cb) => {
+            iteratee(value, (err, v) => {
+                cb(err, !v);
+            });
+        }, callback);
+    }
+
+    /**
+     * The opposite of [`filter`]{@link module:Collections.filter}. Removes values that pass an `async` truth test.
+     *
+     * @name reject
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.filter]{@link module:Collections.filter}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {Function} iteratee - An async truth test to apply to each item in
+     * `coll`.
+     * The should complete with a boolean value as its `result`.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * async.reject(['file1','file2','file3'], function(filePath, callback) {
+     *     fs.access(filePath, function(err) {
+     *         callback(null, !err)
+     *     });
+     * }, function(err, results) {
+     *     // results now equals an array of missing files
+     *     createFiles(results);
+     * });
+     */
+    function reject$1 (coll, iteratee, callback) {
+        return reject(eachOf$1, coll, iteratee, callback)
+    }
+    var reject$2 = awaitify(reject$1, 3);
+
+    /**
+     * The same as [`reject`]{@link module:Collections.reject} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name rejectLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.reject]{@link module:Collections.reject}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {Function} iteratee - An async truth test to apply to each item in
+     * `coll`.
+     * The should complete with a boolean value as its `result`.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function rejectLimit (coll, limit, iteratee, callback) {
+        return reject(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var rejectLimit$1 = awaitify(rejectLimit, 4);
+
+    /**
+     * The same as [`reject`]{@link module:Collections.reject} but runs only a single async operation at a time.
+     *
+     * @name rejectSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.reject]{@link module:Collections.reject}
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {Function} iteratee - An async truth test to apply to each item in
+     * `coll`.
+     * The should complete with a boolean value as its `result`.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     */
+    function rejectSeries (coll, iteratee, callback) {
+        return reject(eachOfSeries$1, coll, iteratee, callback)
+    }
+    var rejectSeries$1 = awaitify(rejectSeries, 3);
+
+    function constant$1(value) {
+        return function () {
+            return value;
+        }
+    }
+
+    /**
+     * Attempts to get a successful response from `task` no more than `times` times
+     * before returning an error. If the task is successful, the `callback` will be
+     * passed the result of the successful task. If all attempts fail, the callback
+     * will be passed the error and result (if any) of the final attempt.
+     *
+     * @name retry
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @see [async.retryable]{@link module:ControlFlow.retryable}
+     * @param {Object|number} [opts = {times: 5, interval: 0}| 5] - Can be either an
+     * object with `times` and `interval` or a number.
+     * * `times` - The number of attempts to make before giving up.  The default
+     *   is `5`.
+     * * `interval` - The time to wait between retries, in milliseconds.  The
+     *   default is `0`. The interval may also be specified as a function of the
+     *   retry count (see example).
+     * * `errorFilter` - An optional synchronous function that is invoked on
+     *   erroneous result. If it returns `true` the retry attempts will continue;
+     *   if the function returns `false` the retry flow is aborted with the current
+     *   attempt's error and result being returned to the final callback.
+     *   Invoked with (err).
+     * * If `opts` is a number, the number specifies the number of times to retry,
+     *   with the default interval of `0`.
+     * @param {AsyncFunction} task - An async function to retry.
+     * Invoked with (callback).
+     * @param {Function} [callback] - An optional callback which is called when the
+     * task has succeeded, or after the final failed attempt. It receives the `err`
+     * and `result` arguments of the last attempt at completing the `task`. Invoked
+     * with (err, results).
+     * @returns {Promise} a promise if no callback provided
+     *
+     * @example
+     *
+     * // The `retry` function can be used as a stand-alone control flow by passing
+     * // a callback, as shown below:
+     *
+     * // try calling apiMethod 3 times
+     * async.retry(3, apiMethod, function(err, result) {
+     *     // do something with the result
+     * });
+     *
+     * // try calling apiMethod 3 times, waiting 200 ms between each retry
+     * async.retry({times: 3, interval: 200}, apiMethod, function(err, result) {
+     *     // do something with the result
+     * });
+     *
+     * // try calling apiMethod 10 times with exponential backoff
+     * // (i.e. intervals of 100, 200, 400, 800, 1600, ... milliseconds)
+     * async.retry({
+     *   times: 10,
+     *   interval: function(retryCount) {
+     *     return 50 * Math.pow(2, retryCount);
+     *   }
+     * }, apiMethod, function(err, result) {
+     *     // do something with the result
+     * });
+     *
+     * // try calling apiMethod the default 5 times no delay between each retry
+     * async.retry(apiMethod, function(err, result) {
+     *     // do something with the result
+     * });
+     *
+     * // try calling apiMethod only when error condition satisfies, all other
+     * // errors will abort the retry control flow and return to final callback
+     * async.retry({
+     *   errorFilter: function(err) {
+     *     return err.message === 'Temporary error'; // only retry on a specific error
+     *   }
+     * }, apiMethod, function(err, result) {
+     *     // do something with the result
+     * });
+     *
+     * // to retry individual methods that are not as reliable within other
+     * // control flow functions, use the `retryable` wrapper:
+     * async.auto({
+     *     users: api.getUsers.bind(api),
+     *     payments: async.retryable(3, api.getPayments.bind(api))
+     * }, function(err, results) {
+     *     // do something with the results
+     * });
+     *
+     */
+    const DEFAULT_TIMES = 5;
+    const DEFAULT_INTERVAL = 0;
+
+    function retry(opts, task, callback) {
+        var options = {
+            times: DEFAULT_TIMES,
+            intervalFunc: constant$1(DEFAULT_INTERVAL)
+        };
+
+        if (arguments.length < 3 && typeof opts === 'function') {
+            callback = task || promiseCallback();
+            task = opts;
+        } else {
+            parseTimes(options, opts);
+            callback = callback || promiseCallback();
+        }
+
+        if (typeof task !== 'function') {
+            throw new Error("Invalid arguments for async.retry");
+        }
+
+        var _task = wrapAsync(task);
+
+        var attempt = 1;
+        function retryAttempt() {
+            _task((err, ...args) => {
+                if (err === false) return
+                if (err && attempt++ < options.times &&
+                    (typeof options.errorFilter != 'function' ||
+                        options.errorFilter(err))) {
+                    setTimeout(retryAttempt, options.intervalFunc(attempt));
+                } else {
+                    callback(err, ...args);
+                }
+            });
+        }
+
+        retryAttempt();
+        return callback[PROMISE_SYMBOL]
+    }
+
+    function parseTimes(acc, t) {
+        if (typeof t === 'object') {
+            acc.times = +t.times || DEFAULT_TIMES;
+
+            acc.intervalFunc = typeof t.interval === 'function' ?
+                t.interval :
+                constant$1(+t.interval || DEFAULT_INTERVAL);
+
+            acc.errorFilter = t.errorFilter;
+        } else if (typeof t === 'number' || typeof t === 'string') {
+            acc.times = +t || DEFAULT_TIMES;
+        } else {
+            throw new Error("Invalid arguments for async.retry");
+        }
+    }
+
+    /**
+     * A close relative of [`retry`]{@link module:ControlFlow.retry}.  This method
+     * wraps a task and makes it retryable, rather than immediately calling it
+     * with retries.
+     *
+     * @name retryable
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.retry]{@link module:ControlFlow.retry}
+     * @category Control Flow
+     * @param {Object|number} [opts = {times: 5, interval: 0}| 5] - optional
+     * options, exactly the same as from `retry`, except for a `opts.arity` that
+     * is the arity of the `task` function, defaulting to `task.length`
+     * @param {AsyncFunction} task - the asynchronous function to wrap.
+     * This function will be passed any arguments passed to the returned wrapper.
+     * Invoked with (...args, callback).
+     * @returns {AsyncFunction} The wrapped function, which when invoked, will
+     * retry on an error, based on the parameters specified in `opts`.
+     * This function will accept the same parameters as `task`.
+     * @example
+     *
+     * async.auto({
+     *     dep1: async.retryable(3, getFromFlakyService),
+     *     process: ["dep1", async.retryable(3, function (results, cb) {
+     *         maybeProcessData(results.dep1, cb);
+     *     })]
+     * }, callback);
+     */
+    function retryable (opts, task) {
+        if (!task) {
+            task = opts;
+            opts = null;
+        }
+        let arity = (opts && opts.arity) || task.length;
+        if (isAsync(task)) {
+            arity += 1;
+        }
+        var _task = wrapAsync(task);
+        return initialParams((args, callback) => {
+            if (args.length < arity - 1 || callback == null) {
+                args.push(callback);
+                callback = promiseCallback();
+            }
+            function taskFn(cb) {
+                _task(...args, cb);
+            }
+
+            if (opts) retry(opts, taskFn, callback);
+            else retry(taskFn, callback);
+
+            return callback[PROMISE_SYMBOL]
+        });
+    }
+
+    /**
+     * Run the functions in the `tasks` collection in series, each one running once
+     * the previous function has completed. If any functions in the series pass an
+     * error to its callback, no more functions are run, and `callback` is
+     * immediately called with the value of the error. Otherwise, `callback`
+     * receives an array of results when `tasks` have completed.
+     *
+     * It is also possible to use an object instead of an array. Each property will
+     * be run as a function, and the results will be passed to the final `callback`
+     * as an object instead of an array. This can be a more readable way of handling
+     *  results from {@link async.series}.
+     *
+     * **Note** that while many implementations preserve the order of object
+     * properties, the [ECMAScript Language Specification](http://www.ecma-international.org/ecma-262/5.1/#sec-8.6)
+     * explicitly states that
+     *
+     * > The mechanics and order of enumerating the properties is not specified.
+     *
+     * So if you rely on the order in which your series of functions are executed,
+     * and want this to work on all platforms, consider using an array.
+     *
+     * @name series
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} tasks - A collection containing
+     * [async functions]{@link AsyncFunction} to run in series.
+     * Each function can complete with any number of optional `result` values.
+     * @param {Function} [callback] - An optional callback to run once all the
+     * functions have completed. This function gets a results array (or object)
+     * containing all the result arguments passed to the `task` callbacks. Invoked
+     * with (err, result).
+     * @return {Promise} a promise, if no callback is passed
+     * @example
+     * async.series([
+     *     function(callback) {
+     *         // do some stuff ...
+     *         callback(null, 'one');
+     *     },
+     *     function(callback) {
+     *         // do some more stuff ...
+     *         callback(null, 'two');
+     *     }
+     * ],
+     * // optional callback
+     * function(err, results) {
+     *     // results is now equal to ['one', 'two']
+     * });
+     *
+     * async.series({
+     *     one: function(callback) {
+     *         setTimeout(function() {
+     *             callback(null, 1);
+     *         }, 200);
+     *     },
+     *     two: function(callback){
+     *         setTimeout(function() {
+     *             callback(null, 2);
+     *         }, 100);
+     *     }
+     * }, function(err, results) {
+     *     // results is now equal to: {one: 1, two: 2}
+     * });
+     */
+    function series(tasks, callback) {
+        return _parallel(eachOfSeries$1, tasks, callback);
+    }
+
+    /**
+     * Returns `true` if at least one element in the `coll` satisfies an async test.
+     * If any iteratee call returns `true`, the main `callback` is immediately
+     * called.
+     *
+     * @name some
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @alias any
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collections in parallel.
+     * The iteratee should complete with a boolean `result` value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the iteratee functions have finished.
+     * Result will be either `true` or `false` depending on the values of the async
+     * tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     * @example
+     *
+     * async.some(['file1','file2','file3'], function(filePath, callback) {
+     *     fs.access(filePath, function(err) {
+     *         callback(null, !err)
+     *     });
+     * }, function(err, result) {
+     *     // if result is true then at least one of the files exists
+     * });
+     */
+    function some(coll, iteratee, callback) {
+        return _createTester(Boolean, res => res)(eachOf$1, coll, iteratee, callback)
+    }
+    var some$1 = awaitify(some, 3);
+
+    /**
+     * The same as [`some`]{@link module:Collections.some} but runs a maximum of `limit` async operations at a time.
+     *
+     * @name someLimit
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.some]{@link module:Collections.some}
+     * @alias anyLimit
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collections in parallel.
+     * The iteratee should complete with a boolean `result` value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the iteratee functions have finished.
+     * Result will be either `true` or `false` depending on the values of the async
+     * tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function someLimit(coll, limit, iteratee, callback) {
+        return _createTester(Boolean, res => res)(eachOfLimit(limit), coll, iteratee, callback)
+    }
+    var someLimit$1 = awaitify(someLimit, 4);
+
+    /**
+     * The same as [`some`]{@link module:Collections.some} but runs only a single async operation at a time.
+     *
+     * @name someSeries
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @see [async.some]{@link module:Collections.some}
+     * @alias anySeries
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async truth test to apply to each item
+     * in the collections in series.
+     * The iteratee should complete with a boolean `result` value.
+     * Invoked with (item, callback).
+     * @param {Function} [callback] - A callback which is called as soon as any
+     * iteratee returns `true`, or after all the iteratee functions have finished.
+     * Result will be either `true` or `false` depending on the values of the async
+     * tests. Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     */
+    function someSeries(coll, iteratee, callback) {
+        return _createTester(Boolean, res => res)(eachOfSeries$1, coll, iteratee, callback)
+    }
+    var someSeries$1 = awaitify(someSeries, 3);
+
+    /**
+     * Sorts a list by the results of running each `coll` value through an async
+     * `iteratee`.
+     *
+     * @name sortBy
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {AsyncFunction} iteratee - An async function to apply to each item in
+     * `coll`.
+     * The iteratee should complete with a value to use as the sort criteria as
+     * its `result`.
+     * Invoked with (item, callback).
+     * @param {Function} callback - A callback which is called after all the
+     * `iteratee` functions have finished, or an error occurs. Results is the items
+     * from the original `coll` sorted by the values returned by the `iteratee`
+     * calls. Invoked with (err, results).
+     * @returns {Promise} a promise, if no callback passed
+     * @example
+     *
+     * async.sortBy(['file1','file2','file3'], function(file, callback) {
+     *     fs.stat(file, function(err, stats) {
+     *         callback(err, stats.mtime);
+     *     });
+     * }, function(err, results) {
+     *     // results is now the original array of files sorted by
+     *     // modified date
+     * });
+     *
+     * // By modifying the callback parameter the
+     * // sorting order can be influenced:
+     *
+     * // ascending order
+     * async.sortBy([1,9,3,5], function(x, callback) {
+     *     callback(null, x);
+     * }, function(err,result) {
+     *     // result callback
+     * });
+     *
+     * // descending order
+     * async.sortBy([1,9,3,5], function(x, callback) {
+     *     callback(null, x*-1);    //<- x*-1 instead of x, turns the order around
+     * }, function(err,result) {
+     *     // result callback
+     * });
+     */
+    function sortBy (coll, iteratee, callback) {
+        var _iteratee = wrapAsync(iteratee);
+        return map$1(coll, (x, iterCb) => {
+            _iteratee(x, (err, criteria) => {
+                if (err) return iterCb(err);
+                iterCb(null, {value: x, criteria});
+            });
+        }, (err, results) => {
+            if (err) return callback(err);
+            callback(null, results.sort(comparator).map(v => v.value));
+        });
+
+        function comparator(left, right) {
+            var a = left.criteria, b = right.criteria;
+            return a < b ? -1 : a > b ? 1 : 0;
+        }
+    }
+    var sortBy$1 = awaitify(sortBy, 3);
+
+    /**
+     * Sets a time limit on an asynchronous function. If the function does not call
+     * its callback within the specified milliseconds, it will be called with a
+     * timeout error. The code property for the error object will be `'ETIMEDOUT'`.
+     *
+     * @name timeout
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @category Util
+     * @param {AsyncFunction} asyncFn - The async function to limit in time.
+     * @param {number} milliseconds - The specified time limit.
+     * @param {*} [info] - Any variable you want attached (`string`, `object`, etc)
+     * to timeout Error for more information..
+     * @returns {AsyncFunction} Returns a wrapped function that can be used with any
+     * of the control flow functions.
+     * Invoke this function with the same parameters as you would `asyncFunc`.
+     * @example
+     *
+     * function myFunction(foo, callback) {
+     *     doAsyncTask(foo, function(err, data) {
+     *         // handle errors
+     *         if (err) return callback(err);
+     *
+     *         // do some stuff ...
+     *
+     *         // return processed data
+     *         return callback(null, data);
+     *     });
+     * }
+     *
+     * var wrapped = async.timeout(myFunction, 1000);
+     *
+     * // call `wrapped` as you would `myFunction`
+     * wrapped({ bar: 'bar' }, function(err, data) {
+     *     // if `myFunction` takes < 1000 ms to execute, `err`
+     *     // and `data` will have their expected values
+     *
+     *     // else `err` will be an Error with the code 'ETIMEDOUT'
+     * });
+     */
+    function timeout(asyncFn, milliseconds, info) {
+        var fn = wrapAsync(asyncFn);
+
+        return initialParams((args, callback) => {
+            var timedOut = false;
+            var timer;
+
+            function timeoutCallback() {
+                var name = asyncFn.name || 'anonymous';
+                var error  = new Error('Callback function "' + name + '" timed out.');
+                error.code = 'ETIMEDOUT';
+                if (info) {
+                    error.info = info;
+                }
+                timedOut = true;
+                callback(error);
+            }
+
+            args.push((...cbArgs) => {
+                if (!timedOut) {
+                    callback(...cbArgs);
+                    clearTimeout(timer);
+                }
+            });
+
+            // setup timer and call original function
+            timer = setTimeout(timeoutCallback, milliseconds);
+            fn(...args);
+        });
+    }
+
+    function range(size) {
+        var result = Array(size);
+        while (size--) {
+            result[size] = size;
+        }
+        return result;
+    }
+
+    /**
+     * The same as [times]{@link module:ControlFlow.times} but runs a maximum of `limit` async operations at a
+     * time.
+     *
+     * @name timesLimit
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.times]{@link module:ControlFlow.times}
+     * @category Control Flow
+     * @param {number} count - The number of times to run the function.
+     * @param {number} limit - The maximum number of async operations at a time.
+     * @param {AsyncFunction} iteratee - The async function to call `n` times.
+     * Invoked with the iteration index and a callback: (n, next).
+     * @param {Function} callback - see [async.map]{@link module:Collections.map}.
+     * @returns {Promise} a promise, if no callback is provided
+     */
+    function timesLimit(count, limit, iteratee, callback) {
+        var _iteratee = wrapAsync(iteratee);
+        return mapLimit$1(range(count), limit, _iteratee, callback);
+    }
+
+    /**
+     * Calls the `iteratee` function `n` times, and accumulates results in the same
+     * manner you would use with [map]{@link module:Collections.map}.
+     *
+     * @name times
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.map]{@link module:Collections.map}
+     * @category Control Flow
+     * @param {number} n - The number of times to run the function.
+     * @param {AsyncFunction} iteratee - The async function to call `n` times.
+     * Invoked with the iteration index and a callback: (n, next).
+     * @param {Function} callback - see {@link module:Collections.map}.
+     * @returns {Promise} a promise, if no callback is provided
+     * @example
+     *
+     * // Pretend this is some complicated async factory
+     * var createUser = function(id, callback) {
+     *     callback(null, {
+     *         id: 'user' + id
+     *     });
+     * };
+     *
+     * // generate 5 users
+     * async.times(5, function(n, next) {
+     *     createUser(n, function(err, user) {
+     *         next(err, user);
+     *     });
+     * }, function(err, users) {
+     *     // we should now have 5 users
+     * });
+     */
+    function times (n, iteratee, callback) {
+        return timesLimit(n, Infinity, iteratee, callback)
+    }
+
+    /**
+     * The same as [times]{@link module:ControlFlow.times} but runs only a single async operation at a time.
+     *
+     * @name timesSeries
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.times]{@link module:ControlFlow.times}
+     * @category Control Flow
+     * @param {number} n - The number of times to run the function.
+     * @param {AsyncFunction} iteratee - The async function to call `n` times.
+     * Invoked with the iteration index and a callback: (n, next).
+     * @param {Function} callback - see {@link module:Collections.map}.
+     * @returns {Promise} a promise, if no callback is provided
+     */
+    function timesSeries (n, iteratee, callback) {
+        return timesLimit(n, 1, iteratee, callback)
+    }
+
+    /**
+     * A relative of `reduce`.  Takes an Object or Array, and iterates over each
+     * element in parallel, each step potentially mutating an `accumulator` value.
+     * The type of the accumulator defaults to the type of collection passed in.
+     *
+     * @name transform
+     * @static
+     * @memberOf module:Collections
+     * @method
+     * @category Collection
+     * @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+     * @param {*} [accumulator] - The initial state of the transform.  If omitted,
+     * it will default to an empty Object or Array, depending on the type of `coll`
+     * @param {AsyncFunction} iteratee - A function applied to each item in the
+     * collection that potentially modifies the accumulator.
+     * Invoked with (accumulator, item, key, callback).
+     * @param {Function} [callback] - A callback which is called after all the
+     * `iteratee` functions have finished. Result is the transformed accumulator.
+     * Invoked with (err, result).
+     * @returns {Promise} a promise, if no callback provided
+     * @example
+     *
+     * async.transform([1,2,3], function(acc, item, index, callback) {
+     *     // pointless async:
+     *     process.nextTick(function() {
+     *         acc[index] = item * 2
+     *         callback(null)
+     *     });
+     * }, function(err, result) {
+     *     // result is now equal to [2, 4, 6]
+     * });
+     *
+     * @example
+     *
+     * async.transform({a: 1, b: 2, c: 3}, function (obj, val, key, callback) {
+     *     setImmediate(function () {
+     *         obj[key] = val * 2;
+     *         callback();
+     *     })
+     * }, function (err, result) {
+     *     // result is equal to {a: 2, b: 4, c: 6}
+     * })
+     */
+    function transform (coll, accumulator, iteratee, callback) {
+        if (arguments.length <= 3 && typeof accumulator === 'function') {
+            callback = iteratee;
+            iteratee = accumulator;
+            accumulator = Array.isArray(coll) ? [] : {};
+        }
+        callback = once(callback || promiseCallback());
+        var _iteratee = wrapAsync(iteratee);
+
+        eachOf$1(coll, (v, k, cb) => {
+            _iteratee(accumulator, v, k, cb);
+        }, err => callback(err, accumulator));
+        return callback[PROMISE_SYMBOL]
+    }
+
+    /**
+     * It runs each task in series but stops whenever any of the functions were
+     * successful. If one of the tasks were successful, the `callback` will be
+     * passed the result of the successful task. If all tasks fail, the callback
+     * will be passed the error and result (if any) of the final attempt.
+     *
+     * @name tryEach
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array|Iterable|AsyncIterable|Object} tasks - A collection containing functions to
+     * run, each function is passed a `callback(err, result)` it must call on
+     * completion with an error `err` (which can be `null`) and an optional `result`
+     * value.
+     * @param {Function} [callback] - An optional callback which is called when one
+     * of the tasks has succeeded, or all have failed. It receives the `err` and
+     * `result` arguments of the last attempt at completing the `task`. Invoked with
+     * (err, results).
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     * async.tryEach([
+     *     function getDataFromFirstWebsite(callback) {
+     *         // Try getting the data from the first website
+     *         callback(err, data);
+     *     },
+     *     function getDataFromSecondWebsite(callback) {
+     *         // First website failed,
+     *         // Try getting the data from the backup website
+     *         callback(err, data);
+     *     }
+     * ],
+     * // optional callback
+     * function(err, results) {
+     *     Now do something with the data.
+     * });
+     *
+     */
+    function tryEach(tasks, callback) {
+        var error = null;
+        var result;
+        return eachSeries$1(tasks, (task, taskCb) => {
+            wrapAsync(task)((err, ...args) => {
+                if (args.length < 2) {
+                    [result] = args;
+                } else {
+                    result = args;
+                }
+                error = err;
+                taskCb(err ? null : {});
+            });
+        }, () => callback(error, result));
+    }
+
+    var tryEach$1 = awaitify(tryEach);
+
+    /**
+     * Undoes a [memoize]{@link module:Utils.memoize}d function, reverting it to the original,
+     * unmemoized form. Handy for testing.
+     *
+     * @name unmemoize
+     * @static
+     * @memberOf module:Utils
+     * @method
+     * @see [async.memoize]{@link module:Utils.memoize}
+     * @category Util
+     * @param {AsyncFunction} fn - the memoized function
+     * @returns {AsyncFunction} a function that calls the original unmemoized function
+     */
+    function unmemoize(fn) {
+        return (...args) => {
+            return (fn.unmemoized || fn)(...args);
+        };
+    }
+
+    /**
+     * Repeatedly call `iteratee`, while `test` returns `true`. Calls `callback` when
+     * stopped, or an error occurs.
+     *
+     * @name whilst
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {AsyncFunction} test - asynchronous truth test to perform before each
+     * execution of `iteratee`. Invoked with ().
+     * @param {AsyncFunction} iteratee - An async function which is called each time
+     * `test` passes. Invoked with (callback).
+     * @param {Function} [callback] - A callback which is called after the test
+     * function has failed and repeated execution of `iteratee` has stopped. `callback`
+     * will be passed an error and any arguments passed to the final `iteratee`'s
+     * callback. Invoked with (err, [results]);
+     * @returns {Promise} a promise, if no callback is passed
+     * @example
+     *
+     * var count = 0;
+     * async.whilst(
+     *     function test(cb) { cb(null, count < 5;) },
+     *     function iter(callback) {
+     *         count++;
+     *         setTimeout(function() {
+     *             callback(null, count);
+     *         }, 1000);
+     *     },
+     *     function (err, n) {
+     *         // 5 seconds have passed, n = 5
+     *     }
+     * );
+     */
+    function whilst(test, iteratee, callback) {
+        callback = onlyOnce(callback);
+        var _fn = wrapAsync(iteratee);
+        var _test = wrapAsync(test);
+        var results;
+
+        function next(err, ...rest) {
+            if (err) return callback(err);
+            results = rest;
+            if (err === false) return;
+            _test(check);
+        }
+
+        function check(err, truth) {
+            if (err) return callback(err);
+            if (err === false) return;
+            if (!truth) return callback(null, ...results);
+            _fn(next);
+        }
+
+        return _test(check);
+    }
+    var whilst$1 = awaitify(whilst, 3);
+
+    /**
+     * Repeatedly call `iteratee` until `test` returns `true`. Calls `callback` when
+     * stopped, or an error occurs. `callback` will be passed an error and any
+     * arguments passed to the final `iteratee`'s callback.
+     *
+     * The inverse of [whilst]{@link module:ControlFlow.whilst}.
+     *
+     * @name until
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @see [async.whilst]{@link module:ControlFlow.whilst}
+     * @category Control Flow
+     * @param {AsyncFunction} test - asynchronous truth test to perform before each
+     * execution of `iteratee`. Invoked with (callback).
+     * @param {AsyncFunction} iteratee - An async function which is called each time
+     * `test` fails. Invoked with (callback).
+     * @param {Function} [callback] - A callback which is called after the test
+     * function has passed and repeated execution of `iteratee` has stopped. `callback`
+     * will be passed an error and any arguments passed to the final `iteratee`'s
+     * callback. Invoked with (err, [results]);
+     * @returns {Promise} a promise, if a callback is not passed
+     *
+     * @example
+     * const results = []
+     * async.until(function iter(next) {
+     *     fetchPage(url, (err, body) => {
+     *         if (err) return next(err)
+     *         results = results.concat(body.objects)
+     *         next(err, body)
+     *     })
+     * }, function test(page, cb) {
+     *     cb(null, page.next == null)
+     * }, function done (err) {
+     *     // all pages have been fetched
+     * })
+     */
+    function until(test, iteratee, callback) {
+        const _test = wrapAsync(test);
+        return whilst$1((cb) => _test((err, truth) => cb (err, !truth)), iteratee, callback);
+    }
+
+    /**
+     * Runs the `tasks` array of functions in series, each passing their results to
+     * the next in the array. However, if any of the `tasks` pass an error to their
+     * own callback, the next function is not executed, and the main `callback` is
+     * immediately called with the error.
+     *
+     * @name waterfall
+     * @static
+     * @memberOf module:ControlFlow
+     * @method
+     * @category Control Flow
+     * @param {Array} tasks - An array of [async functions]{@link AsyncFunction}
+     * to run.
+     * Each function should complete with any number of `result` values.
+     * The `result` values will be passed as arguments, in order, to the next task.
+     * @param {Function} [callback] - An optional callback to run once all the
+     * functions have completed. This will be passed the results of the last task's
+     * callback. Invoked with (err, [results]).
+     * @returns undefined
+     * @example
+     *
+     * async.waterfall([
+     *     function(callback) {
+     *         callback(null, 'one', 'two');
+     *     },
+     *     function(arg1, arg2, callback) {
+     *         // arg1 now equals 'one' and arg2 now equals 'two'
+     *         callback(null, 'three');
+     *     },
+     *     function(arg1, callback) {
+     *         // arg1 now equals 'three'
+     *         callback(null, 'done');
+     *     }
+     * ], function (err, result) {
+     *     // result now equals 'done'
+     * });
+     *
+     * // Or, with named functions:
+     * async.waterfall([
+     *     myFirstFunction,
+     *     mySecondFunction,
+     *     myLastFunction,
+     * ], function (err, result) {
+     *     // result now equals 'done'
+     * });
+     * function myFirstFunction(callback) {
+     *     callback(null, 'one', 'two');
+     * }
+     * function mySecondFunction(arg1, arg2, callback) {
+     *     // arg1 now equals 'one' and arg2 now equals 'two'
+     *     callback(null, 'three');
+     * }
+     * function myLastFunction(arg1, callback) {
+     *     // arg1 now equals 'three'
+     *     callback(null, 'done');
+     * }
+     */
+    function waterfall (tasks, callback) {
+        callback = once(callback);
+        if (!Array.isArray(tasks)) return callback(new Error('First argument to waterfall must be an array of functions'));
+        if (!tasks.length) return callback();
+        var taskIndex = 0;
+
+        function nextTask(args) {
+            var task = wrapAsync(tasks[taskIndex++]);
+            task(...args, onlyOnce(next));
+        }
+
+        function next(err, ...args) {
+            if (err === false) return
+            if (err || taskIndex === tasks.length) {
+                return callback(err, ...args);
+            }
+            nextTask(args);
+        }
+
+        nextTask([]);
+    }
+
+    var waterfall$1 = awaitify(waterfall);
+
+    /**
+     * An "async function" in the context of Async is an asynchronous function with
+     * a variable number of parameters, with the final parameter being a callback.
+     * (`function (arg1, arg2, ..., callback) {}`)
+     * The final callback is of the form `callback(err, results...)`, which must be
+     * called once the function is completed.  The callback should be called with a
+     * Error as its first argument to signal that an error occurred.
+     * Otherwise, if no error occurred, it should be called with `null` as the first
+     * argument, and any additional `result` arguments that may apply, to signal
+     * successful completion.
+     * The callback must be called exactly once, ideally on a later tick of the
+     * JavaScript event loop.
+     *
+     * This type of function is also referred to as a "Node-style async function",
+     * or a "continuation passing-style function" (CPS). Most of the methods of this
+     * library are themselves CPS/Node-style async functions, or functions that
+     * return CPS/Node-style async functions.
+     *
+     * Wherever we accept a Node-style async function, we also directly accept an
+     * [ES2017 `async` function]{@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function}.
+     * In this case, the `async` function will not be passed a final callback
+     * argument, and any thrown error will be used as the `err` argument of the
+     * implicit callback, and the return value will be used as the `result` value.
+     * (i.e. a `rejected` of the returned Promise becomes the `err` callback
+     * argument, and a `resolved` value becomes the `result`.)
+     *
+     * Note, due to JavaScript limitations, we can only detect native `async`
+     * functions and not transpilied implementations.
+     * Your environment must have `async`/`await` support for this to work.
+     * (e.g. Node > v7.6, or a recent version of a modern browser).
+     * If you are using `async` functions through a transpiler (e.g. Babel), you
+     * must still wrap the function with [asyncify]{@link module:Utils.asyncify},
+     * because the `async function` will be compiled to an ordinary function that
+     * returns a promise.
+     *
+     * @typedef {Function} AsyncFunction
+     * @static
+     */
+
+    var index = {
+        apply,
+        applyEach: applyEach$1,
+        applyEachSeries,
+        asyncify,
+        auto,
+        autoInject,
+        cargo,
+        cargoQueue: cargo$1,
+        compose,
+        concat: concat$1,
+        concatLimit: concatLimit$1,
+        concatSeries: concatSeries$1,
+        constant,
+        detect: detect$1,
+        detectLimit: detectLimit$1,
+        detectSeries: detectSeries$1,
+        dir,
+        doUntil,
+        doWhilst: doWhilst$1,
+        each,
+        eachLimit: eachLimit$2,
+        eachOf: eachOf$1,
+        eachOfLimit: eachOfLimit$2,
+        eachOfSeries: eachOfSeries$1,
+        eachSeries: eachSeries$1,
+        ensureAsync,
+        every: every$1,
+        everyLimit: everyLimit$1,
+        everySeries: everySeries$1,
+        filter: filter$1,
+        filterLimit: filterLimit$1,
+        filterSeries: filterSeries$1,
+        forever: forever$1,
+        groupBy,
+        groupByLimit: groupByLimit$1,
+        groupBySeries,
+        log,
+        map: map$1,
+        mapLimit: mapLimit$1,
+        mapSeries: mapSeries$1,
+        mapValues,
+        mapValuesLimit: mapValuesLimit$1,
+        mapValuesSeries,
+        memoize,
+        nextTick,
+        parallel,
+        parallelLimit,
+        priorityQueue,
+        queue: queue$1,
+        race: race$1,
+        reduce: reduce$1,
+        reduceRight,
+        reflect,
+        reflectAll,
+        reject: reject$2,
+        rejectLimit: rejectLimit$1,
+        rejectSeries: rejectSeries$1,
+        retry,
+        retryable,
+        seq,
+        series,
+        setImmediate: setImmediate$1,
+        some: some$1,
+        someLimit: someLimit$1,
+        someSeries: someSeries$1,
+        sortBy: sortBy$1,
+        timeout,
+        times,
+        timesLimit,
+        timesSeries,
+        transform,
+        tryEach: tryEach$1,
+        unmemoize,
+        until,
+        waterfall: waterfall$1,
+        whilst: whilst$1,
+
+        // aliases
+        all: every$1,
+        allLimit: everyLimit$1,
+        allSeries: everySeries$1,
+        any: some$1,
+        anyLimit: someLimit$1,
+        anySeries: someSeries$1,
+        find: detect$1,
+        findLimit: detectLimit$1,
+        findSeries: detectSeries$1,
+        forEach: each,
+        forEachSeries: eachSeries$1,
+        forEachLimit: eachLimit$2,
+        forEachOf: eachOf$1,
+        forEachOfSeries: eachOfSeries$1,
+        forEachOfLimit: eachOfLimit$2,
+        inject: reduce$1,
+        foldl: reduce$1,
+        foldr: reduceRight,
+        select: filter$1,
+        selectLimit: filterLimit$1,
+        selectSeries: filterSeries$1,
+        wrapSync: asyncify,
+        during: whilst$1,
+        doDuring: doWhilst$1
+    };
+
+    var exports = async;
+
+    exports.default = index;
+    exports.apply = apply;
+    exports.applyEach = applyEach$1;
+    exports.applyEachSeries = applyEachSeries;
+    exports.asyncify = asyncify;
+    exports.auto = auto;
+    exports.autoInject = autoInject;
+    exports.cargo = cargo;
+    exports.cargoQueue = cargo$1;
+    exports.compose = compose;
+    exports.concat = concat$1;
+    exports.concatLimit = concatLimit$1;
+    exports.concatSeries = concatSeries$1;
+    exports.constant = constant;
+    exports.detect = detect$1;
+    exports.detectLimit = detectLimit$1;
+    exports.detectSeries = detectSeries$1;
+    exports.dir = dir;
+    exports.doUntil = doUntil;
+    exports.doWhilst = doWhilst$1;
+    exports.each = each;
+    exports.eachLimit = eachLimit$2;
+    exports.eachOf = eachOf$1;
+    exports.eachOfLimit = eachOfLimit$2;
+    exports.eachOfSeries = eachOfSeries$1;
+    exports.eachSeries = eachSeries$1;
+    exports.ensureAsync = ensureAsync;
+    exports.every = every$1;
+    exports.everyLimit = everyLimit$1;
+    exports.everySeries = everySeries$1;
+    exports.filter = filter$1;
+    exports.filterLimit = filterLimit$1;
+    exports.filterSeries = filterSeries$1;
+    exports.forever = forever$1;
+    exports.groupBy = groupBy;
+    exports.groupByLimit = groupByLimit$1;
+    exports.groupBySeries = groupBySeries;
+    exports.log = log;
+    exports.map = map$1;
+    exports.mapLimit = mapLimit$1;
+    exports.mapSeries = mapSeries$1;
+    exports.mapValues = mapValues;
+    exports.mapValuesLimit = mapValuesLimit$1;
+    exports.mapValuesSeries = mapValuesSeries;
+    exports.memoize = memoize;
+    exports.nextTick = nextTick;
+    exports.parallel = parallel;
+    exports.parallelLimit = parallelLimit;
+    exports.priorityQueue = priorityQueue;
+    exports.queue = queue$1;
+    exports.race = race$1;
+    exports.reduce = reduce$1;
+    exports.reduceRight = reduceRight;
+    exports.reflect = reflect;
+    exports.reflectAll = reflectAll;
+    exports.reject = reject$2;
+    exports.rejectLimit = rejectLimit$1;
+    exports.rejectSeries = rejectSeries$1;
+    exports.retry = retry;
+    exports.retryable = retryable;
+    exports.seq = seq;
+    exports.series = series;
+    exports.setImmediate = setImmediate$1;
+    exports.some = some$1;
+    exports.someLimit = someLimit$1;
+    exports.someSeries = someSeries$1;
+    exports.sortBy = sortBy$1;
+    exports.timeout = timeout;
+    exports.times = times;
+    exports.timesLimit = timesLimit;
+    exports.timesSeries = timesSeries;
+    exports.transform = transform;
+    exports.tryEach = tryEach$1;
+    exports.unmemoize = unmemoize;
+    exports.until = until;
+    exports.waterfall = waterfall$1;
+    exports.whilst = whilst$1;
+    exports.all = every$1;
+    exports.allLimit = everyLimit$1;
+    exports.allSeries = everySeries$1;
+    exports.any = some$1;
+    exports.anyLimit = someLimit$1;
+    exports.anySeries = someSeries$1;
+    exports.find = detect$1;
+    exports.findLimit = detectLimit$1;
+    exports.findSeries = detectSeries$1;
+    exports.forEach = each;
+    exports.forEachSeries = eachSeries$1;
+    exports.forEachLimit = eachLimit$2;
+    exports.forEachOf = eachOf$1;
+    exports.forEachOfSeries = eachOfSeries$1;
+    exports.forEachOfLimit = eachOfLimit$2;
+    exports.inject = reduce$1;
+    exports.foldl = reduce$1;
+    exports.foldr = reduceRight;
+    exports.select = filter$1;
+    exports.selectLimit = filterLimit$1;
+    exports.selectSeries = filterSeries$1;
+    exports.wrapSync = asyncify;
+    exports.during = whilst$1;
+    exports.doDuring = doWhilst$1;
+
+})();
 /*jshint -W014 */ // bad line breaking
 /*jshint -W004 */ // duplicate variables
 (function($)
@@ -8526,30 +13752,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 }, function(err) {
                     callback(err);
                 });
-
-                /*
-                $.ajax({
-                    "url": url,
-                    "dataType": "html",
-                    "success": function(html, code, xhr)
-                    {
-                        // cleanup html
-                        html = self.cleanup(html);
-
-                        self._compile(cacheKey, html, function(err) {
-                            callback(err);
-                        });
-                    },
-                    "error": function(xhr, code)
-                    {
-                        callback({
-                            "message": xhr.responseText,
-                            "xhr": xhr,
-                            "code": code
-                        }, null);
-                    }
-                });
-                */
             }
             else if (type === "html")
             {
@@ -8832,6 +14034,25 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
         return html;
     };
+    helpers["showMessage"] = function(key, options)
+    {
+        var value = key;
+
+        // if the key starts with "msg:", then load external
+        if (key && key.indexOf("msg:") === 0)
+        {
+            value = key = key.substring(4);
+
+            // can we load the value externally?
+            var externalValue = Alpaca.externalMessage(key);
+            if (externalValue)
+            {
+                value = externalValue;
+            }
+        }
+
+        return new Handlebars.SafeString(value);
+    };
     Handlebars.registerHelper("arrayToolbar", helpers["arrayToolbar"]);
     Handlebars.registerHelper("arrayActionbar", helpers["arrayActionbar"]);
 
@@ -8920,8 +14141,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
     });
 
-
-
     //Handlebars.registerHelper("each", helpers["each"]);
     Handlebars.registerHelper("compare", helpers["compare"]);
     Handlebars.registerHelper("control", helpers["control"]);
@@ -8940,7 +14159,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
     // ifnot
     Handlebars.registerHelper("ifnot", helpers["ifnot"]);
 
-    var partials = {};
+    // message
+    Handlebars.registerHelper("showMessage", helpers["showMessage"]);
 
     Alpaca.HandlebarsTemplateEngine = Alpaca.AbstractTemplateEngine.extend(
     {
@@ -8998,8 +14218,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             }
             catch (e)
             {
-                callback(e);
-                return;
+                return callback(e);
             }
 
             callback();
@@ -9561,8 +14780,26 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 delete this.options.helper;
             }
 
+            // options.helpersPosition defaults to above
+            if (!this.options.helpersPosition) {
+                this.options.helpersPosition = this.options.helperPosition
+            }
+            if (!this.options.helpersPosition) {
+                this.options.helpersPosition = Alpaca.defaultHelpersPosition;
+            }
+
             if (Alpaca.isEmpty(this.options.readonly) && !Alpaca.isEmpty(this.schema.readonly)) {
                 this.options.readonly = this.schema.readonly;
+            }
+
+            // in case they put "default" on options
+            if (typeof(this.schema.default) === "undefined")
+            {
+                if (typeof(this.options.default) !== "undefined")
+                {
+                    this.schema.default = this.options.default;
+                    delete this.options.default;
+                }
             }
 
             // if data is empty, then we check whether we can fall back to a default value
@@ -9800,6 +15037,14 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             if (Alpaca.isUndefined(this.options.showMessages)) {
                 this.options.showMessages = true;
             }
+
+            // support for "hidden" field on schema
+            if (typeof(this.options.hidden) === "undefined")
+            {
+                if (typeof(this.schema.hidden) !== "undefined") {
+                    this.options.hidden = this.schema.hidden;
+                }
+            }
         },
 
         setupField: function(callback)
@@ -10025,16 +15270,24 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 // has path?
                 if (this.parent && this.parent.name && this.path)
                 {
-                    var lastSegment = this.path.substring(this.path.lastIndexOf('/') + 1);
-                    if (lastSegment.indexOf("[") !== -1 && lastSegment.indexOf("]") !== -1)
+                    if (this.propertyId)
                     {
-                        lastSegment = lastSegment.substring(lastSegment.indexOf("[") + 1, lastSegment.indexOf("]"));
-                    }
-
-                    if (lastSegment)
-                    {
-                        this.name = this.parent.name + "_" + lastSegment;
+                        this.name = this.parent.name + "_" + this.propertyId;
                         this.nameCalculated = true;
+                    }
+                    else
+                    {
+                        var lastSegment = this.path.substring(this.path.lastIndexOf('/') + 1);
+                        if (lastSegment.indexOf("[") !== -1 && lastSegment.indexOf("]") !== -1)
+                        {
+                            lastSegment = lastSegment.substring(lastSegment.indexOf("[") + 1, lastSegment.indexOf("]"));
+                        }
+    
+                        if (lastSegment)
+                        {
+                            this.name = this.parent.name + "_" + lastSegment;
+                            this.nameCalculated = true;
+                        }
                     }
                 }
                 else
@@ -10069,6 +15322,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 {
                     form = new Alpaca.Form(self.domEl, this.options.form, self.view.id, self.connector, self.errorCallback);
                 }
+
                 form.render(function(form) {
 
                     // NOTE: form is the form instance (not the jquery element)
@@ -11997,6 +17251,13 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                             "type": "string"
                         }
                     },
+                    "helpersPosition": {
+                        "title": "Helpers Position",
+                        "description": "Defines the placement location of the helper text relative to the control (either 'above' or 'below')",
+                        "type": "string",
+                        "enum": ["above", "below"],
+                        "default": "below"
+                    },
                     "fieldClass": {
                         "title": "CSS class",
                         "description": "Specifies one or more CSS classes that should be applied to the dom element for this field once it is rendered.  Supports a single value, comma-delimited values, space-delimited values or values passed in as an array.",
@@ -12149,6 +17410,10 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         "items": {
                             "type": "textarea"
                         }
+                    },
+                    "helpersPosition": {
+                        "type": "text",
+                        "optionLabels": ["Above", "Below"]
                     },
                     "fieldClass": {
                         "type": "text"
@@ -12514,20 +17779,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             {
                 var self = this;
 
-                /*
-                 // store reference to the label
-                 this.labelDiv = $(this.field).find(".alpaca-controlfield-label");
-                 var labelDiv = $('.alpaca-controlfield-label', this.outerEl);
-                 if (labelDiv.length) {
-                 this.labelDiv = labelDiv;
-                 }
-
-                 var helperDiv = $('.alpaca-controlfield-helper', this.outerEl);
-                 if (helperDiv.length) {
-                 this.helperDiv = helperDiv;
-                 }
-                 */
-
                 this.base(function() {
 
                     callback();
@@ -12714,6 +17965,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         x = self.trigger("keyup", e);
                     }
 
+                    // propagate up with "after_nested_change"
+                    self.triggerWithPropagation("after_nested_change", e);
+
                     return x;
                 });
 
@@ -12722,12 +17976,13 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (x !== false) {
                         x = self.trigger("keydown", e);
 
-                        // propagate up the chain that something moved
-                        self.triggerWithPropagation("nested_change", e);
+                        // propagate up with "before_nested_change"
+                        self.triggerWithPropagation("before_nested_change", e);
                     }
 
                     return x;
                 });
+
             },
 
             /**
@@ -13485,6 +18740,11 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             // call up to base method
             this.base();
+        },
+
+        // @Override
+        bindData: function()
+        {
         },
 
         /**
@@ -17252,9 +22512,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             var floatValue = this.getValue();
 
             if (!Alpaca.isEmpty(this.schema.multipleOf)) {
-                if (floatValue && this.schema.multipleOf !== 0)
+                if (floatValue && this.schema.multipleOf > 0)
                 {
-                    return false;
+                    return (floatValue % this.schema.multipleOf) === 0;
                 }
             }
 
@@ -17493,6 +22753,10 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             }
 
             this.containerItemTemplateDescriptor = self.view.getTemplateDescriptor("container-" + containerItemTemplateType + "-item", self);
+
+            if (typeof(this.options.dragAndDrop) === "undefined") {
+                this.options.dragAndDrop = Alpaca.isEmpty(this.view.dragAndDrop) ? Alpaca.defaultDragAndDrop : this.view.dragAndDrop;
+            }
 
             if (!this.options.toolbarStyle) {
                 this.options.toolbarStyle = Alpaca.isEmpty(this.view.toolbarStyle) ? "button" : this.view.toolbarStyle;
@@ -17763,8 +23027,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         setValue: function(data)
         {
             var self = this;
+            
+            if (!data) {
+                data = [];
+            }
 
-            if (!data || !Alpaca.isArray(data))
+            if (!Alpaca.isArray(data))
             {
                 return;
             }
@@ -17784,7 +23052,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     }
                     else
                     {
-                        self.removeItem(i);
+                        self.removeItem(i, null, true);
                     }
                 }
             }
@@ -17993,7 +23261,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                             "name": control.name,
                             "parentFieldId": self.getId(),
                             "actionbarStyle": self.options.actionbarStyle,
-							"toolbarLocation": self.options.toolbarLocation,
+                            "toolbarLocation": self.options.toolbarLocation,
+                            "dragAndDrop": self.options.dragAndDrop,
                             "view": self.view,
                             "data": itemData
                         });
@@ -18074,14 +23343,18 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             }
 
             // handle $ref
-            if (itemSchema && itemSchema["$ref"])
-            {
-                var schemaReferenceId = itemSchema["$ref"];
-                var optionsReferenceId = itemSchema["$ref"];
-                if (itemOptions["$ref"]) {
-                    optionsReferenceId = itemOptions["$ref"];
-                }
+            var schemaReferenceId = null;
+            if (itemSchema) {
+                schemaReferenceId = itemSchema["$ref"];
+            }
+            var optionsReferenceId = null;
+            if (itemOptions) {
+                optionsReferenceId = itemOptions["$ref"];
+            }
 
+            if (schemaReferenceId || optionsReferenceId)
+            {
+                // walk up to find top field
                 var topField = this;
                 var fieldChain = [topField];
                 while (topField.parent)
@@ -18095,19 +23368,22 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                 Alpaca.loadRefSchemaOptions(topField, schemaReferenceId, optionsReferenceId, function(itemSchema, itemOptions) {
 
-                    // walk the field chain to see if we have any circularity
+                    // walk the field chain to see if we have any circularity (for schema)
                     var refCount = 0;
                     for (var i = 0; i < fieldChain.length; i++)
                     {
                         if (fieldChain[i].schema)
                         {
-                            if ( (fieldChain[i].schema.id === schemaReferenceId) || (fieldChain[i].schema.id === "#" + schemaReferenceId))
+                            if (schemaReferenceId)
                             {
-                                refCount++;
-                            }
-                            else if ( (fieldChain[i].schema["$ref"] === schemaReferenceId))
-                            {
-                                refCount++;
+                                if ((fieldChain[i].schema.id === schemaReferenceId) || (fieldChain[i].schema.id === "#" + schemaReferenceId))
+                                {
+                                    refCount++;
+                                }
+                                else if ((fieldChain[i].schema["$ref"] === schemaReferenceId))
+                                {
+                                    refCount++;
+                                }
                             }
                         }
                     }
@@ -18120,8 +23396,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (originalItemSchema) {
                         Alpaca.mergeObject(resolvedItemSchema, originalItemSchema);
                     }
-                    if (itemSchema)
-                    {
+                    if (itemSchema) {
                         Alpaca.mergeObject(resolvedItemSchema, itemSchema);
                     }
                     delete resolvedItemSchema.id;
@@ -18130,8 +23405,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (originalItemOptions) {
                         Alpaca.mergeObject(resolvedItemOptions, originalItemOptions);
                     }
-                    if (itemOptions)
-                    {
+                    if (itemOptions) {
                         Alpaca.mergeObject(resolvedItemOptions, itemOptions);
                     }
 
@@ -18262,6 +23536,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (!key) {
                         key = "";
                     }
+
+                    key = Alpaca.hashCode(key);
 
                     if (hash[key])
                     {
@@ -18489,6 +23765,82 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 });
             }
 
+            //
+            // DRAG AND DROP
+            //
+
+            if (self.options.dragAndDrop)
+            {
+                // enable drag and drop
+                document.addEventListener("dragenter", function (event) {
+                    event.preventDefault();
+                }, false);
+    
+                document.addEventListener("dragover", function (event) {
+                    event.preventDefault();
+                }, false);
+    
+                $(self.getFieldEl()).off().on("drop", function(ev) {
+                    ev.preventDefault();
+
+                    var parentFieldId = ev.originalEvent.dataTransfer.getData("parentFieldId");
+                    if (parentFieldId == self.getId())
+                    {
+                        var closestItem = ev.target.closest(".alpaca-container-item[data-alpaca-container-item-parent-field-id='" + parentFieldId +  "']");
+                        if (closestItem) {
+                            var targetIndex = closestItem.dataset.alpacaContainerItemIndex;
+                            var sourceIndex = ev.originalEvent.dataTransfer.getData("sourceIndex");
+                            
+                            self.moveItem(sourceIndex, targetIndex);
+                            ev.stopPropagation();
+                        }
+                    }
+                });
+
+                var items = self.getFieldEl().find(".alpaca-container-item[data-alpaca-container-item-parent-field-id='" + self.getId() +  "']");
+                $(items).each(function(itemIndex) {
+                    var target = null;
+                    $(this).attr("draggable", true);
+                    $(this).off().on("mousedown", function(ev) 
+                    {
+                        ev.stopPropagation();
+
+                        target = ev.target;
+                    });
+                    $(this).on("dragstart", function(ev) 
+                    {
+                        ev.stopPropagation();
+
+                        // if this item's move icon contains the target
+                        var dragHandle = $(this).children(".alpaca-array-item-move")[0];
+                        if (dragHandle && dragHandle.contains(target)) 
+                        {
+                            var event = ev.originalEvent;
+                            event.dataTransfer.setData("sourceIndex", this.dataset.alpacaContainerItemIndex);
+                            event.dataTransfer.setData("parentFieldId", this.dataset.alpacaContainerItemParentFieldId);
+    
+                            // find droppable area and highlight
+                            $(this).siblings(".alpaca-container-item").each(function() {
+                                $(this).children(".alpaca-array-item-move").css({
+                                    "color": "#2CEAA3"
+                                });
+                            });
+                        }
+                        else 
+                        {
+                            ev.preventDefault();
+                        }
+                    });
+                    $(this).on("dragend", function(ev) 
+                    {
+                        ev.stopPropagation();
+
+                        $(".alpaca-array-item-move").css({
+                            "color": "#333"
+                        });
+                    });
+                });
+            }
 
             //
             // ACTIONBAR
@@ -18789,7 +24141,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                         if (callback)
                         {
-                            callback(item);
+                            Alpaca.nextTick(function() {
+                                callback(item);
+                            });
                         }
 
                     });
@@ -18823,12 +24177,13 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
          * @param {Number} childIndex index of the child to be removed
          * @param [Function] callback called after the child is removed
+         * @param [boolean] force whether to force the removal
          */
-        removeItem: function(childIndex, callback)
+        removeItem: function(childIndex, callback, force)
         {
             var self = this;
 
-            if (this._validateEqualMinItems())
+            if (this._validateEqualMinItems() || force)
             {
                 // unregister the child
                 self.unregisterChild(childIndex);
@@ -18853,7 +24208,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     if (callback)
                     {
-                        callback();
+                        Alpaca.nextTick(function() {
+                            callback();
+                        });
                     }
 
                 });
@@ -18947,7 +24304,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     if (callback)
                     {
-                        callback();
+                        Alpaca.nextTick(function() {
+                            callback();
+                        });
                     }
 
                 });
@@ -19068,7 +24427,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     if (callback)
                     {
-                        callback();
+                        Alpaca.nextTick(function() {
+                            callback();
+                        });
                     }
 
                 });
@@ -19197,6 +24558,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         getSchemaOfOptions: function() {
             var properties = {
                 "properties": {
+                    "dragAndDrop": {
+                        "title": "Drag and Drop",
+                        "description": "If true, drag and drop is enabled for array items.",
+                        "type": "boolean",
+                        "default": false
+                    },
                     "toolbarSticky": {
                         "title": "Sticky Toolbar",
                         "description": "If true, the array item toolbar will always be enabled.  If false, the toolbar is always disabled.  If undefined or null, the toolbar will appear when hovered over.",
@@ -19319,6 +24686,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         getOptionsForOptions: function() {
             return Alpaca.merge(this.base(), {
                 "fields": {
+                    "dragAndDrop": {
+                        "type": "checkbox"
+                    },
                     "toolbarSticky": {
                         "type": "checkbox"
                     },
@@ -19507,7 +24877,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             for (var i = 0; i < this.children.length; i++)
             {
-                // the property key and vlaue
+                // the property key and value
                 var propertyId = this.children[i].propertyId;
                 var fieldValue = this.children[i].getValue();
 
@@ -19656,7 +25026,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     }
                 }
 
-                var pf = (function(propertyId, itemData, extraDataProperties)
+                var pf = (function(self, propertyId, itemData, extraDataProperties)
                 {
                     return function(_done)
                     {
@@ -19685,7 +25055,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         });
                     };
 
-                })(propertyId, itemData, extraDataProperties);
+                })(self, propertyId, itemData, extraDataProperties);
 
                 propertyFunctions.push(pf);
             }
@@ -19766,6 +25136,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 },
                 "notTopLevel":true,
                 "render" : function(fieldControl, cb) {
+
                     // render
                     fieldControl.parent = self;
                     // add the property Id
@@ -19776,6 +25147,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     } else {
                         fieldControl.path = self.path + propertyId;
                     }
+
                     fieldControl.render(null, function() {
                         if (cb) {
                             cb();
@@ -19806,10 +25178,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     }
                     if (insertionPointEl.length === 0)
                     {
-                        self.errorCallback.call(self, {
+                        return self.errorCallback.call(self, {
                             "message": "Cannot find insertion point for field: " + self.getId()
                         });
-                        return;
                     }
 
                     // copy into place
@@ -19862,14 +25233,18 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             }
 
             // handle $ref
-            if (propertySchema && propertySchema["$ref"])
-            {
-                var propertyReferenceId = propertySchema["$ref"];
-                var fieldReferenceId = propertySchema["$ref"];
-                if (propertyOptions["$ref"]) {
-                    fieldReferenceId = propertyOptions["$ref"];
-                }
+            var propertyReferenceId = null;
+            if (propertySchema) {
+                propertyReferenceId = propertySchema["$ref"];
+            }
+            var fieldReferenceId = null;
+            if (propertyOptions) {
+                fieldReferenceId = propertyOptions["$ref"];
+            }
 
+            if (propertyReferenceId || fieldReferenceId)
+            {
+                // walk up to find top field
                 var topField = this;
                 var fieldChain = [topField];
                 while (topField.parent)
@@ -19883,19 +25258,22 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                 Alpaca.loadRefSchemaOptions(topField, propertyReferenceId, fieldReferenceId, function(propertySchema, propertyOptions) {
 
-                    // walk the field chain to see if we have any circularity
+                    // walk the field chain to see if we have any circularity (for schema)
                     var refCount = 0;
                     for (var i = 0; i < fieldChain.length; i++)
                     {
-                        if (fieldChain[i].schema)
+                        if (propertyReferenceId)
                         {
-                            if ( (fieldChain[i].schema.id === propertyReferenceId) || (fieldChain[i].schema.id === "#" + propertyReferenceId))
+                            if (fieldChain[i].schema)
                             {
-                                refCount++;
-                            }
-                            else if ( (fieldChain[i].schema["$ref"] === propertyReferenceId))
-                            {
-                                refCount++;
+                                if ( (fieldChain[i].schema.id === propertyReferenceId) || (fieldChain[i].schema.id === "#" + propertyReferenceId))
+                                {
+                                    refCount++;
+                                }
+                                else if ( (fieldChain[i].schema["$ref"] === propertyReferenceId))
+                                {
+                                    refCount++;
+                                }
                             }
                         }
                     }
@@ -19906,8 +25284,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (originalPropertySchema) {
                         Alpaca.mergeObject(resolvedPropertySchema, originalPropertySchema);
                     }
-                    if (propertySchema)
-                    {
+                    if (propertySchema) {
                         Alpaca.mergeObject(resolvedPropertySchema, propertySchema);
                     }
                     // keep original id
@@ -19920,8 +25297,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (originalPropertyOptions) {
                         Alpaca.mergeObject(resolvedPropertyOptions, originalPropertyOptions);
                     }
-                    if (propertyOptions)
-                    {
+                    if (propertyOptions) {
                         Alpaca.mergeObject(resolvedPropertyOptions, propertyOptions);
                     }
 
@@ -20313,7 +25689,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 }
                 else
                 {
-                    valid = !Alpaca.isValEmpty(dependentOnField.data);
+                    valid = !Alpaca.isValEmpty(dependentOnData);
                 }
             }
             else
@@ -20459,7 +25835,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     if (callback)
                     {
-                        callback();
+                        Alpaca.nextTick(function() {
+                            callback();
+                        });
                     }
 
                 });
@@ -20544,7 +25922,9 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     if (callback)
                     {
-                        callback();
+                        Alpaca.nextTick(function() {
+                            callback();
+                        });
                     }
                 });
             }
@@ -21460,6 +26840,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         "title": "Field Options",
                         "description": "List of options for child fields.",
                         "type": "object"
+                    },
+                    "collapsible": {
+                        "title": "Collapsible",
+                        "description": "Field set is collapsible if true.",
+                        "type": "boolean",
+                        "default": false
                     }
                 }
             };
@@ -21789,6 +27175,18 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 self.options.useDataSourceAsEnum = true;
             }
 
+            if (typeof(self.options.multiple) === "undefined")
+            {
+                if (self.schema["type"] && self.schema["type"] === "array")
+                {
+                    self.options.multiple = true;
+                }
+                else
+                {
+                    self.options.multiple = false;
+                }
+            }
+
             // make sure we convert any incoming data to our expected format
             self.setValue(this.data, true);
         },
@@ -21840,7 +27238,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     displayableTexts.push(text);
                 }
             }
-
+            
             model.displayableText = displayableTexts.join(", ");
         },
 
@@ -21862,6 +27260,20 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                             self.selectOptions[i].selected = true;
                         }
                     }
+                }
+
+                // if emptySelectFirst and we have options but no data, then auto-select first item in the options list
+                if (self.data.length === 0 && self.options.emptySelectFirst && self.selectOptions.length > 0)
+                {
+                    self.selectOptions[0].selected = true;
+                    self.data = [self.selectOptions[0]];
+                }
+
+                // likewise, we auto-assign first pick if field required
+                if (self.data.length === 0 && self.isRequired() && self.selectOptions.length > 0)
+                {
+                    self.selectOptions[0].selected = true;
+                    self.data = [self.selectOptions[0]];
                 }
 
                 callback();
@@ -21954,6 +27366,11 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         {
             var self = this;
 
+            // for legacy support, in case data was set to null, set back to []
+            if (this.data === null || typeof(this.data) === "undefined") {
+                this.data = [];
+            }
+
             var val = null;
 
             if (!self.schema.type || self.schema.type === "string")
@@ -21962,8 +27379,23 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 for (var i = 0; i < this.data.length; i++) {
                     array.push(this.data[i].value);
                 }
-
-                val = array.join(",");
+                
+                // Use custom join function if provided
+                if (self.options.join && Alpaca.isFunction(self.options.join))
+                {
+                    val = self.options.join(array);
+                }
+                else
+                {
+                    val = array.join(",");
+                }
+            }
+            else if (self.schema.type === "number")
+            {
+                if (this.data.length > 0)
+                {
+                    val = this.data[0].value;
+                }
             }
             else if (self.schema.type === "boolean")
             {
@@ -22041,21 +27473,39 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             var values = [];
 
             var handled = false;
-            if (Alpaca.isEmpty(val))
+            if (Alpaca.isEmpty(val) || val === "")
             {
-                // keep empty array
                 handled = true;
             }
             else if (Alpaca.isString(val))
             {
-                values = val.split(",");
-                for (var i = 0; i < values.length; i++)
+                if (self.options.multiple)
                 {
-                    values[i] = values[i].trim();
-                    values[i] = {
-                        "text": values[i],
-                        "value": values[i]
-                    };
+                    // Use custom split function, if defined
+                    if (self.options.split && Alpaca.isFunction(self.options.split))
+                    {
+                        values = self.options.split(val);
+                    }
+                    else
+                    {
+                        values = val.split(",");
+                    }
+
+                    for (var i = 0; i < values.length; i++)
+                    {
+                        values[i] = values[i].trim();
+                        values[i] = {
+                            "text": values[i],
+                            "value": values[i]
+                        };
+                    }
+                }
+                else
+                {
+                    values.push({
+                        "text": val,
+                        "value": val
+                    });
                 }
 
                 handled = true;
@@ -22287,6 +27737,16 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         "description": "Whether to constrain the field's schema enum property to the values that come back from the data source.",
                         "type": "boolean",
                         "default": true
+                    },
+                    "split": {
+                        "title": "Split Function",
+                        "type": "function",
+                        "description": "For multiple select lists. Defines a f(a) for how data strings should be split into individual values. A join function should also be defined which reverses this function."
+                    },
+                    "join": {
+                        "title": "Join Function",
+                        "type": "function",
+                        "description": "For multiple select lists. Defines a f(a) for how selected options should be combined into a single string. A split function should also be defined which reverses this function."
                     }
                 }
             });
@@ -22350,8 +27810,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             var self = this;
 
-            self.base();
-
             if (typeof(self.options.multiple) === "undefined")
             {
                 self.options.multiple = false;
@@ -22365,6 +27823,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     self.options.multiple = true;
                 }
             }
+
+            self.base();
 
             // in single mode, blank out rightlabel
             if (!self.options.multiple)
@@ -22406,7 +27866,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                                 {
                                     if (self.selectOptions[i].value === value)
                                     {
-                                        newData.push(self.selectOptions[i]);
+                                        newData.push(self.selectOptions[i].value);
                                     }
                                 }
                             }
@@ -22601,6 +28061,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         {
             var self = this;
 
+            self.options.multiple = false;
+
             this.base();
             
             if (this.options.name)
@@ -22676,23 +28138,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     }
                 }
 
-                // if emptySelectFirst and we have options but no data, then auto-select first item in the options list
-                if (self.data.length === 0 && self.options.emptySelectFirst && self.selectOptions.length > 0)
-                {
-                    self.selectOptions[0].selected = true;
-                    self.data = [self.selectOptions[0]];
-                }
-
-                // likewise, we auto-assign first pick if field required and removeDefaultNone is true
-                if (self.data.length === 0 && self.isRequired())
-                {
-                    if (self.options.removeDefaultNone === true)
-                    {
-                        self.selectOptions[0].selected = true;
-                        self.data = [self.selectOptions[0]];
-                    }
-                }
-
                 callback(model);
             });
         },
@@ -22714,7 +28159,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         {
                             if (self.selectOptions[i].value === value)
                             {
-                                newData.push(self.selectOptions[i]);
+                                newData.push(self.selectOptions[i].value);
                             }
                         }
                     });
@@ -22882,11 +28327,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             this.base();
 
-            if (self.schema["type"] && self.schema["type"] === "array")
-            {
-                self.options.multiple = true;
-            }
-
             // automatically turn on "hideNone" if we're in multiselect mode and have the multiselect plugin
             if (self.options.multiple && $.fn.multiselect)
             {
@@ -22916,6 +28356,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             if (self.options.multiselect && typeof(self.options.multiselect.disableIfEmpty) === "undefined")
             {
                 self.options.multiselect.disableIfEmpty = true;
+            }
+
+            // if we're in a display only mode, turn off multiselect
+            if (self.isDisplayOnly())
+            {
+                delete self.options.multiselect;
             }
         },
 
@@ -22967,20 +28413,6 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     {
                         self.options.hideNone = self.isRequired();
                     }
-                }
-
-                // if emptySelectFirst and we have options but no data, then auto-select first item in the options list
-                if (self.data.length === 0 && self.options.emptySelectFirst && self.selectOptions.length > 0)
-                {
-                    self.selectOptions[0].selected = true;
-                    self.data = [self.selectOptions[0]];
-                }
-
-                // likewise, we auto-assign first pick if field required
-                if (self.data.length === 0 && self.isRequired() && self.selectOptions.length > 0)
-                {
-                    self.selectOptions[0].selected = true;
-                    self.data = [self.selectOptions[0]];
                 }
 
                 callback(model);
@@ -23036,7 +28468,10 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
                     for (var i = 0; i < val.length; i++)
                     {
-                        newData.push(tempMap[val[i]]);
+                        if (tempMap[val[i]])
+                        {
+                            newData.push(tempMap[val[i]].value);
+                        }
                     }
 
                     // set value silently
@@ -23147,7 +28582,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             return Alpaca.merge(this.base(), {
                 "properties": {
                     "multiple": {
-                        "title": "Mulitple Selection",
+                        "title": "Multiple Selection",
                         "description": "Allow multiple selection if true.",
                         "type": "boolean",
                         "default": false
@@ -23239,6 +28674,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         setup: function()
         {
             var self = this;
+
+            self.options.multiple = true;
 
             this.base();
         },
@@ -23958,20 +29395,37 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     self.trigger("keypress", e);
                 });
 
-                // NOTE: these do not seem to work with CKEditor?
-                /*
-                 // keyup event
-                 self.editor.on("keyup", function(e) {
-                 self.onKeyUp.call(self, e);
-                 self.trigger("keyup", e);
-                 });
+                // for "keydown" and "keyup" events, we need to wait for the "contentDom" event and then register
+                // using the CKEditor "editable"
+                self.editor.on("contentDom", function() {
+                    var editable = self.editor.editable();
 
-                 // keydown event
-                 self.editor.on("keydown", function(e) {
-                 self.onKeyDown.call(self, e);
-                 self.trigger("keydown", e);
-                 });
-                 */
+                    editable.attachListener(self.editor.document, 'keydown', function(e) {
+
+                        var x = self.onKeyDown.call(self, e);
+                        if (x !== false) {
+                            x = self.trigger("keydown", e);
+
+                            // propagate up with "before_nested_change"
+                            self.triggerWithPropagation("before_nested_change", e);
+                        }
+
+                        return x;
+                    });
+
+                    editable.attachListener(self.editor.document, 'keyup', function(e) {
+
+                        var x = self.onKeyUp.call(self, e);
+                        if (x !== false) {
+                            x = self.trigger("keyup", e);
+                        }
+
+                        // propagate up with "after_nested_change"
+                        self.triggerWithPropagation("after_nested_change", e);
+
+                        return x;
+                    });
+                });
             }
         },
 
@@ -24236,15 +29690,10 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             this.base();
 
-            // set up default spectrum settings
+            // set up default colorpicker settings
             if (typeof(this.options.colorpicker) === "undefined")
             {
                 this.options.colorpicker = {};
-            }
-
-            if (self.data)
-            {
-                self.options.colorpicker.color = self.data;
             }
         },
 
@@ -24271,13 +29720,24 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 // if we can render the spectrum plugin...
                 if (self.simpleColorPickerAvailable && self.control)
                 {
-                    setTimeout(function() {
-                        $((self.control)[0]).colorpicker(self.options.colorpicker);
-                    }, 100);
+                    setTimeout(function(self) {
+                        return function() {
 
-                    $(self.control).on('changeColor.colorpicker', function(event) {
-                        self.setValue(event.color.toHex());
-                    });
+                            // create a copy of the color picker settings and bind that
+                            // this is because colorpicker jquery plugin seems to munge these configs across multiple instances
+                            var cp = JSON.parse(JSON.stringify(self.options.colorpicker));
+                            if (self.data)
+                            {
+                                cp.color = self.data;
+                            }
+
+
+                            $(self.control).colorpicker(cp);
+                            $(self.control).on('changeColor.colorpicker', function(event) {
+                                self.setValue(event.color.toHex());
+                            });
+                        }
+                    }(self, self));
                 }
 
                 callback();
@@ -24414,6 +29874,120 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
     Alpaca.registerFieldClass("country", Alpaca.Fields.CountryField);
     Alpaca.registerDefaultFormatFieldMapping("country", "country");
+
+})(jQuery);
+
+(function($) {
+
+    var Alpaca = $.alpaca;
+
+    Alpaca.Fields.CountryCallingCodeField = Alpaca.Fields.SelectField.extend(
+    /**
+     * @lends Alpaca.Fields.CountryCallingCodeField.prototype
+     */
+    {
+        /**
+         * @see Alpaca.Field#getFieldType
+         */
+        getFieldType: function() {
+            return "countryCallingCode";
+        },
+
+        /**
+         * @see Alpaca.Fields.Field#setup
+         */
+        setup: function()
+        {
+            var self = this;
+
+            // defaults
+            if (Alpaca.isUndefined(self.options.capitalize))
+            {
+                self.options.capitalize = false;
+            }
+
+            self.schema["enum"] = [];
+            self.options.optionLabels = [];
+
+            var countryCallingCodesList = this.getMessage("countryCallingCodes");
+            if (countryCallingCodesList)
+            {
+                var listClean = countryCallingCodesList.filter(function(obj) {
+                    return obj.dial_code != null;
+                });
+
+                listClean.forEach(function(obj) {
+                    var code = obj.dial_code.split('+').join('').split(' ').join('');
+                    var label = obj.dial_code + ' (' + obj.name + ')';
+                    if (self.options.capitalize)
+                    {
+                        label = label.toUpperCase();
+                    }
+
+                    self.schema["enum"].push(code);
+                    self.options.optionLabels.push(label);
+                });
+            }
+
+            self.base();
+        }
+
+        /* builder_helpers */
+        ,
+
+        /**
+         * @see Alpaca.Fields.TextField#getTitle
+         */
+        getTitle: function() {
+            return "Country Calling Code Field";
+        },
+
+        /**
+         * @see Alpaca.Fields.TextField#getDescription
+         */
+        getDescription: function() {
+            return "Provides a dropdown selector of country dialing codes.";
+        },
+
+        /**
+         * @private
+         * @see Alpaca.Fields.TextField#getSchemaOfOptions
+         */
+        getSchemaOfOptions: function() {
+
+            return Alpaca.merge(this.base(), {
+                "properties": {
+                    "capitalize": {
+                        "title": "Capitalize",
+                        "description": "Whether the values should be capitalized",
+                        "type": "boolean",
+                        "default": false,
+                        "readonly": true
+                    }
+                }
+            });
+
+        },
+
+        /**
+         * @private
+         * @see Alpaca.Fields.TextField#getOptionsForOptions
+         */
+        getOptionsForOptions: function() {
+            return Alpaca.merge(this.base(), {
+                "fields": {
+                    "capitalize": {
+                        "type": "checkbox"
+                    }
+                }
+            });
+        }
+
+        /* end_builder_helpers */
+    });
+
+    Alpaca.registerFieldClass("countryCallingCode", Alpaca.Fields.CountryCallingCodeField);
+    Alpaca.registerDefaultFormatFieldMapping("countryCallingCode", "countryCallingCode");
 
 })(jQuery);
 
@@ -26867,6 +32441,152 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
     var Alpaca = $.alpaca;
 
+    Alpaca.Fields.MarkdownField = Alpaca.Fields.TextAreaField.extend(
+    /**
+     * @lends Alpaca.Fields.MarkdownField.prototype
+     */
+    {
+        /**
+         * @see Alpaca.Fields.TextAreaField#getFieldType
+         */
+        getFieldType: function() {
+            return "markdown";
+        },
+
+        /**
+         * @see Alpaca.Fields.TextAreaField#setup
+         */
+        setup: function()
+        {
+            if (!this.data)
+            {
+                this.data = "";
+            }
+
+            this.base();
+
+            if (typeof(this.options.markdown) == "undefined")
+            {
+                this.options.markdown = {};
+            }
+        },
+
+        afterRenderControl: function(model, callback)
+        {
+            var self = this;
+
+            this.base(model, function() {
+
+                // see if we can render Markdown Editor
+                if (!self.isDisplayOnly() && self.control && typeof(SimpleMDE) !== "undefined")
+                {
+                    self.on("ready", function() {
+
+                        self.options.markdown.element = $(self.control)[0];
+
+                        if (!self.editor)
+                        {
+                            self.editor = new SimpleMDE(self.options.markdown);
+                        }
+                    });
+                }
+
+                // if markdown's dom element gets destroyed, make sure we clean up the editor instance
+                $(self.control).bind('destroyed', function() {
+                    try { $(self.control).markdown('destroy'); } catch (e) { }
+                });
+
+                callback();
+            });
+        },
+
+        setValue: function(value)
+        {
+            var self = this;
+
+            // be sure to call into base method
+            this.base(value);
+
+            if (self.editor)
+            {
+                self.editor.value(value);
+            }
+        },
+
+        /**
+         * @see Alpaca.Fields.ControlField#getControlValue
+         */
+        getControlValue: function()
+        {
+            var self = this;
+
+            var value = null;
+
+            if (self.editor)
+            {
+                value = self.editor.value();
+            }
+
+            return value;
+        },
+
+
+        /* builder_helpers */
+
+        /**
+         * @see Alpaca.Fields.TextAreaField#getTitle
+         */
+        getTitle: function() {
+            return "Markdown Editor";
+        },
+
+        /**
+         * @see Alpaca.Fields.TextAreaField#getDescription
+         */
+        getDescription: function() {
+            return "Provides an instance of a Markdown Editor control for use in editing HTML.";
+        },
+
+        /**
+         * @private
+         * @see Alpaca.ControlField#getSchemaOfOptions
+         */
+        getSchemaOfOptions: function() {
+            return Alpaca.merge(this.base(), {
+                "properties": {
+                    "markdown": {
+                        "title": "Markdown Editor options",
+                        "description": "Use this entry to provide configuration options to the underlying Markdown plugin.",
+                        "type": "any"
+                    }
+                }
+            });
+        },
+
+        /**
+         * @private
+         * @see Alpaca.ControlField#getOptionsForOptions
+         */
+        getOptionsForOptions: function() {
+            return Alpaca.merge(this.base(), {
+                "fields": {
+                    "markdown": {
+                        "type": "any"
+                    }
+                }
+            });
+        }
+
+        /* end_builder_helpers */
+    });
+
+    Alpaca.registerFieldClass("markdown", Alpaca.Fields.MarkdownField);
+
+})(jQuery);
+(function($) {
+
+    var Alpaca = $.alpaca;
+
     Alpaca.Fields.OptionTreeField = Alpaca.Fields.TextField.extend(
     /**
      * @lends Alpaca.Fields.OptionTree.prototype
@@ -27551,7 +33271,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
          * @see Alpaca.Fields.TextField#getDescription
          */
         getDescription: function() {
-            return "Text Field for personal name with captical letter for first letter & after hyphen, space or apostrophe.";
+            return "Text Field for personal name with capital letter for first letter & after hyphen, space or apostrophe.";
         }
 
         /* end_builder_helpers */
@@ -27817,14 +33537,15 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     if (self.pickAColorFieldAvailable && self.options.pickacolor)
                     {
                         if (self.data) {
-                            $(self.control).attr("value", self.data);
+                            $(self.control).attr("value", "#" + self.data);
                         }
 
                         $(self.control).addClass("pick-a-color");
                         $(self.control).pickAColor(self.options.pickacolor);
 
                         $(self.control).on("change", function(e) {
-                            self.setValue($(this).val());
+                            self.setValue("#" + $(this).val());
+                            self.refresh();
                         });
                     }
                 }
@@ -29950,6 +35671,11 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                     {
                         model.dropZoneMessage = self.getMessage("dropZoneSingle");
                     }
+
+                    if (model.options.directory)
+                    {
+                        model.dropZoneMessage = self.getMessage("dropZoneMultipleDirectory");
+                    }
                 }
 
                 model.selectFromExistingMessage = self.options.selectFromExistingMessage;
@@ -30045,7 +35771,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             if (self.options.multiple)
             {
                 $(el).find(".alpaca-fileupload-input").attr("multiple", true);
-                //$(el).find(".alpaca-fileupload-input").attr("name", self.name + "_files[]");
+            }
+
+            if (self.options.directory)
+            {
+                $(el).find(".alpaca-fileupload-input").attr("directory", true);
+                //$(el).find(".alpaca-fileupload-input").attr("webkitdirectory", true);
             }
 
             if (self.options.name)
@@ -30062,27 +35793,32 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
              * @param e
              * @param data
              */
-            fileUploadConfig["progressall"] = function (e, data) {
+            if (self.options.progressall) {
+                fileUploadConfig["progressall"] = self.options.progressall;
+            }
+            else {
+                fileUploadConfig["progressall"] = function (e, data) {
 
-                var showProgressBar = false;
-                if (data.loaded < data.total)
-                {
-                    showProgressBar = true;
-                }
-                if (showProgressBar)
-                {
-                    $(el).find(".progress").css("display", "block");
-                    var progress = parseInt(data.loaded / data.total * 100, 10);
-                    $('#progress .progress-bar').css(
-                        'width',
-                        progress + '%'
-                    );
-                }
-                else
-                {
-                    $(el).find(".progress").css("display", "none");
-                }
-            };
+                    var showProgressBar = false;
+                    if (data.loaded < data.total)
+                    {
+                        showProgressBar = true;
+                    }
+                    if (showProgressBar)
+                    {
+                        $(el).find(".progress").css("display", "block");
+                        var progress = parseInt(data.loaded / data.total * 100, 10);
+                        $('#progress .progress-bar').css(
+                            'width',
+                            progress + '%'
+                        );
+                    }
+                    else
+                    {
+                        $(el).find(".progress").css("display", "none");
+                    }
+                };
+            }
 
             // some limit checks
             fileUploadConfig["add"] = function(e, data) {
@@ -30117,6 +35853,23 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         {
                             if (data.files[i].size > self.options.maxFileSize) {
                                 uploadErrors.push('Filesize is too big.  The maximum allowed file size is ' + self.options.maxFileSize + ' and the file being uploaded has size ' + data.files[i].size);
+                                bad = true;
+                            }
+                        }
+
+                        // general "before add" validation function
+                        if (self.options.beforeAddValidator)
+                        {
+                            var errorMessage = self.options.beforeAddValidator(data.files[i]);
+                            if (Alpaca.isString(errorMessage) || errorMessage === false)
+                            {
+                                if (!Alpaca.isString(errorMessage))
+                                {
+                                    errorMessage = 'Not an accepted file: ' + data.files[i].name;
+                                }
+
+                                uploadErrors.push(errorMessage);
+
                                 bad = true;
                             }
                         }
@@ -30265,11 +36018,7 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
              * When file uploads fail, alert...
              */
             fileUpload.bind("fileuploadfail", function(e, data) {
-
-                if (data.errorThrown)
-                {
-                    self.onUploadFail(data);
-                }
+                self.onUploadFail(data);
             });
 
 
@@ -30496,10 +36245,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 }
 
                 self.convertDescriptorToFile(descriptors[i], function(err, file) {
+
                     if (file)
                     {
                         files.push(file);
                     }
+
                     f(i+1);
                 });
             };
@@ -30724,12 +36475,18 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
 
             if (self.options.errorHandler)
             {
-                self.options.errorHandler.call(self, [data.errorThrown]);
+                self.options.errorHandler.call(self, data);
             }
 
-            for (var i = 0; i < data.files.length; i++)
+            // if "error" not filled in for each file, do our best here
+            if (data.files && data.files.length > 0)
             {
-                data.files[i].error = data.errorThrown;
+                for (var i = 0; i < data.files.length; i++)
+                {
+                    if (!data.files[i].error) {
+                        data.files[i].error = data.errorThrown;
+                    }
+                }
             }
         },
 
@@ -30811,6 +36568,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                         "type": "boolean",
                         "default": false
                     },
+                    "directory": {
+                        "title": "Directory",
+                        "description": "Whether to allow directories (folders) to be dropped into the control for multi-document upload.",
+                        "type": "boolean",
+                        "default": false
+                    },
                     "showUploadPreview": {
                         "title": "Show Upload Preview",
                         "description": "Whether to show thumbnails for uploaded assets (requires preview support)",
@@ -30835,7 +36598,8 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
         "chooseFile": "Choose File...",
         "chooseFiles": "Choose Files...",
         "dropZoneSingle": "Click the Choose button or Drag and Drop a file here to upload...",
-        "dropZoneMultiple": "Click the Choose button or Drag and Drop files here to upload..."
+        "dropZoneMultiple": "Click the Choose button or Drag and Drop files here to upload...",
+        "dropZoneMultipleDirectory": "Click the Choose button or Drag and Drop files or a folder here to upload..."
     });
 
     // https://github.com/private-face/jquery.bind-first/blob/master/dev/jquery.bind-first.js
@@ -31514,7 +37278,1219 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
             "valid": "",
             "invalid": "This field is invalid",
             "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-            "timeUnits": { SECOND: "seconds", MINUTE: "minutes", HOUR: "hours", DAY: "days", MONTH: "months", YEAR: "years" }
+            "timeUnits": { SECOND: "seconds", MINUTE: "minutes", HOUR: "hours", DAY: "days", MONTH: "months", YEAR: "years" },
+            "countryCallingCodes": [
+                {
+                    "name": "Israel",
+                    "dial_code": "+972",
+                    "code": "IL"
+                },
+                {
+                    "name": "Afghanistan",
+                    "dial_code": "+93",
+                    "code": "AF"
+                },
+                {
+                    "name": "Albania",
+                    "dial_code": "+355",
+                    "code": "AL"
+                },
+                {
+                    "name": "Algeria",
+                    "dial_code": "+213",
+                    "code": "DZ"
+                },
+                {
+                    "name": "AmericanSamoa",
+                    "dial_code": "+1 684",
+                    "code": "AS"
+                },
+                {
+                    "name": "Andorra",
+                    "dial_code": "+376",
+                    "code": "AD"
+                },
+                {
+                    "name": "Angola",
+                    "dial_code": "+244",
+                    "code": "AO"
+                },
+                {
+                    "name": "Anguilla",
+                    "dial_code": "+1 264",
+                    "code": "AI"
+                },
+                {
+                    "name": "Antigua and Barbuda",
+                    "dial_code": "+1268",
+                    "code": "AG"
+                },
+                {
+                    "name": "Argentina",
+                    "dial_code": "+54",
+                    "code": "AR"
+                },
+                {
+                    "name": "Armenia",
+                    "dial_code": "+374",
+                    "code": "AM"
+                },
+                {
+                    "name": "Aruba",
+                    "dial_code": "+297",
+                    "code": "AW"
+                },
+                {
+                    "name": "Australia",
+                    "dial_code": "+61",
+                    "code": "AU"
+                },
+                {
+                    "name": "Austria",
+                    "dial_code": "+43",
+                    "code": "AT"
+                },
+                {
+                    "name": "Azerbaijan",
+                    "dial_code": "+994",
+                    "code": "AZ"
+                },
+                {
+                    "name": "Bahamas",
+                    "dial_code": "+1 242",
+                    "code": "BS"
+                },
+                {
+                    "name": "Bahrain",
+                    "dial_code": "+973",
+                    "code": "BH"
+                },
+                {
+                    "name": "Bangladesh",
+                    "dial_code": "+880",
+                    "code": "BD"
+                },
+                {
+                    "name": "Barbados",
+                    "dial_code": "+1 246",
+                    "code": "BB"
+                },
+                {
+                    "name": "Belarus",
+                    "dial_code": "+375",
+                    "code": "BY"
+                },
+                {
+                    "name": "Belgium",
+                    "dial_code": "+32",
+                    "code": "BE"
+                },
+                {
+                    "name": "Belize",
+                    "dial_code": "+501",
+                    "code": "BZ"
+                },
+                {
+                    "name": "Benin",
+                    "dial_code": "+229",
+                    "code": "BJ"
+                },
+                {
+                    "name": "Bermuda",
+                    "dial_code": "+1 441",
+                    "code": "BM"
+                },
+                {
+                    "name": "Bhutan",
+                    "dial_code": "+975",
+                    "code": "BT"
+                },
+                {
+                    "name": "Bosnia and Herzegovina",
+                    "dial_code": "+387",
+                    "code": "BA"
+                },
+                {
+                    "name": "Botswana",
+                    "dial_code": "+267",
+                    "code": "BW"
+                },
+                {
+                    "name": "Brazil",
+                    "dial_code": "+55",
+                    "code": "BR"
+                },
+                {
+                    "name": "British Indian Ocean Territory",
+                    "dial_code": "+246",
+                    "code": "IO"
+                },
+                {
+                    "name": "Bulgaria",
+                    "dial_code": "+359",
+                    "code": "BG"
+                },
+                {
+                    "name": "Burkina Faso",
+                    "dial_code": "+226",
+                    "code": "BF"
+                },
+                {
+                    "name": "Burundi",
+                    "dial_code": "+257",
+                    "code": "BI"
+                },
+                {
+                    "name": "Cambodia",
+                    "dial_code": "+855",
+                    "code": "KH"
+                },
+                {
+                    "name": "Cameroon",
+                    "dial_code": "+237",
+                    "code": "CM"
+                },
+                {
+                    "name": "Canada",
+                    "dial_code": "+1",
+                    "code": "CA"
+                },
+                {
+                    "name": "Cape Verde",
+                    "dial_code": "+238",
+                    "code": "CV"
+                },
+                {
+                    "name": "Cayman Islands",
+                    "dial_code": "+ 345",
+                    "code": "KY"
+                },
+                {
+                    "name": "Central African Republic",
+                    "dial_code": "+236",
+                    "code": "CF"
+                },
+                {
+                    "name": "Chad",
+                    "dial_code": "+235",
+                    "code": "TD"
+                },
+                {
+                    "name": "Chile",
+                    "dial_code": "+56",
+                    "code": "CL"
+                },
+                {
+                    "name": "China",
+                    "dial_code": "+86",
+                    "code": "CN"
+                },
+                {
+                    "name": "Christmas Island",
+                    "dial_code": "+61",
+                    "code": "CX"
+                },
+                {
+                    "name": "Colombia",
+                    "dial_code": "+57",
+                    "code": "CO"
+                },
+                {
+                    "name": "Comoros",
+                    "dial_code": "+269",
+                    "code": "KM"
+                },
+                {
+                    "name": "Congo",
+                    "dial_code": "+242",
+                    "code": "CG"
+                },
+                {
+                    "name": "Cook Islands",
+                    "dial_code": "+682",
+                    "code": "CK"
+                },
+                {
+                    "name": "Costa Rica",
+                    "dial_code": "+506",
+                    "code": "CR"
+                },
+                {
+                    "name": "Croatia",
+                    "dial_code": "+385",
+                    "code": "HR"
+                },
+                {
+                    "name": "Cuba",
+                    "dial_code": "+53",
+                    "code": "CU"
+                },
+                {
+                    "name": "Cyprus",
+                    "dial_code": "+537",
+                    "code": "CY"
+                },
+                {
+                    "name": "Czech Republic",
+                    "dial_code": "+420",
+                    "code": "CZ"
+                },
+                {
+                    "name": "Denmark",
+                    "dial_code": "+45",
+                    "code": "DK"
+                },
+                {
+                    "name": "Djibouti",
+                    "dial_code": "+253",
+                    "code": "DJ"
+                },
+                {
+                    "name": "Dominica",
+                    "dial_code": "+1 767",
+                    "code": "DM"
+                },
+                {
+                    "name": "Dominican Republic",
+                    "dial_code": "+1 849",
+                    "code": "DO"
+                },
+                {
+                    "name": "Ecuador",
+                    "dial_code": "+593",
+                    "code": "EC"
+                },
+                {
+                    "name": "Egypt",
+                    "dial_code": "+20",
+                    "code": "EG"
+                },
+                {
+                    "name": "El Salvador",
+                    "dial_code": "+503",
+                    "code": "SV"
+                },
+                {
+                    "name": "Equatorial Guinea",
+                    "dial_code": "+240",
+                    "code": "GQ"
+                },
+                {
+                    "name": "Eritrea",
+                    "dial_code": "+291",
+                    "code": "ER"
+                },
+                {
+                    "name": "Estonia",
+                    "dial_code": "+372",
+                    "code": "EE"
+                },
+                {
+                    "name": "Ethiopia",
+                    "dial_code": "+251",
+                    "code": "ET"
+                },
+                {
+                    "name": "Faroe Islands",
+                    "dial_code": "+298",
+                    "code": "FO"
+                },
+                {
+                    "name": "Fiji",
+                    "dial_code": "+679",
+                    "code": "FJ"
+                },
+                {
+                    "name": "Finland",
+                    "dial_code": "+358",
+                    "code": "FI"
+                },
+                {
+                    "name": "France",
+                    "dial_code": "+33",
+                    "code": "FR"
+                },
+                {
+                    "name": "French Guiana",
+                    "dial_code": "+594",
+                    "code": "GF"
+                },
+                {
+                    "name": "French Polynesia",
+                    "dial_code": "+689",
+                    "code": "PF"
+                },
+                {
+                    "name": "Gabon",
+                    "dial_code": "+241",
+                    "code": "GA"
+                },
+                {
+                    "name": "Gambia",
+                    "dial_code": "+220",
+                    "code": "GM"
+                },
+                {
+                    "name": "Georgia",
+                    "dial_code": "+995",
+                    "code": "GE"
+                },
+                {
+                    "name": "Germany",
+                    "dial_code": "+49",
+                    "code": "DE"
+                },
+                {
+                    "name": "Ghana",
+                    "dial_code": "+233",
+                    "code": "GH"
+                },
+                {
+                    "name": "Gibraltar",
+                    "dial_code": "+350",
+                    "code": "GI"
+                },
+                {
+                    "name": "Greece",
+                    "dial_code": "+30",
+                    "code": "GR"
+                },
+                {
+                    "name": "Greenland",
+                    "dial_code": "+299",
+                    "code": "GL"
+                },
+                {
+                    "name": "Grenada",
+                    "dial_code": "+1 473",
+                    "code": "GD"
+                },
+                {
+                    "name": "Guadeloupe",
+                    "dial_code": "+590",
+                    "code": "GP"
+                },
+                {
+                    "name": "Guam",
+                    "dial_code": "+1 671",
+                    "code": "GU"
+                },
+                {
+                    "name": "Guatemala",
+                    "dial_code": "+502",
+                    "code": "GT"
+                },
+                {
+                    "name": "Guinea",
+                    "dial_code": "+224",
+                    "code": "GN"
+                },
+                {
+                    "name": "Guinea-Bissau",
+                    "dial_code": "+245",
+                    "code": "GW"
+                },
+                {
+                    "name": "Guyana",
+                    "dial_code": "+595",
+                    "code": "GY"
+                },
+                {
+                    "name": "Haiti",
+                    "dial_code": "+509",
+                    "code": "HT"
+                },
+                {
+                    "name": "Honduras",
+                    "dial_code": "+504",
+                    "code": "HN"
+                },
+                {
+                    "name": "Hungary",
+                    "dial_code": "+36",
+                    "code": "HU"
+                },
+                {
+                    "name": "Iceland",
+                    "dial_code": "+354",
+                    "code": "IS"
+                },
+                {
+                    "name": "India",
+                    "dial_code": "+91",
+                    "code": "IN"
+                },
+                {
+                    "name": "Indonesia",
+                    "dial_code": "+62",
+                    "code": "ID"
+                },
+                {
+                    "name": "Iraq",
+                    "dial_code": "+964",
+                    "code": "IQ"
+                },
+                {
+                    "name": "Ireland",
+                    "dial_code": "+353",
+                    "code": "IE"
+                },
+                {
+                    "name": "Israel",
+                    "dial_code": "+972",
+                    "code": "IL"
+                },
+                {
+                    "name": "Italy",
+                    "dial_code": "+39",
+                    "code": "IT"
+                },
+                {
+                    "name": "Jamaica",
+                    "dial_code": "+1 876",
+                    "code": "JM"
+                },
+                {
+                    "name": "Japan",
+                    "dial_code": "+81",
+                    "code": "JP"
+                },
+                {
+                    "name": "Jordan",
+                    "dial_code": "+962",
+                    "code": "JO"
+                },
+                {
+                    "name": "Kazakhstan",
+                    "dial_code": "+7 7",
+                    "code": "KZ"
+                },
+                {
+                    "name": "Kenya",
+                    "dial_code": "+254",
+                    "code": "KE"
+                },
+                {
+                    "name": "Kiribati",
+                    "dial_code": "+686",
+                    "code": "KI"
+                },
+                {
+                    "name": "Kuwait",
+                    "dial_code": "+965",
+                    "code": "KW"
+                },
+                {
+                    "name": "Kyrgyzstan",
+                    "dial_code": "+996",
+                    "code": "KG"
+                },
+                {
+                    "name": "Latvia",
+                    "dial_code": "+371",
+                    "code": "LV"
+                },
+                {
+                    "name": "Lebanon",
+                    "dial_code": "+961",
+                    "code": "LB"
+                },
+                {
+                    "name": "Lesotho",
+                    "dial_code": "+266",
+                    "code": "LS"
+                },
+                {
+                    "name": "Liberia",
+                    "dial_code": "+231",
+                    "code": "LR"
+                },
+                {
+                    "name": "Liechtenstein",
+                    "dial_code": "+423",
+                    "code": "LI"
+                },
+                {
+                    "name": "Lithuania",
+                    "dial_code": "+370",
+                    "code": "LT"
+                },
+                {
+                    "name": "Luxembourg",
+                    "dial_code": "+352",
+                    "code": "LU"
+                },
+                {
+                    "name": "Madagascar",
+                    "dial_code": "+261",
+                    "code": "MG"
+                },
+                {
+                    "name": "Malawi",
+                    "dial_code": "+265",
+                    "code": "MW"
+                },
+                {
+                    "name": "Malaysia",
+                    "dial_code": "+60",
+                    "code": "MY"
+                },
+                {
+                    "name": "Maldives",
+                    "dial_code": "+960",
+                    "code": "MV"
+                },
+                {
+                    "name": "Mali",
+                    "dial_code": "+223",
+                    "code": "ML"
+                },
+                {
+                    "name": "Malta",
+                    "dial_code": "+356",
+                    "code": "MT"
+                },
+                {
+                    "name": "Marshall Islands",
+                    "dial_code": "+692",
+                    "code": "MH"
+                },
+                {
+                    "name": "Martinique",
+                    "dial_code": "+596",
+                    "code": "MQ"
+                },
+                {
+                    "name": "Mauritania",
+                    "dial_code": "+222",
+                    "code": "MR"
+                },
+                {
+                    "name": "Mauritius",
+                    "dial_code": "+230",
+                    "code": "MU"
+                },
+                {
+                    "name": "Mayotte",
+                    "dial_code": "+262",
+                    "code": "YT"
+                },
+                {
+                    "name": "Mexico",
+                    "dial_code": "+52",
+                    "code": "MX"
+                },
+                {
+                    "name": "Monaco",
+                    "dial_code": "+377",
+                    "code": "MC"
+                },
+                {
+                    "name": "Mongolia",
+                    "dial_code": "+976",
+                    "code": "MN"
+                },
+                {
+                    "name": "Montenegro",
+                    "dial_code": "+382",
+                    "code": "ME"
+                },
+                {
+                    "name": "Montserrat",
+                    "dial_code": "+1664",
+                    "code": "MS"
+                },
+                {
+                    "name": "Morocco",
+                    "dial_code": "+212",
+                    "code": "MA"
+                },
+                {
+                    "name": "Myanmar",
+                    "dial_code": "+95",
+                    "code": "MM"
+                },
+                {
+                    "name": "Namibia",
+                    "dial_code": "+264",
+                    "code": "NA"
+                },
+                {
+                    "name": "Nauru",
+                    "dial_code": "+674",
+                    "code": "NR"
+                },
+                {
+                    "name": "Nepal",
+                    "dial_code": "+977",
+                    "code": "NP"
+                },
+                {
+                    "name": "Netherlands",
+                    "dial_code": "+31",
+                    "code": "NL"
+                },
+                {
+                    "name": "Netherlands Antilles",
+                    "dial_code": "+599",
+                    "code": "AN"
+                },
+                {
+                    "name": "New Caledonia",
+                    "dial_code": "+687",
+                    "code": "NC"
+                },
+                {
+                    "name": "New Zealand",
+                    "dial_code": "+64",
+                    "code": "NZ"
+                },
+                {
+                    "name": "Nicaragua",
+                    "dial_code": "+505",
+                    "code": "NI"
+                },
+                {
+                    "name": "Niger",
+                    "dial_code": "+227",
+                    "code": "NE"
+                },
+                {
+                    "name": "Nigeria",
+                    "dial_code": "+234",
+                    "code": "NG"
+                },
+                {
+                    "name": "Niue",
+                    "dial_code": "+683",
+                    "code": "NU"
+                },
+                {
+                    "name": "Norfolk Island",
+                    "dial_code": "+672",
+                    "code": "NF"
+                },
+                {
+                    "name": "Northern Mariana Islands",
+                    "dial_code": "+1 670",
+                    "code": "MP"
+                },
+                {
+                    "name": "Norway",
+                    "dial_code": "+47",
+                    "code": "NO"
+                },
+                {
+                    "name": "Oman",
+                    "dial_code": "+968",
+                    "code": "OM"
+                },
+                {
+                    "name": "Pakistan",
+                    "dial_code": "+92",
+                    "code": "PK"
+                },
+                {
+                    "name": "Palau",
+                    "dial_code": "+680",
+                    "code": "PW"
+                },
+                {
+                    "name": "Panama",
+                    "dial_code": "+507",
+                    "code": "PA"
+                },
+                {
+                    "name": "Papua New Guinea",
+                    "dial_code": "+675",
+                    "code": "PG"
+                },
+                {
+                    "name": "Paraguay",
+                    "dial_code": "+595",
+                    "code": "PY"
+                },
+                {
+                    "name": "Peru",
+                    "dial_code": "+51",
+                    "code": "PE"
+                },
+                {
+                    "name": "Philippines",
+                    "dial_code": "+63",
+                    "code": "PH"
+                },
+                {
+                    "name": "Poland",
+                    "dial_code": "+48",
+                    "code": "PL"
+                },
+                {
+                    "name": "Portugal",
+                    "dial_code": "+351",
+                    "code": "PT"
+                },
+                {
+                    "name": "Puerto Rico",
+                    "dial_code": "+1 939",
+                    "code": "PR"
+                },
+                {
+                    "name": "Qatar",
+                    "dial_code": "+974",
+                    "code": "QA"
+                },
+                {
+                    "name": "Romania",
+                    "dial_code": "+40",
+                    "code": "RO"
+                },
+                {
+                    "name": "Rwanda",
+                    "dial_code": "+250",
+                    "code": "RW"
+                },
+                {
+                    "name": "Samoa",
+                    "dial_code": "+685",
+                    "code": "WS"
+                },
+                {
+                    "name": "San Marino",
+                    "dial_code": "+378",
+                    "code": "SM"
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "dial_code": "+966",
+                    "code": "SA"
+                },
+                {
+                    "name": "Senegal",
+                    "dial_code": "+221",
+                    "code": "SN"
+                },
+                {
+                    "name": "Serbia",
+                    "dial_code": "+381",
+                    "code": "RS"
+                },
+                {
+                    "name": "Seychelles",
+                    "dial_code": "+248",
+                    "code": "SC"
+                },
+                {
+                    "name": "Sierra Leone",
+                    "dial_code": "+232",
+                    "code": "SL"
+                },
+                {
+                    "name": "Singapore",
+                    "dial_code": "+65",
+                    "code": "SG"
+                },
+                {
+                    "name": "Slovakia",
+                    "dial_code": "+421",
+                    "code": "SK"
+                },
+                {
+                    "name": "Slovenia",
+                    "dial_code": "+386",
+                    "code": "SI"
+                },
+                {
+                    "name": "Solomon Islands",
+                    "dial_code": "+677",
+                    "code": "SB"
+                },
+                {
+                    "name": "South Africa",
+                    "dial_code": "+27",
+                    "code": "ZA"
+                },
+                {
+                    "name": "South Georgia and the South Sandwich Islands",
+                    "dial_code": "+500",
+                    "code": "GS"
+                },
+                {
+                    "name": "Spain",
+                    "dial_code": "+34",
+                    "code": "ES"
+                },
+                {
+                    "name": "Sri Lanka",
+                    "dial_code": "+94",
+                    "code": "LK"
+                },
+                {
+                    "name": "Sudan",
+                    "dial_code": "+249",
+                    "code": "SD"
+                },
+                {
+                    "name": "Suriname",
+                    "dial_code": "+597",
+                    "code": "SR"
+                },
+                {
+                    "name": "Swaziland",
+                    "dial_code": "+268",
+                    "code": "SZ"
+                },
+                {
+                    "name": "Sweden",
+                    "dial_code": "+46",
+                    "code": "SE"
+                },
+                {
+                    "name": "Switzerland",
+                    "dial_code": "+41",
+                    "code": "CH"
+                },
+                {
+                    "name": "Tajikistan",
+                    "dial_code": "+992",
+                    "code": "TJ"
+                },
+                {
+                    "name": "Thailand",
+                    "dial_code": "+66",
+                    "code": "TH"
+                },
+                {
+                    "name": "Togo",
+                    "dial_code": "+228",
+                    "code": "TG"
+                },
+                {
+                    "name": "Tokelau",
+                    "dial_code": "+690",
+                    "code": "TK"
+                },
+                {
+                    "name": "Tonga",
+                    "dial_code": "+676",
+                    "code": "TO"
+                },
+                {
+                    "name": "Trinidad and Tobago",
+                    "dial_code": "+1 868",
+                    "code": "TT"
+                },
+                {
+                    "name": "Tunisia",
+                    "dial_code": "+216",
+                    "code": "TN"
+                },
+                {
+                    "name": "Turkey",
+                    "dial_code": "+90",
+                    "code": "TR"
+                },
+                {
+                    "name": "Turkmenistan",
+                    "dial_code": "+993",
+                    "code": "TM"
+                },
+                {
+                    "name": "Turks and Caicos Islands",
+                    "dial_code": "+1 649",
+                    "code": "TC"
+                },
+                {
+                    "name": "Tuvalu",
+                    "dial_code": "+688",
+                    "code": "TV"
+                },
+                {
+                    "name": "Uganda",
+                    "dial_code": "+256",
+                    "code": "UG"
+                },
+                {
+                    "name": "Ukraine",
+                    "dial_code": "+380",
+                    "code": "UA"
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "dial_code": "+971",
+                    "code": "AE"
+                },
+                {
+                    "name": "United Kingdom",
+                    "dial_code": "+44",
+                    "code": "GB"
+                },
+                {
+                    "name": "United States",
+                    "dial_code": "+1",
+                    "code": "US"
+                },
+                {
+                    "name": "Uruguay",
+                    "dial_code": "+598",
+                    "code": "UY"
+                },
+                {
+                    "name": "Uzbekistan",
+                    "dial_code": "+998",
+                    "code": "UZ"
+                },
+                {
+                    "name": "Vanuatu",
+                    "dial_code": "+678",
+                    "code": "VU"
+                },
+                {
+                    "name": "Wallis and Futuna",
+                    "dial_code": "+681",
+                    "code": "WF"
+                },
+                {
+                    "name": "Yemen",
+                    "dial_code": "+967",
+                    "code": "YE"
+                },
+                {
+                    "name": "Zambia",
+                    "dial_code": "+260",
+                    "code": "ZM"
+                },
+                {
+                    "name": "Zimbabwe",
+                    "dial_code": "+263",
+                    "code": "ZW"
+                },
+                {
+                    "name": "land Islands",
+                    "dial_code": "",
+                    "code": "AX"
+                },
+                {
+                    "name": "Antarctica",
+                    "dial_code": null,
+                    "code": "AQ"
+                },
+                {
+                    "name": "Bolivia, Plurinational State of",
+                    "dial_code": "+591",
+                    "code": "BO"
+                },
+                {
+                    "name": "Brunei Darussalam",
+                    "dial_code": "+673",
+                    "code": "BN"
+                },
+                {
+                    "name": "Cocos (Keeling) Islands",
+                    "dial_code": "+61",
+                    "code": "CC"
+                },
+                {
+                    "name": "Congo, The Democratic Republic of the",
+                    "dial_code": "+243",
+                    "code": "CD"
+                },
+                {
+                    "name": "Cote d'Ivoire",
+                    "dial_code": "+225",
+                    "code": "CI"
+                },
+                {
+                    "name": "Falkland Islands (Malvinas)",
+                    "dial_code": "+500",
+                    "code": "FK"
+                },
+                {
+                    "name": "Guernsey",
+                    "dial_code": "+44",
+                    "code": "GG"
+                },
+                {
+                    "name": "Holy See (Vatican City State)",
+                    "dial_code": "+379",
+                    "code": "VA"
+                },
+                {
+                    "name": "Hong Kong",
+                    "dial_code": "+852",
+                    "code": "HK"
+                },
+                {
+                    "name": "Iran, Islamic Republic of",
+                    "dial_code": "+98",
+                    "code": "IR"
+                },
+                {
+                    "name": "Isle of Man",
+                    "dial_code": "+44",
+                    "code": "IM"
+                },
+                {
+                    "name": "Jersey",
+                    "dial_code": "+44",
+                    "code": "JE"
+                },
+                {
+                    "name": "Korea, Democratic People's Republic of",
+                    "dial_code": "+850",
+                    "code": "KP"
+                },
+                {
+                    "name": "Korea, Republic of",
+                    "dial_code": "+82",
+                    "code": "KR"
+                },
+                {
+                    "name": "Lao People's Democratic Republic",
+                    "dial_code": "+856",
+                    "code": "LA"
+                },
+                {
+                    "name": "Libyan Arab Jamahiriya",
+                    "dial_code": "+218",
+                    "code": "LY"
+                },
+                {
+                    "name": "Macao",
+                    "dial_code": "+853",
+                    "code": "MO"
+                },
+                {
+                    "name": "Macedonia, The Former Yugoslav Republic of",
+                    "dial_code": "+389",
+                    "code": "MK"
+                },
+                {
+                    "name": "Micronesia, Federated States of",
+                    "dial_code": "+691",
+                    "code": "FM"
+                },
+                {
+                    "name": "Moldova, Republic of",
+                    "dial_code": "+373",
+                    "code": "MD"
+                },
+                {
+                    "name": "Mozambique",
+                    "dial_code": "+258",
+                    "code": "MZ"
+                },
+                {
+                    "name": "Palestinian Territory, Occupied",
+                    "dial_code": "+970",
+                    "code": "PS"
+                },
+                {
+                    "name": "Pitcairn",
+                    "dial_code": "+872",
+                    "code": "PN"
+                },
+                {
+                    "name": "Réunion",
+                    "dial_code": "+262",
+                    "code": "RE"
+                },
+                {
+                    "name": "Russia",
+                    "dial_code": "+7",
+                    "code": "RU"
+                },
+                {
+                    "name": "Saint Barthélemy",
+                    "dial_code": "+590",
+                    "code": "BL"
+                },
+                {
+                    "name": "Saint Helena, Ascension and Tristan Da Cunha",
+                    "dial_code": "+290",
+                    "code": "SH"
+                },
+                {
+                    "name": "Saint Kitts and Nevis",
+                    "dial_code": "+1 869",
+                    "code": "KN"
+                },
+                {
+                    "name": "Saint Lucia",
+                    "dial_code": "+1 758",
+                    "code": "LC"
+                },
+                {
+                    "name": "Saint Martin",
+                    "dial_code": "+590",
+                    "code": "MF"
+                },
+                {
+                    "name": "Saint Pierre and Miquelon",
+                    "dial_code": "+508",
+                    "code": "PM"
+                },
+                {
+                    "name": "Saint Vincent and the Grenadines",
+                    "dial_code": "+1 784",
+                    "code": "VC"
+                },
+                {
+                    "name": "Sao Tome and Principe",
+                    "dial_code": "+239",
+                    "code": "ST"
+                },
+                {
+                    "name": "Somalia",
+                    "dial_code": "+252",
+                    "code": "SO"
+                },
+                {
+                    "name": "Svalbard and Jan Mayen",
+                    "dial_code": "+47",
+                    "code": "SJ"
+                },
+                {
+                    "name": "Syrian Arab Republic",
+                    "dial_code": "+963",
+                    "code": "SY"
+                },
+                {
+                    "name": "Taiwan, Province of China",
+                    "dial_code": "+886",
+                    "code": "TW"
+                },
+                {
+                    "name": "Tanzania, United Republic of",
+                    "dial_code": "+255",
+                    "code": "TZ"
+                },
+                {
+                    "name": "Timor-Leste",
+                    "dial_code": "+670",
+                    "code": "TL"
+                },
+                {
+                    "name": "Venezuela, Bolivarian Republic of",
+                    "dial_code": "+58",
+                    "code": "VE"
+                },
+                {
+                    "name": "Viet Nam",
+                    "dial_code": "+84",
+                    "code": "VN"
+                },
+                {
+                    "name": "Virgin Islands, British",
+                    "dial_code": "+1 284",
+                    "code": "VG"
+                },
+                {
+                    "name": "Virgin Islands, U.S.",
+                    "dial_code": "+1 340",
+                    "code": "VI"
+                }
+            ]
         }
     });
 
@@ -31872,7 +38848,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 "invalidPhone": "Virheellinen puhelinnumero",
                 "invalidPattern": "Syötteen täytyy olla seuraavassa muodossa: {0}",
                 "stringTooShort": "Syötteen minimipituus on {0} merkkiä",
-                "stringTooLong": "Syötteen maksimipituus on {0} merkkiä"
+                "stringTooLong": "Syötteen maksimipituus on {0} merkkiä",
+                "addItemButtonLabel": "Lisää arvo",
+                "addButtonLabel": "Lisää",
+                "removeButtonLabel": "Poista",
+                "upButtonLabel": "Ylös",
+                "downButtonLabel": "Alas"
             }
 		}
 	});
@@ -32330,7 +39311,12 @@ this["HandlebarsPrecompiled"]["bootstrap-edit"]["message"] = Handlebars.template
                 "invalidPhone": "Ogiltigt telefonnummer",
                 "invalidPattern": "Fältet måste vara i följande format: {0}",
                 "stringTooShort": "Detta fält måste innehålla minst {0} tecken",
-                "stringTooLong": "Detta fält får innehålla högst {0} tecken"
+                "stringTooLong": "Detta fält får innehålla högst {0} tecken",
+                "addItemButtonLabel": "Lägg till element",
+                "addButtonLabel": "Lägg till",
+                "removeButtonLabel": "Ta bort",
+                "upButtonLabel": "Upp",
+                "downButtonLabel": "Ner"
             }
 		}
 	});

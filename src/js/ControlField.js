@@ -301,20 +301,6 @@
             {
                 var self = this;
 
-                /*
-                 // store reference to the label
-                 this.labelDiv = $(this.field).find(".alpaca-controlfield-label");
-                 var labelDiv = $('.alpaca-controlfield-label', this.outerEl);
-                 if (labelDiv.length) {
-                 this.labelDiv = labelDiv;
-                 }
-
-                 var helperDiv = $('.alpaca-controlfield-helper', this.outerEl);
-                 if (helperDiv.length) {
-                 this.helperDiv = helperDiv;
-                 }
-                 */
-
                 this.base(function() {
 
                     callback();
@@ -501,6 +487,9 @@
                         x = self.trigger("keyup", e);
                     }
 
+                    // propagate up with "after_nested_change"
+                    self.triggerWithPropagation("after_nested_change", e);
+
                     return x;
                 });
 
@@ -509,12 +498,13 @@
                     if (x !== false) {
                         x = self.trigger("keydown", e);
 
-                        // propagate up the chain that something moved
-                        self.triggerWithPropagation("nested_change", e);
+                        // propagate up with "before_nested_change"
+                        self.triggerWithPropagation("before_nested_change", e);
                     }
 
                     return x;
                 });
+
             },
 
             /**
